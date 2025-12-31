@@ -1,16 +1,12 @@
-import { ContactoPage } from "../../Ui/Contacto/ContactoPage";
-import { Header } from "../../Ui/Header/Header";
-import styles from "./Contacto.module.css"
-
-// import styles from "./Contacto.module.css";
+import { ContactoUi } from "../../Ui/Contacto/ContactoUi"
+import { HeaderUi } from "../../Ui/Header/HeaderUi"
+import styles from "./ContactoScreen.module.css"
 
 export const ContactoScreen = () => {
   return (
-    <>
-      <div className={styles.header}>
-      <Header />
-      </div>
-        <ContactoPage />
-    </>
-  );
-};
+    <div className={styles.contenedorGlobalLanding}>
+      <HeaderUi />
+        <ContactoUi/>
+    </div>
+  )
+}

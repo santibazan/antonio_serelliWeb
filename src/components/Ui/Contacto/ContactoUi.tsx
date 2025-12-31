@@ -1,12 +1,10 @@
-import styles from "./ContactoPage.module.css"
-import imgPrincipal from "../../../Imagenes/fondoPagina.jpeg";
+import styles from "./ContactoUi.module.css"
 
-export const ContactoPage = () => {
+export const ContactoUi = () => {
   return (
     <>
-      <div
-        className={styles.background}
-        style={{ backgroundImage: `url(${imgPrincipal})` }}
+      <section
+        className={styles.imagen}
       >
         <div className={styles.contacto}>
           <div className={styles.datos}>
@@ -14,7 +12,12 @@ export const ContactoPage = () => {
             <h5>Av Sanidad 8080</h5>
             <h5>Godoy Cruz, Mendoza</h5>
             <h5>Teléfono: +542613297612</h5>
-            <a href="mailto:santiago.n.bazan@outlook.com" className={styles.mail}>santiago.n.bazan@outlook.com</a>
+            <a
+              href="mailto:santiago.n.bazan@outlook.com"
+              className={styles.mail}
+            >
+              santiago.n.bazan@outlook.com
+            </a>
           </div>
 
           <div className={styles.mapContainer}>
@@ -27,7 +30,7 @@ export const ContactoPage = () => {
             />
           </div>
         </div>
-      </div>  
+      </section>
     </>
-  )
-}
+  );
+};

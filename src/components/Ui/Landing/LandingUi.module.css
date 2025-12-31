@@ -1,0 +1,130 @@
+
+.imagen {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+  
+  background-image: url("../../../Imagenes/imgPrincipal.jpg"); /* ajustá la ruta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+.contentTallerSarelli{
+  position: relative;
+  max-width: 500px;
+  padding: 300px 30px;
+  color: white;
+  z-index: 2;
+
+}
+.contenedorEtiqueta{
+  display: flex;
+  flex-direction: row;
+  background-color: rebeccapurple;
+}
+.imgMision{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.imgProposito{
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+
+
+.contentVisiones{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  padding: 100px 80px;
+
+  overflow-x: hidden;
+}
+
+/* Divs animados */
+
+.animacion{
+
+  margin-top: 20px;
+  display: grid;
+
+
+  background-color: #C2E1C2;
+  padding: 50px;
+  border-radius: 8px;
+
+  width: 27vw;
+  font-size: small;
+  color: #000;
+
+  opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+
+
+}
+
+/* desde la derecha */
+.animacion:nth-of-type(odd){
+  transform: translateX(-100px);
+  margin-right: auto;
+}
+
+/* desde la izquierda */
+.animacion:nth-of-type(even){
+  transform: translateX(100px);
+  margin-left: auto;
+}
+
+
+/* estado que no se quita */
+.animacion.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+/* =======================RESPONSIVE======================= */
+/* @media (max-width: 1024px) {
+  .animacion {
+    width: 45vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .contentVisiones {
+    padding: 80px 24px;
+    gap: 80px;
+  }
+
+  .animacion {
+    width: 100%;
+    font-size: medium;
+  }
+
+  .animacion:nth-of-type(odd),
+  .animacion:nth-of-type(even) {
+    transform: translateX(200px);
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+ */
