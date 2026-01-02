@@ -27,10 +27,20 @@
   z-index: 2;
 
 }
+.contentVisiones{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  padding: 100px 80px;
+
+  overflow-x: hidden;
+}
+
 .contenedorEtiqueta{
   display: flex;
   flex-direction: row;
-  background-color: rebeccapurple;
+
 }
 .imgMision{
   width: 400px;
@@ -50,15 +60,7 @@
 
 
 
-.contentVisiones{
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 120px;
-  padding: 100px 80px;
 
-  overflow-x: hidden;
-}
 
 /* Divs animados */
 
@@ -68,7 +70,7 @@
   display: grid;
 
 
-  background-color: #C2E1C2;
+  /* background-color: #C2E1C2; */
   padding: 50px;
   border-radius: 8px;
 

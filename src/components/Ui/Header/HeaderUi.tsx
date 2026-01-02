@@ -1,5 +1,7 @@
 import { useState } from "react";
 import styles from "./HeaderUi.module.css";
+import { AntonioUi } from "../Antonio/AntonioUi";
+import { Link } from "react-router-dom";
 
 export const HeaderUi = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,21 +15,25 @@ export const HeaderUi = () => {
 
         <nav className={styles.nav}>
           <div
+            className={styles.dropdown}
             onMouseEnter={() => setIsOpen(true)}
             onMouseLeave={() => setIsOpen(false)}
           >
-            <a className={styles.botonn} href="/AntonioSarelli">
-              {" "}
-              Antonio Sarelli
-            </a>
+            <span className={styles.botonn}>Antonio Sarelli</span>
 
-            {isOpen && (
+            <div className={`${styles.submenu} ${isOpen ? styles.show : ""}`}>
               <ul>
-                <li>La siembra</li>
-                <li>Los frutos</li>
-                <li>La cosecha</li>
+                <li>
+                  <Link to="/AntonioSarelli" className={styles.submenuLink}>La siembra</Link>
+                </li>
+                <li>
+                  <Link to="/AntonioSarelli" className={styles.submenuLink}>Los frutos</Link>
+                </li>
+                <li>
+                  <Link to="/AntonioSarelli" className={styles.submenuLink}>La cosecha</Link>
+                </li>
               </ul>
-            )}
+            </div>
           </div>
 
           <a className={styles.botonn} href="/ArteMendocino">

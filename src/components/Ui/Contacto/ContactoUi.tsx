@@ -9,14 +9,14 @@ export const ContactoUi = () => {
         <div className={styles.contacto}>
           <div className={styles.datos}>
             <h2>Taller Sarelli</h2>
-            <h5>Av Sanidad 8080</h5>
+            <h5>Marcos sastre xxxx</h5>
             <h5>Godoy Cruz, Mendoza</h5>
-            <h5>Teléfono: +542613297612</h5>
+            <h5>Teléfono: +5491132973461</h5>
             <a
               href="mailto:santiago.n.bazan@outlook.com"
               className={styles.mail}
             >
-              santiago.n.bazan@outlook.com
+              aldosarelli@gmail.com
             </a>
           </div>
 

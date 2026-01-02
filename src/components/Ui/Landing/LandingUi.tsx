@@ -60,6 +60,7 @@ export const LandingUi = () => {
         <div className={styles.contenedorEtiqueta}>
          
           <div className={styles.animacion}>
+            
             <h2>Nuestro Proposito:</h2>
             <p>
               El taller Sarelli nace para preservar y difundir el legado
@@ -68,14 +69,14 @@ export const LandingUi = () => {
               paz, la serenidad y la contemplación
             </p>
           </div>
-        </div>
-        {/* valores */}
-        <div className={styles.contenedorEtiqueta}>
           <img
-            className={styles.imgProposito}
+            className={styles.imgMision}
             src={imgVision}
             alt="imagen vision"
           />
+        </div>
+        {/* valores */}
+        <div className={styles.contenedorEtiqueta}>
           <div className={styles.animacion}>
             <h2>Nuestros valores:</h2>
             <ul>
@@ -101,17 +102,29 @@ export const LandingUi = () => {
               </li>
             </ul>
           </div>
+          <img
+            className={styles.imgProposito}
+            src={imgVision}
+            alt="imagen vision"
+          />
         </div>
 
         {/* vision */}
-        <div className={styles.animacion}>
-          <h2>Nuestra vision:</h2>
-          <p>
-            El taller Sarelli nace para preservar y difundir el legado artistico
-            y humano de una familia de artistas comprometida con los valores mas
-            sublimes del ser: el amor, el respeto, la union, la paz, la
-            serenidad y la contemplación
-          </p>
+        <div className={styles.contenedorEtiqueta}>
+          <div className={styles.animacion}>
+            <h2>Nuestra vision:</h2>
+            <p>
+              El taller Sarelli nace para preservar y difundir el legado
+              artistico y humano de una familia de artistas comprometida con los
+              valores mas sublimes del ser: el amor, el respeto, la union, la
+              paz, la serenidad y la contemplación
+            </p>
+          </div>
+          <img
+            className={styles.imgProposito}
+            src={imgVision}
+            alt="imagen vision"
+          />
         </div>
       </section>
     </>
