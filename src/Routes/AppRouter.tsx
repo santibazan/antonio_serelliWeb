@@ -4,6 +4,7 @@ import { AntonioScreen } from "../components/Screens/Antonio/AntonioScreen"
 import { ArmeScreen } from "../components/Screens/ArMe/ArmeScreen"
 import { RebecaScreen } from "../components/Screens/Rebeca/RebecaScreen"
 import { ContactoScreen } from "../components/Screens/Contacto/ContactoScreen"
+import { HistoriaScreen } from "../components/Screens/Historia/HistoriaScreen"
 
 
 export const AppRouter = () => {
@@ -15,6 +16,7 @@ export const AppRouter = () => {
         <Route path="/ArteMendocino" element={<ArmeScreen/>}/>
         <Route path="/RebecaSarelli" element={<RebecaScreen/>}/>
         <Route path="/Contacto" element={<ContactoScreen/>}/>
+        <Route path="/Historia" element={<HistoriaScreen/>}/>
       </Routes>
     </div>
   )

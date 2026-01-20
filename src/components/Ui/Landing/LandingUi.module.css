@@ -1,25 +1,25 @@
-
 .imagen {
   position: relative;
   min-height: 100vh;
   width: 100vw;
   overflow: hidden;
 
-  
-  background-image: url("../../../Imagenes/imgPrincipal.jpg"); /* ajustá la ruta */
+
+  background-image: url("../../../Imagenes/EntradaTaller.jpeg");
+  /* ajustá la ruta */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
 }
 
-.overlay{
+.overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0, 0, 0, 0.45);
 }
 
-.contentTallerSarelli{
+.contentTallerSarelli {
   position: relative;
   max-width: 500px;
   padding: 300px 30px;
@@ -27,35 +27,78 @@
   z-index: 2;
 
 }
-.contentVisiones{
+
+.contentVisiones {
   background-color: white;
   display: flex;
   flex-direction: column;
   gap: 120px;
-  padding: 100px 80px;
+  padding: 100px 50px;
 
   overflow-x: hidden;
 }
 
-.contenedorEtiqueta{
+.contenedorEtiqueta {
   display: flex;
-  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+  
+  gap: auto;
+  /* background-color: red; */
 
 }
-.imgMision{
+
+/* normal: texto izquierda, imagen derecha */
+.normal {
+  flex-direction: row;
+}
+
+/* invertido: imagen izquierda, texto derecha */
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.normal img{
+  margin-left: auto;
+}
+
+.reverse img{
+  margin-right: auto;
+}
+
+.textoWrapper{
+  max-width: 600px;
+  padding: 0 80px;
+}
+
+
+/* entra desde la izquierda */
+.fromLeft {
+  transform: translateX(-120px);
+}
+
+/* entra desde la derecha */
+.fromRight {
+  transform: translateX(120px);
+}
+
+
+.imgMision {
   width: 400px;
   height: 400px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
-.imgProposito{
+
+/* .imgProposito {
   width: 400px;
   height: 400px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-}
+} */
 
 
 
@@ -64,13 +107,13 @@
 
 /* Divs animados */
 
-.animacion{
+/* .animacion{
 
   margin-top: 20px;
   display: grid;
 
 
-  /* background-color: #C2E1C2; */
+  background-color: #C2E1C2;
   padding: 50px;
   border-radius: 8px;
 
@@ -82,25 +125,76 @@
   transition: opacity 0.8s ease, transform 0.8s ease;
 
 
-}
+} */
 
-/* desde la derecha */
-.animacion:nth-of-type(odd){
-  transform: translateX(-100px);
-  margin-right: auto;
-}
 
-/* desde la izquierda */
-.animacion:nth-of-type(even){
-  transform: translateX(100px);
-  margin-left: auto;
+.animacion {
+  opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+
 }
 
 
-/* estado que no se quita */
+/* estado visible */
 .animacion.visible {
   opacity: 1;
   transform: translateX(0);
+}
+
+
+.destacada {
+  margin-top: 160px;
+  align-items: center;
+}
+
+.tituloFinal {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.textoFinal {
+  font-size: 1rem;
+  max-width: 420px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.listaFinal {
+  max-width: 420px;
+  padding-left: 18px;
+  list-style: none;
+}
+
+.listaFinal li {
+  margin-bottom: 12px;
+}
+
+.listaFinal h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+
+.botonn {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 8px 12px;
+
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: color 0.2s ease;
+
+}
+
+.botonn:hover {
+  color: #E94B42;
 }
 
 
