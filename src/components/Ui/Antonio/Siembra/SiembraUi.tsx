@@ -1,5 +1,6 @@
 
 
+
 export const SiembraUi = () => {
   return (
     <>
@@ -18,6 +19,7 @@ export const SiembraUi = () => {
         pasión germina lentamente, echando raíces profundas que sostendrán toda
         su obra futura.
       </p>
+      
     </>
   );
 };

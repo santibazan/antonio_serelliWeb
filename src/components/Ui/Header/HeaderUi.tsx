@@ -10,7 +10,7 @@ export const HeaderUi = () => {
     <>
       <div className={styles.contenedorPrincipalHeader}>
         <a className={styles.botonn} href="/">
-          <span>Fundacion Antonio Sarelli</span>
+          <span>Antonio Sarelli</span>
         </a>
 
         <nav className={styles.nav}>
@@ -20,7 +20,7 @@ export const HeaderUi = () => {
             onMouseLeave={() => setIsOpen(false)}
           >
             <span className={styles.botonn}>
-              <Link to="/AntonioSarelli" className={styles.submenuLink}>
+              <Link to="/AntonioSarelli" className={styles.botonn}>
                 Antonio Sarelli
               </Link>
             </span>
@@ -28,17 +28,17 @@ export const HeaderUi = () => {
             <div className={`${styles.submenu} ${isOpen ? styles.show : ""}`}>
               <ul>
                 <li>
-                  <Link to="/AntonioSarelli" className={styles.submenuLink}>
+                  <Link to="/AntonioSarelli/LaSiembra" className={styles.submenuLink}>
                     La siembra
                   </Link>
                 </li>
                 <li>
-                  <Link to="/AntonioSarelli" className={styles.submenuLink}>
+                  <Link to="/AntonioSarelli/LosFrutos" className={styles.submenuLink}>
                     Los frutos
                   </Link>
                 </li>
                 <li>
-                  <Link to="/AntonioSarelli" className={styles.submenuLink}>
+                  <Link to="/AntonioSarelli/LaCosecha" className={styles.submenuLink}>
                     La cosecha
                   </Link>
                 </li>

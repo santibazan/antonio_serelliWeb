@@ -1,3 +1,5 @@
+import Timeline from "../Timeline/timeline";
+
 
 
 
@@ -35,6 +37,8 @@ export const HistoriaUi = () => {
         -cuando nace del alma- es una forma de amor profundo y de resistencia
         luminosa.
       </p>
+
+      <Timeline/>
     </>
   );
 };

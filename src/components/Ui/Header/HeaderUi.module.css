@@ -1,9 +1,7 @@
 .contenedorPrincipalHeader {
   height: 100px;
   padding: 30px;
-  background-color: #FEF9EF;
-
-  border-bottom: 1px solid #e5e5e5;
+  background-color: #C49946;
 
   display: flex;
   justify-content: space-between;
@@ -38,7 +36,7 @@
 }
 
 .botonn:hover {
-  color: #E94B42;
+  color: #FFF;
 }
 
 /* DROPDOWN */
@@ -95,5 +93,6 @@
 }
 
 .submenuLink:hover {
-  color: #E94B42;
+  color: #C49946;
 }
+

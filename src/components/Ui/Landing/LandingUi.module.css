@@ -190,11 +190,12 @@
   cursor: pointer;
 
   transition: color 0.2s ease;
+  justify-content: center;
 
 }
 
 .botonn:hover {
-  color: #E94B42;
+  color: #C49946;
 }
 
 
