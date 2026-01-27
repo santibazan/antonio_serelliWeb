@@ -1,9 +1,10 @@
+import TimelineFrutos from "./TimelineFrutos";
 
 
 export const FrutosUi = () => {
   return (
     <>
-       <h2>Los frutos</h2>
+      <h2>Los frutos</h2>
       <p>
         Con el paso del tiempo, aquello que fue sembrado comienza a dar forma
         visible. Los frutos reúne las obras de arte de Antonio Sarelli como
@@ -17,6 +18,7 @@ export const FrutosUi = () => {
         consolida el artista, y su obra empieza a trascender el ámbito íntimo
         para proyectarse hacia el mundo.
       </p>
+      <TimelineFrutos/>
     </>
   );
 };

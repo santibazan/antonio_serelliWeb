@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+}
+
+.decada {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}

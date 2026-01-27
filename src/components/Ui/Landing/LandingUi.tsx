@@ -1,5 +1,10 @@
 import styles from "./LandingUi.module.css";
-import imgVision from "../../../Imagenes/ArteMendocino.jpeg";
+
+import imgProposito from "../../../Imagenes/TallerSur.jpg";
+import imgMision from "../../../Imagenes/imgResiliencia.jpeg";
+import imgValores from "../../../Imagenes/puerta.jpeg";
+import imgHistoria from "../../../Imagenes/maquina.jpeg";
+
 
 import { useEffect } from "react";
 
@@ -54,7 +59,7 @@ export const LandingUi = () => {
               </p>
             </div>
           </div>
-          <img className={styles.imgMision} src={imgVision} />
+          <img className={styles.imgMision} src={imgProposito} />
         </div>
         {/* Mision */}
         <div className={`${styles.contenedorEtiqueta} ${styles.reverse}`}>
@@ -68,7 +73,7 @@ export const LandingUi = () => {
               </p>
             </div>
           </div>
-          <img className={styles.imgMision} src={imgVision} />
+          <img className={styles.imgMision} src={imgMision} />
         </div>
         {/* Valores */}
         <div className={`${styles.contenedorEtiqueta} ${styles.normal}`}>
@@ -99,7 +104,7 @@ export const LandingUi = () => {
               </ul>
             </div>
           </div>
-          <img className={styles.imgMision} src={imgVision} />
+          <img className={styles.imgMision} src={imgValores} />
         </div>
 
         {/* Historia */}
@@ -116,7 +121,7 @@ export const LandingUi = () => {
               </Link>
             </div>
           </div>
-          <img className={styles.imgMision} src={imgVision} />
+          <img className={styles.imgMision} src={imgHistoria} />
         </div>
       </section>
     </>

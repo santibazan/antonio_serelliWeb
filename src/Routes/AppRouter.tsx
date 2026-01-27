@@ -8,6 +8,8 @@ import { HistoriaScreen } from "../components/Screens/Historia/HistoriaScreen"
 import { SiembraScreen } from "../components/Screens/Antonio/siembra/SiembraScreen"
 import { FrutosScreen } from "../components/Screens/Antonio/frutos/FrutosScreen"
 import { CosechasScreen } from "../components/Screens/Antonio/cosechas/CosechaScreen"
+import { DecadasScreen } from "../components/Screens/Decadas/DecadasScreen"
+
 
 
 export const AppRouter = () => {
@@ -23,6 +25,7 @@ export const AppRouter = () => {
         <Route path="/AntonioSarelli/LaSiembra" element={<SiembraScreen/>}/>
         <Route path="/AntonioSarelli/LosFrutos" element={<FrutosScreen/>}/>
         <Route path="/AntonioSarelli/LaCosecha" element={<CosechasScreen/>}/>
+        <Route path="/AntonioSarelli/Decadas" element={<DecadasScreen/>}/>
       </Routes>
     </div>
   )

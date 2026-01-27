@@ -1,4 +1,5 @@
-import VerticalGallery from "../SiembraFrutoCosecha/VerticalGallery";
+
+import VerticalGallery from "./SiembraFrutoCosecha/VerticalGallery";
 import styles from "./AntonioUi.module.css"
 
 export const AntonioUi = () => {
