@@ -1,4 +1,5 @@
-import TimelineFrutos from "./TimelineFrutos";
+import { TimelineFrutos } from "./TimelineFrutos";
+
 
 
 export const FrutosUi = () => {

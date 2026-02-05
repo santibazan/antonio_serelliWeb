@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { images } from "./data/images";
-import type { ImageItem } from "./data/images";
+import { images } from "./data/images70";
+import type { ImageItem } from "./data/images70";
 
 import ImageModal from "./ImageModal";
 import styles from "./ImageGrid.module.css";
 
-export default function ImageGrid() {
+export default function ImageGrid70() {
   const [selected, setSelected] = useState<ImageItem | null>(null);
 
   return (

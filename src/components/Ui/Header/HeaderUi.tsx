@@ -10,7 +10,7 @@ export const HeaderUi = () => {
     <>
       <div className={styles.contenedorPrincipalHeader}>
         <a className={styles.botonn} href="/">
-          <span>Antonio Sarelli</span>
+          <span>Taller de arte Antonio Sarelli</span>
         </a>
 
         <nav className={styles.nav}>

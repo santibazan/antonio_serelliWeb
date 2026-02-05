@@ -1,5 +1,6 @@
 #gallery {
   width: 98vw;
+
 }
 
 #gallery h3 {
@@ -14,31 +15,35 @@
   align-items: center;
 }
 
-.img-group-container {
-  height: 500vh;
-  position: relative;
-}
-
-.img-group-container > div {
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-  height: 100vh;
-}
-
 .img-group {
   display: flex;
+  will-change: transform;
+}
+
+.img-group-container {
+  height: 1000vh;
+  position: relative;
+
+}
+
+.img-group-container>div {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+
 }
 
 .img-container {
-  display: flex;
   width: 100vw;
   height: 100vh;
   flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
+
 
 #gallery header h2 {
   font-size: 56px;
@@ -65,12 +70,31 @@
   height: 400px;
 }
 
-.progress {
-  position: fixed;
-  left: 0;
-  right: 0;
-  height: 5px;
-  background: #9911ff;
-  bottom: 50px;
-  transform: scaleX(0);
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: #c49946;
+  cursor: pointer;
+}
+
+.left {
+  left: 200px;
+}
+
+.right {
+  right: 200px;
+}
+
+.arrow:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.arrow:focus-visible {
+  box-shadow: 0 0 0 3px rgba(196, 153, 70, 0.6);
+  border-radius: 50%;
 }

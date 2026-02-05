@@ -28,8 +28,6 @@
 
 .img-group {
     display: flex;
-    padding: 0;
-    margin: 0;
 }
 
 .img-container {
@@ -42,6 +40,7 @@
     flex-direction: column;
 }
 
+/* Nose que es */
 #gallery header h2 {
     font-size: 56px;
     font-weight: 700;
@@ -51,27 +50,49 @@
     margin: 0;
 }
 
+
 .img-container h3 {
     margin: 0;
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -3px;
     line-height: 1.2;
+    position: relative;
+    bottom: 30px;
     display: inline-block;
 }
 
 
 .img-container img {
-    width: 300px;
-    height: 400px;
+    width: auto;
+    height: 600px;
 }
 
-.progress {
-    position: fixed;
-    left: 0;
-    right: 0;
-    height: 5px;
-    background: #9911ff;
-    bottom: 50px;
-    transform: scaleX(0);
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: #c49946;
+  cursor: pointer;
+}
+
+.left {
+  left: 20px;
+}
+
+.right {
+  right: 20px;
+}
+
+.arrow:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.arrow:focus-visible {
+  box-shadow: 0 0 0 3px rgba(196, 153, 70, 0.6);
+  border-radius: 50%;
 }

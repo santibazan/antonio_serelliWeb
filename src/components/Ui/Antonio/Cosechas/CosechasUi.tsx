@@ -1,3 +1,4 @@
+import ImageGridCosecha from "../ImageGrid/ImageGridCosecha";
 
 
 export const CosechasUi = () => {
@@ -17,6 +18,7 @@ export const CosechasUi = () => {
         dejan en quienes las contemplan. Es el momento en que el arte trasciende
         al artista y se vuelve parte del patrimonio cultural.
       </p>
+      <ImageGridCosecha/>
     </>
   );
 };

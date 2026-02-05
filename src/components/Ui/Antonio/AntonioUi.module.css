@@ -1,3 +1,57 @@
-.gallerySnap {
+/* .gallerySnap {
   scroll-snap-type: y mandatory;
+} */
+
+.containerPrincipal{
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.title {
+  color: var(--accent);
+  margin: 0;
+  font-family: "Azeret Mono", monospace;
+  font-size: 35px; 
+  font-weight: 700;
+  letter-spacing: -3px;
+  line-height: 1.2;
+  position: absolute;
+}
+.img-container {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.img-container > div {
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  overflow: hidden;
+  
+}
+
+.img-container img {
+  width: 300px;
+  height: 400px;
+}
+
+.img-container h2 {
+  color: var(--accent);
+  margin: 0;
+  font-family: "Azeret Mono", monospace;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -3px;
+  line-height: 1.2;
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 25px);
+  left: calc(50% + 120px);
 }

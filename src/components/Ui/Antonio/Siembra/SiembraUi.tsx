@@ -1,3 +1,4 @@
+import ImageGridSiembra from "../ImageGrid/ImageGridSiembra";
 
 
 
@@ -19,6 +20,7 @@ export const SiembraUi = () => {
         pasión germina lentamente, echando raíces profundas que sostendrán toda
         su obra futura.
       </p>
+      <ImageGridSiembra/>
       
     </>
   );

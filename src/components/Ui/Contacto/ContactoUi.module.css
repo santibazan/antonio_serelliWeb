@@ -4,7 +4,7 @@
   min-height: 100vh;
   overflow: hidden;
   
-  background-image: url("../../../Imagenes/fondoPagina.jpeg"); /* ajustá la ruta */
+  background-image: url("../../../Imagenes//fondoContacto.jpeg"); /* ajustá la ruta */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

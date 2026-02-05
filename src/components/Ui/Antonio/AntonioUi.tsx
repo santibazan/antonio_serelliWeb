@@ -1,6 +1,8 @@
-
-import VerticalGallery from "./SiembraFrutoCosecha/VerticalGallery";
-import styles from "./AntonioUi.module.css"
+import styles from "./AntonioUi.module.css";
+import { Link } from "react-router-dom";
+import imagenSiembra from "../../../Imagenes/LaSiembra.jpeg";
+import imagenFruto from "../../../Imagenes/LosFrutos.jpeg";
+import imagenCosecha from "../../../Imagenes/LaCosecha.jpeg";
 
 export const AntonioUi = () => {
   return (
@@ -9,37 +11,53 @@ export const AntonioUi = () => {
       <img src="" alt="" />
 
       <p>
-        Nacido el 26 de agosto de 1936. Se diplomó como “Profesor de Bellas
-        Artes” en la Academia Provincial de Bellas Artes, bajo la formación de
-        notables maestros de la época como Abal, Azzoni, Ramponi, Santarone,
-        entre otros. Posteriormente se desempeñó como profesor, colaborando a la
-        formación de nuevas generaciones de artistas. Sus obras están en
-        colecciones privadas en Argentina, América, Europa y Asia, como Museos
-        Nacionales e Internacionales. Fue merecedor de 18 importantes premios en
-        salones Provinciales y Nacionales que acompañaron a su trayectoria,
-        entre los años 1964 y 1985. Desde 1986 no participa de concursos. En
-        1995, por su destacada trayectoria artística, reconocimiento de la
-        Honorable Cámara de Diputados de Mendoza. En 1996, reconocimiento a su
-        labor artística de la Presidencia de la Nación Argentina. En 1997,
-        Cancillería Argentina selecciona su obra “Símbolos de ofrenda”, como
-        obsequio del Gobierno Nacional a su Santidad el Papa Juan Pablo II, la
-        misma se encuentra en el Museo del Vaticano. En el año 2000, por
-        invitación especial representa a Argentina con la obra “Entre el
-        silencio y la ternura” Exposición Universal “Fin de Milenio”. Esta obra
-        forma parte del Museo de la Asociación Internacional Cárita Política en
-        Roma, Italia. En el 2002 fue declarado ciudadano destacado del
-        departamento de Maipú, lugar de su nacimiento en Mendoza, Argentina.
-        Muestra retrospectiva en el Espacio Contemporáneo de Arte de Mendoza
-        2004. Se inaugura la escuela 4-225 “Antonio Sarelli, Luzuriaga, Maipú en
-        el año 2010. En la Nave Cultural de Mendoza muestra retrospectiva en
-        octubre de 2015. Declarado ciudadano ilustre del departamento de Godoy
-        Cruz en el año 2016. Hasta el día de la fecha continúa realizando su
-        labor en su taller. Sus numerosas exposiciones en el país y el
-        extranjero, han logrado resonancia de la crítica especializada.
+        "Porque el mundo tal cual era nunca podría ser más que una fracción del
+        mundo, porque lo real también consistía en lo que podría haber ocurrido
+        y no sucedió" Paul Auster Hasta encontrarse con sus primeros maestros,
+        Antonio Sarelli fue un niño que al terminar la escuela primaria, no
+        tenía otro destino que continuar con el oficio heredado de agricultor.
+        Aquel destino heredado, el del trabajo en el campo, ese otro sendero no
+        tomado, sigue latiendo en cada una de sus obras. Para honrarlo, esta
+        página se divide en tres partes, denominados con elementos vinculados a
+        la agricultura; la siembra, que presenta una biografía del artista, los
+        frutos, un catálogo de obras y la cosecha, una selección de críticas y
+        artículos periodísticos
       </p>
+      <div className={styles.containerPrincipal}>
+        
+        <section className={styles["img-container"]}>
+          <div>
+            <img
+              src={imagenSiembra}
+              alt="Imagen Siembra"
+              style={{ width: "auto" }}
+            />
 
-      <div className={styles.gallerySnap}>
-        <VerticalGallery />
+            <Link to="/AntonioSarelli/LaSiembra">
+              <h4 className={styles.title}>La siembra</h4>
+            </Link>
+          </div>
+        </section>
+        <section className={styles["img-container"]}>
+          <div>
+            <img src={imagenFruto} alt="Imagen Fruto" />
+            <Link to="/AntonioSarelli/LosFrutos">
+              <h4 className={styles.title}>Los Frutos</h4>
+            </Link>
+          </div>
+        </section>
+        <section className={styles["img-container"]}>
+          <div>
+            <img
+              src={imagenCosecha}
+              alt="Imagen Cosecha"
+              style={{ width: "auto" }}
+            />
+            <Link to="/AntonioSarelli/LaCosecha">
+              <h4 className={styles.title}>La Cosecha</h4>
+            </Link>
+          </div>
+        </section>
       </div>
     </>
   );

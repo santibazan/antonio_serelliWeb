@@ -5,7 +5,7 @@
   overflow: hidden;
 
 
-  background-image: url("../../../Imagenes/Taller1y2.jpeg");
+  background-image: url("../../../Imagenes/Taller/6TallerNorte.jpeg");
   /* ajustá la ruta */
   background-size: cover;
   background-position: center;
@@ -44,7 +44,7 @@
   align-items: center;
   justify-content: space-between;
   
-  gap: auto;
+  gap: 10px;
   /* background-color: red; */
 
 }
@@ -85,47 +85,13 @@
 
 
 .imgMision {
-  width: 400px;
+  width: auto;
   height: 400px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+
 }
-
-/* .imgProposito {
-  width: 400px;
-  height: 400px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-} */
-
-
-
-
-
-
-/* Divs animados */
-
-/* .animacion{
-
-  margin-top: 20px;
-  display: grid;
-
-
-  background-color: #C2E1C2;
-  padding: 50px;
-  border-radius: 8px;
-
-  width: 27vw;
-  font-size: small;
-  color: #000;
-
-  opacity: 0;
-  transition: opacity 0.8s ease, transform 0.8s ease;
-
-
-} */
 
 
 .animacion {
@@ -155,9 +121,11 @@
 
 .textoFinal {
   font-size: 1rem;
-  max-width: 420px;
+  max-width: 500px;
   margin-bottom: 24px;
   line-height: 1.6;
+  text-align: left;
+  
 }
 
 .listaFinal {
