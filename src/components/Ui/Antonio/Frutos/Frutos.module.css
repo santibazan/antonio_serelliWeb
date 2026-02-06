@@ -1,0 +1,10 @@
+.contenedorGlobalLanding{
+    /* position: fixed;
+    top: 0; */
+    width: 100vw;
+    box-sizing: border-box;
+}
+.contenedorGlobal{
+  background-color: rgba(110, 110, 110, 0.45);
+  padding-top: 1px;
+}

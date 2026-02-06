@@ -1,9 +1,10 @@
 import ImageGridCosecha from "../ImageGrid/ImageGridCosecha";
+import styles from "./Cosechas.module.css"
 
 
 export const CosechasUi = () => {
   return (
-    <>
+    <div className={styles.contenedorGlobal}>
        <h2>La cosecha</h2>
       <p>
         Toda siembra y todo esfuerzo sostenido encuentran, tarde o temprano, su
@@ -19,6 +20,6 @@ export const CosechasUi = () => {
         al artista y se vuelve parte del patrimonio cultural.
       </p>
       <ImageGridCosecha/>
-    </>
+    </div>
   );
 };

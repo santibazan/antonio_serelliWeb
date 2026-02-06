@@ -11,12 +11,12 @@ import img5 from "../../../../Imagenes/Decada2000/0014-Repertorio  acrílico so
 import img6 from "../../../../Imagenes/Decada2010/0178-Historias secretas collage sobre tela 150 x 300 cm 2013.jpeg";
 
 const slides = [
-  { img: img1, label: "Década 60" },
-  { img: img2, label: "Década 70" },
-  { img: img3, label: "Década 80" },
-  { img: img4, label: "Década 90" },
-  { img: img5, label: "Década 2000" },
-  { img: img6, label: "Década 2010" },
+  { img: img1, text:"Criticas de la decada 60", label: "Década 60" },
+  { img: img2, text:"Criticas de la decada 70",label: "Década 70" },
+  { img: img3, text:"Criticas de la decada 80",label: "Década 80" },
+  { img: img4, text:"Criticas de la decada 90",label: "Década 90" },
+  { img: img5, text:"Criticas de la decada 2000",label: "Década 2000" },
+  { img: img6, text:"Criticas de la decada 2010",label: "Década 2010" },
 ];
 
 export const TimelineFrutos = () => {
@@ -90,11 +90,12 @@ export const TimelineFrutos = () => {
                 <h3>
                   <Link
                     to="/AntonioSarelli/Decadas"
-                    className={styles.title}
+                    // className={styles.title}
                   >
                     {slide.label}
                   </Link>
                 </h3>
+                <h6>{slide.text}</h6>
               </li>
             ))}
           </ul>

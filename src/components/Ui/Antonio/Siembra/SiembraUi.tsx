@@ -1,10 +1,11 @@
 import ImageGridSiembra from "../ImageGrid/ImageGridSiembra";
+import styles from "./Siembra.module.css"
 
 
 
 export const SiembraUi = () => {
   return (
-    <>
+    <div className={styles.contenedorGlobal}>
       <h2>La siembra</h2>
       <p>
         Todo artista nace dos veces: una el día en que llega al mundo y otra
@@ -22,6 +23,6 @@ export const SiembraUi = () => {
       </p>
       <ImageGridSiembra/>
       
-    </>
+    </div>
   );
 };

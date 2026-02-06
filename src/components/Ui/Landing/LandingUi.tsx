@@ -5,7 +5,6 @@ import imgMision from "../../../Imagenes/Taller/2imgResiliencia.jpeg";
 import imgValores from "../../../Imagenes/Taller/3puerta.jpeg";
 // import imgHistoria from "../../../Imagenes/maquina.jpeg";
 
-
 import { useEffect } from "react";
 
 import { Link } from "react-router-dom";
@@ -39,11 +38,12 @@ export const LandingUi = () => {
         <div className={styles.contentTallerSarelli}>
           <h1>Taller de Arte Sarelli </h1>
           <h4>
-            Nace para preservar y difundir el legado
-            artistico y humano de una familia de artistas comprometida con
-            los valores mas sublimes del ser: el amor, el respeto, la union,
-            la paz, la serenidad y la contemplación.
-            A través de la pintura, la escultura y la educacion, promovemos un arte que no solo se contempla, sino que tambien se comparte, se honra y se vive.
+            Nace para preservar y difundir el legado artistico y humano de una
+            familia de artistas comprometida con los valores mas sublimes del
+            ser: el amor, el respeto, la union, la paz, la serenidad y la
+            contemplación. A través de la pintura, la escultura y la educacion,
+            promovemos un arte que no solo se contempla, sino que tambien se
+            comparte, se honra y se vive.
             {/* Nuestra misión es que el arte de Mendoza -como el buen vino- llegue a cada mesa, a cada hogar, a cada alma que necesite detenerse y volver a mirar con el corazón. */}
           </h4>
         </div>
@@ -56,9 +56,26 @@ export const LandingUi = () => {
           <div className={styles.textoWrapper}>
             <div className={`${styles.animacion} ${styles.fromLeft}`}>
               <h2 className={styles.tituloFinal}>Historia de origen.</h2>
-           
+
               <p className={styles.textoFinal}>
-                En un rincón sereno de Mendoza, entre montañas, viñedos y memorias, un atelier resiste al olvido. No es solo un taller, es un santuario de contemplacion, un espacio donde el arte ha sido, durante décadas, un acto de resistencia, de paz, y de profundo amor humano. Antonio Sarelli, con más de siete decadas de entrega silenciosa a la pintura, ha sostenido una misión constante: preservar la esencial del ser hbumano. Sus trazos son susurros firmes que hablan de respeto, unión, serenidad, contemplación y paz. Su obra no grita, abraza. No exige, invita. Cada pieza es una ofrenda a los valores que el mundo parece haber dejado atras. A su lado -y con una voz propia poderosa- Rebeca Sarelli tomo un camino distinto, pero completamente: el de la escultura. Sus manos moldean no solo materia, sino sensibilidad. En cada volumen que crea hay un llamado a detenerse, a contemplar con profundidad, a escuchar al silencio. Su obra es un ancla en un tiempo que corre sin mirar. Es la voz del presente que busca reconectar con lo más humano a través de la forma.
+                En un rincón sereno de Mendoza, entre montañas, viñedos y
+                memorias, un atelier resiste al olvido. No es solo un taller, es
+                un santuario de contemplacion, un espacio donde el arte ha sido,
+                durante décadas, un acto de resistencia, de paz, y de profundo
+                amor humano. Antonio Sarelli, con más de siete decadas de
+                entrega silenciosa a la pintura, ha sostenido una misión
+                constante: preservar la esencial del ser hbumano. Sus trazos son
+                susurros firmes que hablan de respeto, unión, serenidad,
+                contemplación y paz. Su obra no grita, abraza. No exige, invita.
+                Cada pieza es una ofrenda a los valores que el mundo parece
+                haber dejado atras. A su lado -y con una voz propia poderosa-
+                Rebeca Sarelli tomo un camino distinto, pero completamente: el
+                de la escultura. Sus manos moldean no solo materia, sino
+                sensibilidad. En cada volumen que crea hay un llamado a
+                detenerse, a contemplar con profundidad, a escuchar al silencio.
+                Su obra es un ancla en un tiempo que corre sin mirar. Es la voz
+                del presente que busca reconectar con lo más humano a través de
+                la forma.
               </p>
               <Link to="/Historia" className={styles.botonn}>
                 Ver historia completa →{" "}
@@ -68,27 +85,31 @@ export const LandingUi = () => {
           <img className={styles.imgMision} src={imgProposito} />
         </div>
         {/*2. Proposito */}
-       
-        <div className={`${styles.contenedorEtiqueta} ${styles.reverse} ${styles.destacada}`}>
+
+        <div
+          className={`${styles.contenedorEtiqueta} ${styles.reverse} ${styles.destacada}`}
+        >
           <div className={styles.textoWrapper}>
             <div className={`${styles.animacion} ${styles.fromRight}`}>
               <h2 className={styles.tituloFinal}>Nuestro proposito</h2>
-              
+
               <p className={styles.textoFinal}>
                 <br />
                 Tenemos un doble proposito:
                 <br />
                 <ul>
                   <li>
-                    Preservar y proyectar el legado artistico y humano de Antonio y Rebeca Sarelli.
+                    Preservar y proyectar el legado artistico y humano de
+                    Antonio y Rebeca Sarelli.
                   </li>
                   <li>
-                    Difundir el arte mendocino con la misma naturalidad con la que se sirve un vino: que llegue a cada mesa, a cada hogar, a cada alma que necesite volver a sentir.
+                    Difundir el arte mendocino con la misma naturalidad con la
+                    que se sirve un vino: que llegue a cada mesa, a cada hogar,
+                    a cada alma que necesite volver a sentir.
                   </li>
                 </ul>
                 <br />
               </p>
-              
             </div>
           </div>
           <img className={styles.imgMision} src={imgMision} />
@@ -100,7 +121,7 @@ export const LandingUi = () => {
               <h2 className={styles.tituloFinal}>Nuestros valores:</h2>
               <ul className={styles.listaFinal}>
                 <li>
-                  <h3 >Amor como motor del acto creativo</h3>
+                  <h3>Amor como motor del acto creativo</h3>
                 </li>
                 <li>
                   <h3>Respeto por la vida, naturaleza y el otro</h3>
@@ -126,7 +147,7 @@ export const LandingUi = () => {
         </div>
 
         {/* Historia */}
-         {/* <div className={`${styles.contenedorEtiqueta} ${styles.reverse}`}>
+        {/* <div className={`${styles.contenedorEtiqueta} ${styles.reverse}`}>
           <div className={styles.textoWrapper}>
             <div className={`${styles.animacion} ${styles.fromRight}`}>
               <h2 className={styles.tituloFinal}>Nuestra misión:</h2>
@@ -139,9 +160,12 @@ export const LandingUi = () => {
           </div>
           <img className={styles.imgMision} src={imgMision} />
         </div> */}
+        <h4>Algunas imagenes de nuestro taller</h4>
+        <ImageGridTaller />
       </section>
-      <h4>Algunas imagenes de nustro taller</h4>
-      <ImageGridTaller/>
+      <br />
+      <br />
+      <br />
     </>
   );
 };

@@ -1,7 +1,10 @@
 /* .gallerySnap {
   scroll-snap-type: y mandatory;
 } */
-
+.contenedorGlobal{
+  background-color: rgba(110, 110, 110, 0.45);
+  padding-top: 1px;
+}
 .containerPrincipal{
   display: flex;
   align-items: center;
@@ -18,6 +21,7 @@
   letter-spacing: -3px;
   line-height: 1.2;
   position: absolute;
+  color: rgb(238, 221, 177);
 }
 .img-container {
   height: 100vh;

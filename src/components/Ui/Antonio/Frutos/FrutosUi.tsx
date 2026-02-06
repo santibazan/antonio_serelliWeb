@@ -1,10 +1,10 @@
 import { TimelineFrutos } from "./TimelineFrutos";
-
+import styles from "./Frutos.module.css"
 
 
 export const FrutosUi = () => {
   return (
-    <>
+    <div className={styles.contenedorGlobal}>
       <h2>Los frutos</h2>
       <p>
         Con el paso del tiempo, aquello que fue sembrado comienza a dar forma
@@ -20,6 +20,7 @@ export const FrutosUi = () => {
         para proyectarse hacia el mundo.
       </p>
       <TimelineFrutos/>
-    </>
+
+    </div>
   );
 };

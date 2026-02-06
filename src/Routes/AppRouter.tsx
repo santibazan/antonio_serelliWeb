@@ -9,12 +9,14 @@ import { SiembraScreen } from "../components/Screens/Antonio/siembra/SiembraScre
 import { FrutosScreen } from "../components/Screens/Antonio/frutos/FrutosScreen"
 import { CosechasScreen } from "../components/Screens/Antonio/cosechas/CosechaScreen"
 import { DecadasScreen } from "../components/Screens/Decadas/DecadasScreen"
+import ScrollToTop from "../ScrollToTop"
 
 
 
 export const AppRouter = () => {
   return (
-    <div>
+    <>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<LandingScreen/>}/>
         <Route path="/AntonioSarelli" element={<AntonioScreen/>}/>
@@ -27,6 +29,6 @@ export const AppRouter = () => {
         <Route path="/AntonioSarelli/LaCosecha" element={<CosechasScreen/>}/>
         <Route path="/AntonioSarelli/Decadas" element={<DecadasScreen/>}/>
       </Routes>
-    </div>
+    </>
   )
 }

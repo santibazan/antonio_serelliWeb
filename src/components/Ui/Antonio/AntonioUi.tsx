@@ -6,7 +6,7 @@ import imagenCosecha from "../../../Imagenes/LaCosecha.jpeg";
 
 export const AntonioUi = () => {
   return (
-    <>
+    <div className={styles.contenedorGlobal}>
       <h1>Antonio Sarelli</h1>
       <img src="" alt="" />
 
@@ -59,6 +59,6 @@ export const AntonioUi = () => {
           </div>
         </section>
       </div>
-    </>
+    </div>
   );
 };

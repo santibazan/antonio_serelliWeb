@@ -5,10 +5,11 @@ import ImageGrid60 from "../ImageGrid/ImageGrid60";
 import ImageGrid70 from "../ImageGrid/ImageGrid70";
 import ImageGrid80 from "../ImageGrid/ImageGrid80.tsx";
 import ImageGrid90 from "../ImageGrid/ImageGrid90.tsx";
+import styles from "./Frutos.module.css"
 
 export const DecadasUi = () => {
   return (
-    <>
+    <div className={styles.contenedorGlobalLanding}>
     <HeaderUi/>
     <h1>Decada de los 60</h1>
     <ImageGrid60/> 
@@ -22,6 +23,6 @@ export const DecadasUi = () => {
     <ImageGrid2000/>
     <h1>Decada de los 2010</h1>
     <ImageGrid2010/>
-    </>
+    </div>
   )
 }
