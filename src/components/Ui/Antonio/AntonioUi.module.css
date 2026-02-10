@@ -2,7 +2,7 @@
   scroll-snap-type: y mandatory;
 } */
 .contenedorGlobal{
-  background-color: rgba(110, 110, 110, 0.45);
+  /* background-color: rgba(110, 110, 110, 0.45); */
   padding-top: 1px;
 }
 .containerPrincipal{

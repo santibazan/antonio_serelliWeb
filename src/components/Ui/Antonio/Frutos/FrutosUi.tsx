@@ -1,5 +1,6 @@
 import { TimelineFrutos } from "./TimelineFrutos";
 import styles from "./Frutos.module.css"
+import ScrollToTop from "../../Scroll/ScrollToTop";
 
 
 export const FrutosUi = () => {
@@ -20,7 +21,7 @@ export const FrutosUi = () => {
         para proyectarse hacia el mundo.
       </p>
       <TimelineFrutos/>
-
+      <ScrollToTop/>
     </div>
   );
 };

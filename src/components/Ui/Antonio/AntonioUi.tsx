@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import imagenSiembra from "../../../Imagenes/LaSiembra.jpeg";
 import imagenFruto from "../../../Imagenes/LosFrutos.jpeg";
 import imagenCosecha from "../../../Imagenes/LaCosecha.jpeg";
+import { Timeline } from "../Historia/Timeline/Timeline";
+import ScrollToTop from "../Scroll/ScrollToTop";
 
 export const AntonioUi = () => {
   return (
@@ -24,7 +26,6 @@ export const AntonioUi = () => {
         artículos periodísticos
       </p>
       <div className={styles.containerPrincipal}>
-        
         <section className={styles["img-container"]}>
           <div>
             <img
@@ -59,6 +60,8 @@ export const AntonioUi = () => {
           </div>
         </section>
       </div>
+      <Timeline />
+      <ScrollToTop />
     </div>
   );
 };

@@ -20,6 +20,7 @@
     "bootstrap": "^5.3.8",
     "framer-motion": "^12.23.26",
     "imagesloaded": "^5.0.0",
+    "lucide-react": "^0.563.0",
     "masonry-layout": "^4.2.2",
     "motion": "^12.29.0",
     "react": "^19.2.0",

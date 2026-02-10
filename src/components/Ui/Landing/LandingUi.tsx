@@ -9,6 +9,7 @@ import { useEffect } from "react";
 
 import { Link } from "react-router-dom";
 import ImageGridTaller from "../Antonio/ImageGrid/ImageGridTaller";
+import ScrollToTop from "../Scroll/ScrollToTop";
 
 export const LandingUi = () => {
   useEffect(() => {
@@ -163,6 +164,7 @@ export const LandingUi = () => {
         <h4>Algunas imagenes de nuestro taller</h4>
         <ImageGridTaller />
       </section>
+      <ScrollToTop/>
       <br />
       <br />
       <br />

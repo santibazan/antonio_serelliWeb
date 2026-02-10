@@ -1,4 +1,4 @@
-import { Timeline } from "./Timeline/Timeline";
+// import { Timeline } from "./Timeline/Timeline";
 import styles from "./Historia.module.css"
 
 
@@ -20,7 +20,7 @@ export const HistoriaUi = () => {
         -cuando nace del alma- es una forma de amor profundo y de resistencia
         luminosa.
       </p>
-      <Timeline/>
+      {/* <Timeline/> */}
     </div>
   );
 };

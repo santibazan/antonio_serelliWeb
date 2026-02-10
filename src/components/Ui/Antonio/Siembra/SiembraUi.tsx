@@ -1,3 +1,4 @@
+import ScrollToTop from "../../Scroll/ScrollToTop";
 import ImageGridSiembra from "../ImageGrid/ImageGridSiembra";
 import styles from "./Siembra.module.css"
 
@@ -22,7 +23,7 @@ export const SiembraUi = () => {
         su obra futura.
       </p>
       <ImageGridSiembra/>
-      
+      <ScrollToTop/>
     </div>
   );
 };
