@@ -1,4 +1,13 @@
 .contenedorGlobal{
-  background-color: rgba(110, 110, 110, 0.45);
+  background-color: rgba(0, 0, 0, 0.724);
   padding-top: 1px;
+}
+.contenedorGlobal h1{
+  color: rgb(201, 201, 201);
+}
+
+.contenedorGlobal p{
+  color: white;
+  padding: 10px 100px;
+  padding-bottom: 80px;
 }

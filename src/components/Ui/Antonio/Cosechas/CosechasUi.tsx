@@ -6,7 +6,7 @@ import styles from "./Cosechas.module.css"
 export const CosechasUi = () => {
   return (
     <div className={styles.contenedorGlobal}>
-       <h2>La cosecha</h2>
+       <h1>La cosecha</h1>
       <p>
         Toda siembra y todo esfuerzo sostenido encuentran, tarde o temprano, su
         recompensa. La cosecha da cuenta de los premios, reconocimientos y

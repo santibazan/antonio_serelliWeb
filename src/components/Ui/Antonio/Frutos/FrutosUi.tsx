@@ -6,7 +6,7 @@ import ScrollToTop from "../../Scroll/ScrollToTop";
 export const FrutosUi = () => {
   return (
     <div className={styles.contenedorGlobal}>
-      <h2>Los frutos</h2>
+      <h1>Los frutos</h1>
       <p>
         Con el paso del tiempo, aquello que fue sembrado comienza a dar forma
         visible. Los frutos reúne las obras de arte de Antonio Sarelli como

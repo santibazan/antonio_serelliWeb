@@ -9,22 +9,33 @@ import ScrollToTop from "../Scroll/ScrollToTop";
 export const AntonioUi = () => {
   return (
     <div className={styles.contenedorGlobal}>
-      <h1>Antonio Sarelli</h1>
+      <section className={styles.imagen}>
+        <div className={styles.overlay} />
+
+        <div className={styles.contentTallerSarelli}>
+          <h1>Antonio Sarelli</h1>
+          <p>
+            "Porque el mundo tal cual era nunca podría ser más que una fracción
+            del mundo, porque lo real también consistía en lo que podría haber
+            ocurrido y no sucedió"
+            <br />
+            <p className={styles.paulHoster}>Paul Auster</p>
+          </p>
+          <p>
+            Hasta encontrarse con sus primeros maestros, Antonio Sarelli fue un
+            niño que al terminar la escuela primaria, no tenía otro destino que
+            continuar con el oficio heredado de agricultor. Aquel destino
+            heredado, el del trabajo en el campo, ese otro sendero no tomado,
+            sigue latiendo en cada una de sus obras. Para honrarlo, esta página
+            se divide en tres partes, denominados con elementos vinculados a la
+            agricultura; la siembra, que presenta una biografía del artista, los
+            frutos, un catálogo de obras y la cosecha, una selección de críticas
+            y artículos periodísticos
+          </p>
+        </div>
+      </section>
       <img src="" alt="" />
 
-      <p>
-        "Porque el mundo tal cual era nunca podría ser más que una fracción del
-        mundo, porque lo real también consistía en lo que podría haber ocurrido
-        y no sucedió" Paul Auster Hasta encontrarse con sus primeros maestros,
-        Antonio Sarelli fue un niño que al terminar la escuela primaria, no
-        tenía otro destino que continuar con el oficio heredado de agricultor.
-        Aquel destino heredado, el del trabajo en el campo, ese otro sendero no
-        tomado, sigue latiendo en cada una de sus obras. Para honrarlo, esta
-        página se divide en tres partes, denominados con elementos vinculados a
-        la agricultura; la siembra, que presenta una biografía del artista, los
-        frutos, un catálogo de obras y la cosecha, una selección de críticas y
-        artículos periodísticos
-      </p>
       <div className={styles.containerPrincipal}>
         <section className={styles["img-container"]}>
           <div>
@@ -39,11 +50,11 @@ export const AntonioUi = () => {
             </Link>
           </div>
         </section>
-        <section className={styles["img-container"]}>
+        <section className={styles["img-containerr"]}>
           <div>
             <img src={imagenFruto} alt="Imagen Fruto" />
             <Link to="/AntonioSarelli/LosFrutos">
-              <h4 className={styles.title}>Los Frutos</h4>
+              <h4 className={styles.titlee}>Los Frutos</h4>
             </Link>
           </div>
         </section>

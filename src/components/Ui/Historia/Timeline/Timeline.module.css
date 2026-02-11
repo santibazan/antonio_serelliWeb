@@ -1,6 +1,7 @@
 #gallery {
   width: 100%;
   overflow-x: hidden;
+
 }
 
 #gallery h3 {
@@ -15,6 +16,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contenedorGlobal {
+  background-color: rgba(0, 0, 0, 0.724);
+}
+
+.tituloPrincipal {
+  padding-top: 100px;
+  color: rgb(201, 201, 201);
 }
 
 /* GRUPO HORIZONTAL */
@@ -33,7 +43,7 @@
   position: relative;
 }
 
-.img-group-container > div {
+.img-group-container>div {
   position: sticky;
   top: 0;
   height: 100vh;
@@ -65,6 +75,7 @@
   justify-content: center;
 
   overflow: hidden;
+
 }
 
 
@@ -85,12 +96,14 @@
   line-height: 1.2;
   position: relative;
   display: inline-block;
+  color: rgb(201, 201, 201);
 }
 
 .img-container h4 {
   width: 40vw;
   margin-top: 20px;
   text-align: center;
+  color: rgb(201, 201, 201);
 }
 
 /* ===== FLECHAS ===== */

@@ -1,4 +1,32 @@
 .contenedorGlobal{
-    background-color: rgba(110, 110, 110, 0.45);
-    padding-top: 1px;
+  background-color: rgba(0, 0, 0, 0.724);
+  padding-top: 1px;
+}
+.contenedorGlobal h1{
+  color: rgb(201, 201, 201);
+}
+
+.imagen p{
+  color: white;
+  padding: 50px 100px;
+  padding-top: 80px;
+}
+.contenedorGlobal p{
+  color: white;
+  padding: 100px 100px;
+}
+.imagen {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+
+  background-image: url("../../../Imagenes/Taller/RebeTrabajando.jpg");
+
+  /* ajustá la ruta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }

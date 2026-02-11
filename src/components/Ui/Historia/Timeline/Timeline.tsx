@@ -268,41 +268,44 @@ export const Timeline = () => {
 
   return (
     <article id="gallery">
-      <header>
-        <h1>Su vida</h1>
-      </header>
+      <div className={styles.contenedorGlobal}>
 
-      <section ref={containerRef} className={styles["img-group-container"]}>
-        <div>
-          <button
-            className={`${styles.arrow} ${styles.left}`}
-            onClick={() => goToSlide(current - 1)}
-            aria-label="Slide anterior"
-          >
-            ◀
-          </button>
+        <header className={styles.tituloPrincipal}>
+          <h1>Su vida</h1>
+        </header>
 
-          <button
-            className={`${styles.arrow} ${styles.right}`}
-            onClick={() => goToSlide(current + 1)}
-            aria-label="Slide siguiente"
-          >
-            ▶
-          </button>
+        <section ref={containerRef} className={styles["img-group-container"]}>
+          <div>
+            <button
+              className={`${styles.arrow} ${styles.left}`}
+              onClick={() => goToSlide(current - 1)}
+              aria-label="Slide anterior"
+            >
+              ◀
+            </button>
 
-          <ul className={styles["img-group"]}>
-            {slides.map((slide, i) => (
-              <li key={i} className={styles["img-container"]}>
-                <div className={styles.imageWrapper}>
-                  <img src={slide.img ?? ""} alt="" />
-                </div>
-                <h3>{slide.year}</h3>
-                <h4>{slide.text}</h4>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+            <button
+              className={`${styles.arrow} ${styles.right}`}
+              onClick={() => goToSlide(current + 1)}
+              aria-label="Slide siguiente"
+            >
+              ▶
+            </button>
+
+            <ul className={styles["img-group"]}>
+              {slides.map((slide, i) => (
+                <li key={i} className={styles["img-container"]}>
+                  <div className={styles.imageWrapper}>
+                    <img src={slide.img ?? ""} alt="" />
+                  </div>
+                  <h3>{slide.year}</h3>
+                  <h4>{slide.text}</h4>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      </div>
     </article>
   );
 };

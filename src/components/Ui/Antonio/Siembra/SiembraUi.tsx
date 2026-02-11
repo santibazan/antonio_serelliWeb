@@ -7,7 +7,7 @@ import styles from "./Siembra.module.css"
 export const SiembraUi = () => {
   return (
     <div className={styles.contenedorGlobal}>
-      <h2>La siembra</h2>
+      <h1>La siembra</h1>
       <p>
         Todo artista nace dos veces: una el día en que llega al mundo y otra
         cuando descubre su vocación. La siembra recorre los primeros pasos de

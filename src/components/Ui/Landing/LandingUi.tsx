@@ -1,8 +1,8 @@
 import styles from "./LandingUi.module.css";
 
-import imgProposito from "../../../Imagenes/Taller/TallerSur.jpg";
-import imgMision from "../../../Imagenes/Taller/2imgResiliencia.jpeg";
-import imgValores from "../../../Imagenes/Taller/3puerta.jpeg";
+import imgProposito from "../../../Imagenes/Taller/TallerDesdeAbajo.jpg";
+import imgMision from "../../../Imagenes/Taller/TallerSur.jpg";
+import imgValores from "../../../Imagenes/Taller/puertaNorte.jpg";
 // import imgHistoria from "../../../Imagenes/maquina.jpeg";
 
 import { useEffect } from "react";
@@ -78,15 +78,16 @@ export const LandingUi = () => {
                 del presente que busca reconectar con lo más humano a través de
                 la forma.
               </p>
-              <Link to="/Historia" className={styles.botonn}>
+              {/* <Link to="/Historia" className={styles.botonn}>
                 Ver historia completa →{" "}
-              </Link>
+              </Link> */}
             </div>
           </div>
           <img className={styles.imgMision} src={imgProposito} />
         </div>
-        {/*2. Proposito */}
 
+
+        {/*2. Proposito */}
         <div
           className={`${styles.contenedorEtiqueta} ${styles.reverse} ${styles.destacada}`}
         >
@@ -113,10 +114,10 @@ export const LandingUi = () => {
               </p>
             </div>
           </div>
-          <img className={styles.imgMision} src={imgMision} />
+          <img className={styles.imgMisionn} src={imgMision} />
         </div>
         {/*3. Valores */}
-        <div className={`${styles.contenedorEtiqueta} ${styles.normal}`}>
+        <div className={`${styles.contenedorEtiqueta} ${styles.normal} ${styles.destacada}`}>
           <div className={styles.textoWrapper}>
             <div className={`${styles.animacion} ${styles.fromLeft}`}>
               <h2 className={styles.tituloFinal}>Nuestros valores:</h2>
@@ -147,20 +148,6 @@ export const LandingUi = () => {
           <img className={styles.imgMision} src={imgValores} />
         </div>
 
-        {/* Historia */}
-        {/* <div className={`${styles.contenedorEtiqueta} ${styles.reverse}`}>
-          <div className={styles.textoWrapper}>
-            <div className={`${styles.animacion} ${styles.fromRight}`}>
-              <h2 className={styles.tituloFinal}>Nuestra misión:</h2>
-              <p className={styles.textoFinal}>
-                Nuestra misión es que el arte de Mendoza -como el buen vino-
-                llegue a cada mesa, a cada hogar, a cada alma que necesite
-                detenerse y volver a mirar con el corazón.
-              </p>
-            </div>
-          </div>
-          <img className={styles.imgMision} src={imgMision} />
-        </div> */}
         <h4>Algunas imagenes de nuestro taller</h4>
         <ImageGridTaller />
       </section>

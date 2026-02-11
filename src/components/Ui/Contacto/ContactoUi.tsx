@@ -9,7 +9,7 @@ export const ContactoUi = () => {
         <div className={styles.contacto}>
           <div className={styles.datos}>
             <h2>Taller Sarelli</h2>
-            <h5>Marcos sastre xxxx</h5>
+            <h5>Marcos Sastre 1510</h5>
             <h5>Godoy Cruz, Mendoza</h5>
             <h5>Teléfono: +5491132973461</h5>
             <a

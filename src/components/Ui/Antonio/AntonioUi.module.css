@@ -1,50 +1,126 @@
 /* .gallerySnap {
   scroll-snap-type: y mandatory;
 } */
+.imagen {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+
+  background-image: url("../../../Imagenes/Taller/paletaAldo.jpg");
+  /* ajustá la ruta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.contentTallerSarelli {
+  position: relative;
+  color: white;
+  z-index: 100;
+}
+
+.paulHoster{
+  display: flex;
+  justify-content: end;
+}
+
 .contenedorGlobal{
   /* background-color: rgba(110, 110, 110, 0.45); */
-  padding-top: 1px;
+  /* padding-top: 1px; */
 }
+.contenedorGlobal p{
+  padding: 0px 100px;
+}
+
 .containerPrincipal{
   display: flex;
   align-items: center;
-
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  gap: 100px;
+  /* justify-content: space-between; */
 }
 
 .title {
-  color: var(--accent);
-  margin: 0;
-  font-family: "Azeret Mono", monospace;
-  font-size: 35px; 
-  font-weight: 700;
-  letter-spacing: -3px;
-  line-height: 1.2;
-  position: absolute;
   color: rgb(238, 221, 177);
+
+  font-size: 25px;
+  font-weight: 700;
+
+  line-height: 1.2;
+  margin-top: 33px;
+  text-align: center;
+  padding-right: 25px;
 }
-.img-container {
-  height: 100vh;
-  scroll-snap-align: start;
+.titlee{
+  /* margin-top: 30px; */
+  color: rgb(238, 221, 177);
+
+  font-size: 25px;
+  font-weight: 700;
+
+  line-height: 1.2;
+  text-align: center;
+  margin-left: 10px;
+}
+/* .img-container {
+  height: 37vh;
+  margin-bottom: 100px;
+  scroll-snap-align: start; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* position: relative; */
+
+/* } */
+.img-container{
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: relative;
-
 }
 
-.img-container > div {
+.img-containerr {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+/* .img-container > div {
   width: 300px;
   height: 400px;
   margin: 20px;
   overflow: hidden;
+  align-items: center;
+  text-align: center;
   
+} */
+ .img-container > div,
+.img-containerr > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .img-container img {
   width: 300px;
   height: 400px;
 }
+
+.img-containerr img {
+  width: 200px;
+  height: 300px;
+}
+
 
 .img-container h2 {
   color: var(--accent);
