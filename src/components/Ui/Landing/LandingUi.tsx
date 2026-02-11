@@ -7,7 +7,6 @@ import imgValores from "../../../Imagenes/Taller/puertaNorte.jpg";
 
 import { useEffect } from "react";
 
-import { Link } from "react-router-dom";
 import ImageGridTaller from "../Antonio/ImageGrid/ImageGridTaller";
 import ScrollToTop from "../Scroll/ScrollToTop";
 
