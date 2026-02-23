@@ -1,8 +1,8 @@
 import styles from "./AntonioUi.module.css";
 import { Link } from "react-router-dom";
-import imagenSiembra from "../../../Imagenes/LaSiembra.jpeg";
-import imagenFruto from "../../../Imagenes/LosFrutos.jpeg";
-import imagenCosecha from "../../../Imagenes/LaCosecha.jpeg";
+import imagenSiembra from "../../../../public/Imagenes/LaSiembra.jpeg";
+import imagenFruto from "../../../../public/Imagenes/LosFrutos.jpeg";
+import imagenCosecha from "../../../../public/Imagenes/LaCosecha.jpeg";
 import { Timeline } from "../Historia/Timeline/Timeline";
 import ScrollToTop from "../Scroll/ScrollToTop";
 

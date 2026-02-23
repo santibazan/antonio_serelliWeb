@@ -1,15 +1,15 @@
-import img1 from "../../../../../Imagenes/Decada90/0004-El aire me sabe bien  óleo sobre tela  140 x 180 cm  1994.jpeg"
-import img2 from "../../../../../Imagenes/Decada90/0005-Primera lección  óleo sobre tela 160 x 180 cm  1998.jpeg"
-import img3 from "../../../../../Imagenes/Decada90/0006-Sembrador óleo sobre tela  160 x 180 cm  1998.jpeg"
-import img4 from "../../../../../Imagenes/Decada90/0020-Blanca ternura en Tupungato óleo sobre tela  130 x 162  cm  1995.jpeg"
+import img1 from "../../../../../../public/Imagenes/Decada90/0004-El aire me sabe bien  óleo sobre tela  140 x 180 cm  1994.jpeg"
+import img2 from "../../../../../../public/Imagenes/Decada90/0005-Primera lección  óleo sobre tela 160 x 180 cm  1998.jpeg"
+import img3 from "../../../../../../public/Imagenes/Decada90/0006-Sembrador óleo sobre tela  160 x 180 cm  1998.jpeg"
+import img4 from "../../../../../../public/Imagenes/Decada90/0020-Blanca ternura en Tupungato óleo sobre tela  130 x 162  cm  1995.jpeg"
 
-import img5 from "../../../../../Imagenes/Decada90/0027-Poesía y orden  óleo sobre tela  120 x 160 cm  1991.jpeg"
-import img6 from "../../../../../Imagenes/Decada90/0028-Homenaje a Walt Whitman III óleo sobre tela  160 x 120 cm  1991.jpeg"
-import img7 from "../../../../../Imagenes/Decada90/0029-Figura sentada con paisaje  óleo sobre tela  100 x 150 cm 1994.jpeg"
-import img8 from "../../../../../Imagenes/Decada90/0032-Flor azul sobre jarrón blanco  óleo sobre tela  150 x 100 cm  1991.jpeg"
+import img5 from "../../../../../../public/Imagenes/Decada90/0027-Poesía y orden  óleo sobre tela  120 x 160 cm  1991.jpeg"
+import img6 from "../../../../../../public/Imagenes/Decada90/0028-Homenaje a Walt Whitman III óleo sobre tela  160 x 120 cm  1991.jpeg"
+import img7 from "../../../../../../public/Imagenes/Decada90/0029-Figura sentada con paisaje  óleo sobre tela  100 x 150 cm 1994.jpeg"
+import img8 from "../../../../../../public/Imagenes/Decada90/0032-Flor azul sobre jarrón blanco  óleo sobre tela  150 x 100 cm  1991.jpeg"
 
-import img9 from "../../../../../Imagenes/Decada90/0041-Alegoría al mantelito blanco mixta sobre tela   116 x 89 cm  1995.jpeg"
-import img10 from "../../../../../Imagenes/Decada90/0270 - Evocacion óleo sobre tela  145 x 154 cm  1995.jpeg"
+import img9 from "../../../../../../public/Imagenes/Decada90/0041-Alegoría al mantelito blanco mixta sobre tela   116 x 89 cm  1995.jpeg"
+import img10 from "../../../../../../public/Imagenes/Decada90/0270 - Evocacion óleo sobre tela  145 x 154 cm  1995.jpeg"
 
 
 

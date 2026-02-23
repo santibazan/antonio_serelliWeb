@@ -1,16 +1,16 @@
-import img1 from "../../../../../Imagenes/Decada70/0035-Dimensión violeta óleo sobre tela enchapada  148 x 111 1975.jpeg"
-import img2 from "../../../../../Imagenes/Decada70/0054-Flores óleo sobre tela  80 x 50  1970.jpeg"
-import img3 from "../../../../../Imagenes/Decada70/0059-Serie del huevo óleo sobre tela 70 x 50 1973.jpeg"
-import img4 from "../../../../../Imagenes/Decada70/0061-Gestación óleo sobre madera  39 x 28 1973.jpeg"
+import img1 from "../../../../../../public/Imagenes/Decada70/0035-Dimensión violeta óleo sobre tela enchapada  148 x 111 1975.jpeg"
+import img2 from "../../../../../../public/Imagenes/Decada70/0054-Flores óleo sobre tela  80 x 50  1970.jpeg"
+import img3 from "../../../../../../public/Imagenes/Decada70/0059-Serie del huevo óleo sobre tela 70 x 50 1973.jpeg"
+import img4 from "../../../../../../public/Imagenes/Decada70/0061-Gestación óleo sobre madera  39 x 28 1973.jpeg"
 
-import img5 from "../../../../../Imagenes/Decada70/0062-Mensaje oculto óleo sobre madera.jpeg"
-import img6 from "../../../../../Imagenes/Decada70/0346-Soliloquio oleo sobre tela 1974 110 x 158(Cartellone).jpeg"
-import img7 from "../../../../../Imagenes/Decada70/0348-El manto blanco oleo sobre tela 120 x 90 1979 (Cartellone).jpeg"
-import img8 from "../../../../../Imagenes/Decada70/0351-La casa blanca óleo sobre tela 90 x 70.5 1979 (Cartellone).jpeg"
+import img5 from "../../../../../../public/Imagenes/Decada70/0062-Mensaje oculto óleo sobre madera.jpeg"
+import img6 from "../../../../../../public/Imagenes/Decada70/0346-Soliloquio oleo sobre tela 1974 110 x 158(Cartellone).jpeg"
+import img7 from "../../../../../../public/Imagenes/Decada70/0348-El manto blanco oleo sobre tela 120 x 90 1979 (Cartellone).jpeg"
+import img8 from "../../../../../../public/Imagenes/Decada70/0351-La casa blanca óleo sobre tela 90 x 70.5 1979 (Cartellone).jpeg"
 
-import img9 from "../../../../../Imagenes/Decada70/0361-Clamor al atardecer óleo sobre tela  149 x 105  1973 (Cartellone).jpeg"
-import img10 from "../../../../../Imagenes/Decada70/0362-Errante óleo sobre tela 103 x 86  1976 (Cartellone)1.jpeg"
-import img11 from "../../../../../Imagenes/Decada70/Oleo Despues del Zonda.jpeg"
+import img9 from "../../../../../../public/Imagenes/Decada70/0361-Clamor al atardecer óleo sobre tela  149 x 105  1973 (Cartellone).jpeg"
+import img10 from "../../../../../../public/Imagenes/Decada70/0362-Errante óleo sobre tela 103 x 86  1976 (Cartellone)1.jpeg"
+import img11 from "../../../../../../public/Imagenes/Decada70/Oleo Despues del Zonda.jpeg"
 
 
 

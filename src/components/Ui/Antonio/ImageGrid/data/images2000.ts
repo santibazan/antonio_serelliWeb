@@ -1,15 +1,15 @@
-import img1 from "../../../../../Imagenes/Decada2000/0014-Repertorio  acrílico sobre tela 200 x 120 cm  2009.jpeg"
-import img2 from "../../../../../Imagenes/Decada2000/0016-Perpetuo dilema acrílico sobre tela 200 x 120 cm 2009.jpeg"
-import img3 from "../../../../../Imagenes/Decada2000/0019-Solo lo salva el amor mixta sobre tela  180 x 140 cm  2001.jpeg"
-import img4 from "../../../../../Imagenes/Decada2000/0021-Resurrección mixta sobre tela  170 x 114 cm 2000.jpeg"
+import img1 from "../../../../../../public/Imagenes/Decada2000/0014-Repertorio  acrílico sobre tela 200 x 120 cm  2009.jpeg"
+import img2 from "../../../../../../public/Imagenes/Decada2000/0016-Perpetuo dilema acrílico sobre tela 200 x 120 cm 2009.jpeg"
+import img3 from "../../../../../../public/Imagenes/Decada2000/0019-Solo lo salva el amor mixta sobre tela  180 x 140 cm  2001.jpeg"
+import img4 from "../../../../../../public/Imagenes/Decada2000/0021-Resurrección mixta sobre tela  170 x 114 cm 2000.jpeg"
 
-import img5 from "../../../../../Imagenes/Decada2000/0046-Éxodo 2000  mixta sobre tela  110 x 80 cm 2000.jpeg"
-import img6 from "../../../../../Imagenes/Decada2000/0130-Evocando a los maestros mixta sobre tela 152 x 400 cm 2006.jpeg"
-import img7 from "../../../../../Imagenes/Decada2000/0268-Desde la Construcción mixta sobre madera 120 x 300 cm 2000.jpeg"
-import img8 from "../../../../../Imagenes/Decada2000/0269-Evocación mixta sobre tela  200 x 280 cm  2000.jpeg"
+import img5 from "../../../../../../public/Imagenes/Decada2000/0046-Éxodo 2000  mixta sobre tela  110 x 80 cm 2000.jpeg"
+import img6 from "../../../../../../public/Imagenes/Decada2000/0130-Evocando a los maestros mixta sobre tela 152 x 400 cm 2006.jpeg"
+import img7 from "../../../../../../public/Imagenes/Decada2000/0268-Desde la Construcción mixta sobre madera 120 x 300 cm 2000.jpeg"
+import img8 from "../../../../../../public/Imagenes/Decada2000/0269-Evocación mixta sobre tela  200 x 280 cm  2000.jpeg"
 
-import img9 from "../../../../../Imagenes/Decada2000/0271-Diciembre, Enero y Febrero mixta sobre tela  120 x 300 cm  2002.jpeg"
-import img10 from "../../../../../Imagenes/Decada2000/0305-Timonel de quimeras mixta sobre tela 100 x 120 cm 2006.jpeg"
+import img9 from "../../../../../../public/Imagenes/Decada2000/0271-Diciembre, Enero y Febrero mixta sobre tela  120 x 300 cm  2002.jpeg"
+import img10 from "../../../../../../public/Imagenes/Decada2000/0305-Timonel de quimeras mixta sobre tela 100 x 120 cm 2006.jpeg"
 
 
 

@@ -1,15 +1,15 @@
-import img1 from "../../../../../Imagenes/Decada80/0024-Altar de los humildes  óleo sobre madera  158 x 140 1988.jpeg"
-import img2 from "../../../../../Imagenes/Decada80/0025-Universos de silencios  óleo sobre madera 160 x 140  1987.jpeg"
-import img3 from "../../../../../Imagenes/Decada80/0026-Paisaje de la memoria dormida  óleo sobre madera  150 x 138  1988.jpeg"
-import img4 from "../../../../../Imagenes/Decada80/0044-Primavera  óleo sobre tela  110 x 100  1984.jpeg"
+import img1 from "../../../../../../public/Imagenes/Decada80/0024-Altar de los humildes  óleo sobre madera  158 x 140 1988.jpeg"
+import img2 from "../../../../../../public/Imagenes/Decada80/0025-Universos de silencios  óleo sobre madera 160 x 140  1987.jpeg"
+import img3 from "../../../../../../public/Imagenes/Decada80/0026-Paisaje de la memoria dormida  óleo sobre madera  150 x 138  1988.jpeg"
+import img4 from "../../../../../../public/Imagenes/Decada80/0044-Primavera  óleo sobre tela  110 x 100  1984.jpeg"
 
-import img5 from "../../../../../Imagenes/Decada80/0045-Dos imágenes y el silencio óleo sobre tela 110 x 100 1982.jpeg"
-import img6 from "../../../../../Imagenes/Decada80/0051-Composición azul óleo sobre madera 80 x 90  1987.jpeg"
-import img7 from "../../../../../Imagenes/Decada80/0058-Naturaleza con fondo rojo y blanco  óleo sobre tela  70 x 50  1983.jpeg"
-import img8 from "../../../../../Imagenes/Decada80/0110-La nota del silencio  óleo sobre madera  165 x 182  1984 1.jpeg"
+import img5 from"../../../../../../public/Imagenes/Decada80/0045-Dos imágenes y el silencio óleo sobre tela 110 x 100 1982.jpeg"
+import img6 from "../../../../../../public/Imagenes/Decada80/0051-Composición azul óleo sobre madera 80 x 90  1987.jpeg"
+import img7 from "../../../../../../public/Imagenes/Decada80/0058-Naturaleza con fondo rojo y blanco  óleo sobre tela  70 x 50  1983.jpeg"
+import img8 from "../../../../../../public/Imagenes/Decada80/0110-La nota del silencio  óleo sobre madera  165 x 182  1984 1.jpeg"
 
-import img9 from "../../../../../Imagenes/Decada80/0226 - Dimensión del silencio  óleo sobre madera 180 x 165 1985 1.jpeg"
-import img10 from "../../../../../Imagenes/Decada80/0272-Desde siempre óleo sobre tela 90 x 70 1981.jpeg"
+import img9 from "../../../../../../public/Imagenes/Decada80/0226 - Dimensión del silencio  óleo sobre madera 180 x 165 1985 1.jpeg"
+import img10 from "../../../../../../public/Imagenes/Decada80/0272-Desde siempre óleo sobre tela 90 x 70 1981.jpeg"
 
 
 
