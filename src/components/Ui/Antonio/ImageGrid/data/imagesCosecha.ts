@@ -1,4 +1,4 @@
-import img1 from "../../../../../../public/Imagenes/Cosechas/Cordón de Plata en Casa Gobierno Mza.jpeg"
+import img1 from "../../../../../../public/Imagenes/Cosechas/Cordón de Plata en Casa Gobierno Mza.jpeg"
 import img2 from "../../../../../../public/Imagenes/Cosechas/Cuadro Residencia de Olivos.jpeg"
 import img3 from "../../../../../../public/Imagenes/Cosechas/Escrito Piso 7 de Casa Gobierno.jpeg"
 import img4 from "../../../../../../public/Imagenes/Cosechas/Espacio Antonio Sarelli - Piso 7 Casa de Gobierno.jpeg"
