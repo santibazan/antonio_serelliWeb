@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router"
+import { Route, Routes } from "react-router-dom"
 import { LandingScreen } from "../components/Screens/Landing/LandingScreen"
 import { AntonioScreen } from "../components/Screens/Antonio/AntonioScreen"
 import { ArmeScreen } from "../components/Screens/ArMe/ArmeScreen"
