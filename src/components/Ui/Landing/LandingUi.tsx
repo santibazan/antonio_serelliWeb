@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import ImageGridTaller from "../Antonio/ImageGrid/ImageGridTaller";
 import ScrollToTop from "../Scroll/ScrollToTop";
 
+
 export const LandingUi = () => {
   useEffect(() => {
     const elements = document.querySelectorAll(`.${styles.animacion}`);
@@ -50,9 +51,10 @@ export const LandingUi = () => {
       </section>
 
       {/* Parte de las viñetas */}
+
       <section className={styles.contentVisiones}>
         {/*1. Historia de Origen */}
-        <div className={`${styles.contenedorEtiqueta} ${styles.normal}`}>
+        <div className={`${styles.contenedorEtiqueta}`}>
           <div className={styles.textoWrapper}>
             <div className={`${styles.animacion} ${styles.fromLeft}`}>
               <h2 className={styles.tituloFinal}>Historia de origen.</h2>
@@ -77,32 +79,26 @@ export const LandingUi = () => {
                 del presente que busca reconectar con lo más humano a través de
                 la forma.
               </p>
-              {/* <Link to="/Historia" className={styles.botonn}>
-                Ver historia completa →{" "}
-              </Link> */}
             </div>
           </div>
           <img className={styles.imgMision} src={imgProposito} />
         </div>
 
-
         {/*2. Proposito */}
-        <div
-          className={`${styles.contenedorEtiqueta} ${styles.reverse} ${styles.destacada}`}
-        >
+        <div className={`${styles.contenedorEtiqueta} ${styles.reverse}`}>
           <div className={styles.textoWrapper}>
             <div className={`${styles.animacion} ${styles.fromRight}`}>
               <h2 className={styles.tituloFinal}>Nuestro proposito</h2>
 
-              <p className={styles.textoFinal}>
-                <br />
+              <div className={styles.textoFinal}>
                 Tenemos un doble proposito:
-                <br />
                 <ul>
+                  <br />
                   <li>
                     Preservar y proyectar el legado artistico y humano de
                     Antonio y Rebeca Sarelli.
                   </li>
+                  <br />
                   <li>
                     Difundir el arte mendocino con la misma naturalidad con la
                     que se sirve un vino: que llegue a cada mesa, a cada hogar,
@@ -110,38 +106,30 @@ export const LandingUi = () => {
                   </li>
                 </ul>
                 <br />
-              </p>
+              </div>
             </div>
           </div>
           <img className={styles.imgMisionn} src={imgMision} />
         </div>
+
         {/*3. Valores */}
-        <div className={`${styles.contenedorEtiqueta} ${styles.normal} ${styles.destacada}`}>
+        <div className={`${styles.contenedorEtiqueta}`}>
           <div className={styles.textoWrapper}>
             <div className={`${styles.animacion} ${styles.fromLeft}`}>
-              <h2 className={styles.tituloFinal}>Nuestros valores:</h2>
-              <ul className={styles.listaFinal}>
-                <li>
-                  <h3>Amor como motor del acto creativo</h3>
-                </li>
-                <li>
-                  <h3>Respeto por la vida, naturaleza y el otro</h3>
-                </li>
-                <li>
-                  <h3>Union intergeneracional y comunitaria</h3>
-                </li>
-                <li>
-                  <h3>Paz como forma de presencia</h3>
-                </li>
-                <li>
-                  <h3>Serenidad como actitud frente al tiempo</h3>
-                </li>
-                <li>
-                  <h3>
-                    Contemplacion como modo de habitarnos y habitar el mundo.
-                  </h3>
-                </li>
-              </ul>
+              <h2 className={styles.tituloFinal}>Nuestros valores: </h2>
+              <div className={styles.textoFinal}>
+                <ul>
+                  <li>Amor como motor del acto creativo.</li>
+                  <li>Respeto por la vida, naturaleza y el otro.</li>
+                  <li>Union intergeneracional y comunitaria.</li>
+                  <li>Paz como forma de presencia.</li>
+                  <li>Serenidad como actitud frente al tiempo.</li>
+                  <li>
+                    Contemplacion como modo de habitarnos y habitar el
+                    mundo.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <img className={styles.imgMision} src={imgValores} />
@@ -150,7 +138,7 @@ export const LandingUi = () => {
         <h4>Algunas imagenes de nuestro taller</h4>
         <ImageGridTaller />
       </section>
-      <ScrollToTop/>
+      <ScrollToTop />
       <br />
       <br />
       <br />

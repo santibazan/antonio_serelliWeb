@@ -40,19 +40,9 @@
   animation: sway 2.8s ease-in-out infinite;
 }
 
-/* Pausar y rotar al hover */
-.button:hover .icon {
-  animation-play-state: paused;
-  transform: rotate(-90deg);
-  transition: transform 0.4s ease;
-}
 
-.button:hover {
-  background: rgba(0, 0, 0, 0.85);
-  transform: translateY(-4px);
-}
 
-@keyframes sway {
+/* @keyframes sway {
   0% {
     transform: rotate(10deg);
   }
@@ -62,4 +52,4 @@
   100% {
     transform: rotate(10deg);
   }
-}
+} */
