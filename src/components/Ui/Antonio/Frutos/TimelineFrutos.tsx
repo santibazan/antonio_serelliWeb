@@ -3,12 +3,12 @@ import { animate, scroll } from "motion";
 import styles from "./TimelineFrutos.module.css";
 import { Link } from "react-router-dom";
 
-import img1 from "../../../../../public/Imagenes/Decada60/0036-El llamado óleo sobre tela enchapada  107 x 147 cm 1969.jpeg";
-import img2 from "../../../../../public/Imagenes/Decada70/0035-Dimensión violeta óleo sobre tela enchapada  148 x 111 1975.jpeg";
-import img3 from "../../../../../public/Imagenes/Decada80/0024-Altar de los humildes  óleo sobre madera  158 x 140 1988.jpeg";
-import img4 from "../../../../../public/Imagenes/Decada90/0004-El aire me sabe bien  óleo sobre tela  140 x 180 cm  1994.jpeg";
-import img5 from "../../../../../public/Imagenes/Decada2000/0014-Repertorio  acrílico sobre tela 200 x 120 cm  2009.jpeg";
-import img6 from "../../../../../public/Imagenes/Decada2010/0178-Historias secretas collage sobre tela 150 x 300 cm 2013.jpeg";
+import img1 from "../../../../Imagenes/Decada60/0036-El llamado óleo sobre tela enchapada  107 x 147 cm 1969.jpeg";
+import img2 from "../../../../Imagenes/Decada70/0035-Dimensión violeta óleo sobre tela enchapada  148 x 111 1975.jpeg";
+import img3 from "../../../../Imagenes/Decada80/0024-Altar de los humildes  óleo sobre madera  158 x 140 1988.jpeg";
+import img4 from "../../../../Imagenes/Decada90/0004-El aire me sabe bien  óleo sobre tela  140 x 180 cm  1994.jpeg";
+import img5 from "../../../../Imagenes/Decada2000/0014-Repertorio  acrílico sobre tela 200 x 120 cm  2009.jpeg";
+import img6 from "../../../../Imagenes/Decada2010/0178-Historias secretas collage sobre tela 150 x 300 cm 2013.jpeg";
 
 const slides = [
   { img: img1, text:"Criticas de la decada 60", label: "Década 60" },

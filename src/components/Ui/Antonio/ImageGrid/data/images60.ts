@@ -1,15 +1,15 @@
-import img1 from "../../../../../../public/Imagenes/Decada60/0036-El llamado óleo sobre tela enchapada  107 x 147 cm 1969.jpeg"
-import img2 from "../../../../../../public/Imagenes/Decada60/0037-Dimensión blanca  óleo sobre tela enchapada 107 x 147 cm 1969.jpeg"
-import img3 from "../../../../../../public/Imagenes/Decada60/0042-La hora del sueño óleo sobre tela enchapada  95 x 120 cm 1968.jpeg"
-import img4 from "../../../../../../public/Imagenes/Decada60/0043-Reflejos de la tarde óleo sobre tela enchapada  94 x 124 cm 1967.jpeg"
+import img1 from "../../../../../Imagenes/Decada60/0036-El llamado óleo sobre tela enchapada  107 x 147 cm 1969.jpeg"
+import img2 from "../../../../../Imagenes/Decada60/0037-Dimensión blanca  óleo sobre tela enchapada 107 x 147 cm 1969.jpeg"
+import img3 from "../../../../../Imagenes/Decada60/0042-La hora del sueño óleo sobre tela enchapada  95 x 120 cm 1968.jpeg"
+import img4 from "../../../../../Imagenes/Decada60/0043-Reflejos de la tarde óleo sobre tela enchapada  94 x 124 cm 1967.jpeg"
 
-import img5 from "../../../../../../public/Imagenes/Decada60/0047-Figura con ave óleo sobre madera 98 x 66 cm 1965.jpeg"
-import img6 from "../../../../../../public/Imagenes/Decada60/0048-A nada nadas  óleo sobre tela enchapada  105 x 75 cm 1968.jpeg"
-import img7 from "../../../../../../public/Imagenes/Decada60/0049-Después de la lluvia óleo sobre tela enchapada 74 x 104 cm 1966.jpeg"
-import img8 from "../../../../../../public/Imagenes/Decada60/0053-Contraluz óleo sobre tela enchapada 75 x 100 cm 1964.jpeg"
+import img5 from "../../../../../Imagenes/Decada60/0047-Figura con ave óleo sobre madera 98 x 66 cm 1965.jpeg"
+import img6 from "../../../../../Imagenes/Decada60/0048-A nada nadas  óleo sobre tela enchapada  105 x 75 cm 1968.jpeg"
+import img7 from "../../../../../Imagenes/Decada60/0049-Después de la lluvia óleo sobre tela enchapada 74 x 104 cm 1966.jpeg"
+import img8 from "../../../../../Imagenes/Decada60/0053-Contraluz óleo sobre tela enchapada 75 x 100 cm 1964.jpeg"
 
-import img9 from "../../../../../../public/Imagenes/Decada60/0055-Diálogo en ocres óleo sobre tela  90 x 70 cm 1968.jpeg"
-import img10 from "../../../../../../public/Imagenes/Decada60/0060-Cueva del sueño óleo sobre madera 61 x 47 cm  1964.jpeg"
+import img9 from "../../../../../Imagenes/Decada60/0055-Diálogo en ocres óleo sobre tela  90 x 70 cm 1968.jpeg"
+import img10 from "../../../../../Imagenes/Decada60/0060-Cueva del sueño óleo sobre madera 61 x 47 cm  1964.jpeg"
 
 
 

@@ -1,18 +1,18 @@
-import img1 from "../../../../../../public/Imagenes/Cosechas/Cordón de Plata en Casa Gobierno Mza.jpeg"
-import img2 from "../../../../../../public/Imagenes/Cosechas/Cuadro Residencia de Olivos.jpeg"
-import img3 from "../../../../../../public/Imagenes/Cosechas/Escrito Piso 7 de Casa Gobierno.jpeg"
-import img4 from "../../../../../../public/Imagenes/Cosechas/Espacio Antonio Sarelli - Piso 7 Casa de Gobierno.jpeg"
+import img1 from "../../../../../Imagenes/Cosechas/Cordón de Plata en Casa Gobierno Mza.jpeg"
+import img2 from "../../../../../Imagenes/Cosechas/Cuadro Residencia de Olivos.jpeg"
+import img3 from "../../../../../Imagenes/Cosechas/Escrito Piso 7 de Casa Gobierno.jpeg"
+import img4 from "../../../../../Imagenes/Cosechas/Espacio Antonio Sarelli - Piso 7 Casa de Gobierno.jpeg"
 
-import img5 from "../../../../../../public/Imagenes/Cosechas/WhatsApp Image 2025-12-17 at 12.54.14 PM.jpeg"
-import img6 from "../../../../../../public/Imagenes/Cosechas/WhatsApp Image 2025-12-23 at 11.00.34 PM.jpeg"
-import img7 from "../../../../../../public/Imagenes/Cosechas/WhatsApp Image 2025-12-23 at 11.10.42 PM.jpeg"
-import img8 from "../../../../../../public/Imagenes/Cosechas/WhatsApp Image 2025-12-23 at 11.10.43 PM.jpeg"
+import img5 from "../../../../../Imagenes/Cosechas/WhatsApp Image 2025-12-17 at 12.54.14 PM.jpeg"
+import img6 from "../../../../../Imagenes/Cosechas/WhatsApp Image 2025-12-23 at 11.00.34 PM.jpeg"
+import img7 from "../../../../../Imagenes/Cosechas/WhatsApp Image 2025-12-23 at 11.10.42 PM.jpeg"
+import img8 from "../../../../../Imagenes/Cosechas/WhatsApp Image 2025-12-23 at 11.10.43 PM.jpeg"
 
-import img9 from "../../../../../../public/Imagenes/Cosechas/WhatsApp Image 2025-12-23 at 11.16.11 PM.jpeg"
-import img10 from "../../../../../../public/Imagenes/Cosechas/WhatsApp Image 2026-01-02 at 3.05.57 PM (2).jpeg"
-import img11 from "../../../../../../public/Imagenes/Cosechas/WhatsApp Image 2026-01-02 at 3.05.57 PM (3).jpeg"
-import img12 from "../../../../../../public/Imagenes/Cosechas/WhatsApp Image 2026-01-02 at 3.05.57 PM (4).jpeg"
-import img13 from "../../../../../../public/Imagenes/Cosechas/WhatsApp Image 2026-01-02 at 3.05.57 PM.jpeg"
+import img9 from "../../../../../Imagenes/Cosechas/WhatsApp Image 2025-12-23 at 11.16.11 PM.jpeg"
+import img10 from "../../../../../Imagenes/Cosechas/WhatsApp Image 2026-01-02 at 3.05.57 PM (2).jpeg"
+import img11 from "../../../../../Imagenes/Cosechas/WhatsApp Image 2026-01-02 at 3.05.57 PM (3).jpeg"
+import img12 from "../../../../../Imagenes/Cosechas/WhatsApp Image 2026-01-02 at 3.05.57 PM (4).jpeg"
+import img13 from "../../../../../Imagenes/Cosechas/WhatsApp Image 2026-01-02 at 3.05.57 PM.jpeg"
 
 
 

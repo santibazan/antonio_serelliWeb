@@ -1,6 +1,6 @@
 
-import img1 from "../../../../../../public/Imagenes/Taller/1entradaTaller.jpg"
-import img2 from "../../../../../../public/Imagenes/Taller/2imgResiliencia.jpeg"
+import img1 from "../../../../../Imagenes/Taller/1entradaTaller.jpg"
+import img2 from "../../../../../Imagenes/Taller/2imgResiliencia.jpeg"
 // import img3 from "../../../../../../public/Imagenes/Taller/3puerta.jpeg"
 // import img4 from "../../../../../../public/Imagenes/Taller/4.jpg"
 
@@ -10,9 +10,9 @@ import img2 from "../../../../../../public/Imagenes/Taller/2imgResiliencia.jpeg"
 // import img8 from "../../../../../../public/Imagenes/Taller/8SegPiso.jpg"
 
 // import img9 from "../../../../../../public/Imagenes/Taller/9maquina.jpeg"
-import img10 from "../../../../../../public/Imagenes/Taller/10jardin.jpg"
+import img10 from "../../../../../Imagenes/Taller/10jardin.jpg"
 // import img11 from "../../../../../../public/Imagenes/Taller/11esculturas.jpg"
-import img12 from "../../../../../../public/Imagenes/Taller/12jardinEntrada.jpg"
+import img12 from "../../../../../Imagenes/Taller/12jardinEntrada.jpg"
 // import img13 from "../../../../../../public/Imagenes/Taller/13estrellaNorte.jpg"
 // import img14 from "../../../../../../public/Imagenes/Taller/14esculturasAmaneciendo.jpg"
 

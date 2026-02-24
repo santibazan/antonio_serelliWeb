@@ -1,8 +1,8 @@
 import styles from "./LandingUi.module.css";
 
-import imgProposito from "../../../../public/Imagenes/Taller/TallerDesdeAbajo.jpg";
-import imgMision from "../../../../public/Imagenes/Taller/TallerSur.jpg";
-import imgValores from "../../../../public/Imagenes/Taller/puertaNorte.jpg";
+import imgProposito from "../../../Imagenes/Taller/TallerDesdeAbajo.jpg";
+import imgMision from "../../../Imagenes/Taller/TallerSur.jpg";
+import imgValores from "../../../Imagenes/Taller/puertaNorte.jpg";
 
 
 import { useEffect } from "react";

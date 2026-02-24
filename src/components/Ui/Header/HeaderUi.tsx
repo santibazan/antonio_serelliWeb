@@ -46,20 +46,20 @@ export const HeaderUi = () => {
             </div>
           </div>
 
-          {/* <a className={styles.botonn} href="/RebecaSarelli">
+          <Link to="/RebecaSarelli" className={styles.botonn} >
             Rebeca Sarelli
-          </a> */}
-          <Link to="/RebecaSarelli">Rebeca</Link>
+          </Link>
+          {/* <Link to="/RebecaSarelli">Rebeca</Link> */}
 
-          {/* <a className={styles.botonn} href="/ArteMendocino">
+          <Link to="/ArteMendocino" className={styles.botonn} >
             Arte Mendocino
-          </a> */}
-          <Link to="/ArteMendocino">Rebeca</Link>
+          </Link>
+          {/* <Link to="/ArteMendocino">Rebeca</Link> */}
 
-          {/* <a className={styles.botonn} href="/Contacto">
+          <Link to="/Contacto" className={styles.botonn}>
             Contacto
-          </a> */}
-          <Link to="/Contacto">Rebeca</Link>
+          </Link>
+          {/* <Link to="/Contacto">Rebeca</Link> */}
         </nav>
       </div>
     </>

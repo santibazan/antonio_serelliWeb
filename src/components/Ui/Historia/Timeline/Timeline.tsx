@@ -2,43 +2,43 @@ import { useEffect, useRef, useState } from "react";
 import { animate, scroll } from "motion";
 import styles from "./Timeline.module.css";
 
-import img1 from "../../../../../public/Imagenes/Historia/1954.jpg";
-import img2 from "../../../../../public/Imagenes/Historia/1964.jpg";
-import img3 from "../../../../../public/Imagenes/Historia/1968.jpg";
-import img4 from "../../../../../public/Imagenes/Historia/1972.jpg";
-import img5 from "../../../../../public/Imagenes/Historia/1979.jpg";
-import img6 from "../../../../../public/Imagenes/Historia/1982.jpg";
+import img1 from "../../../../Imagenes/Historia/1954.jpg";
+import img2 from "../../../../Imagenes/Historia/1964.jpg";
+import img3 from "../../../../Imagenes/Historia/1968.jpg";
+import img4 from "../../../../Imagenes/Historia/1972.jpg";
+import img5 from "../../../../Imagenes/Historia/1979.jpg";
+import img6 from "../../../../Imagenes/Historia/1982.jpg";
 
-import img7 from "../../../../../public/Imagenes/Historia/1985.jpg";
-import img8 from "../../../../../public/Imagenes/Historia/1988.jpg";
-import img9 from "../../../../../public/Imagenes/Historia/1988a.jpg";
-import img10 from "../../../../../public/Imagenes/Historia/1993.jpg";
-import img11 from "../../../../../public/Imagenes/Historia/1993.jpg";
+import img7 from "../../../../Imagenes/Historia/1985.jpg";
+import img8 from "../../../../Imagenes/Historia/1988.jpg";
+import img9 from "../../../../Imagenes/Historia/1988a.jpg";
+import img10 from "../../../../Imagenes/Historia/1993.jpg";
+import img11 from "../../../../Imagenes/Historia/1993.jpg";
 
-import img12 from "../../../../../public/Imagenes/Historia/1991.jpg";
-import img13 from "../../../../../public/Imagenes/Historia/1995.jpg";
-import img14 from "../../../../../public/Imagenes/Historia/1995a.jpg";
-import img15 from "../../../../../public/Imagenes/Historia/1996.jpg";
-import img16 from "../../../../../public/Imagenes/Historia/1996a.jpg";
-import img17 from "../../../../../public/Imagenes/Historia/1996b.jpg";
+import img12 from "../../../../Imagenes/Historia/1991.jpg";
+import img13 from "../../../../Imagenes/Historia/1995.jpg";
+import img14 from "../../../../Imagenes/Historia/1995a.jpg";
+import img15 from "../../../../Imagenes/Historia/1996.jpg";
+import img16 from "../../../../Imagenes/Historia/1996a.jpg";
+import img17 from "../../../../Imagenes/Historia/1996b.jpg";
 
-import img18 from "../../../../../public/Imagenes/Historia/1997.jpg";
-import img19 from "../../../../../public/Imagenes/Historia/1998.jpg";
-import img20 from "../../../../../public/Imagenes/Historia/1998a.jpg";
-import img21 from "../../../../../public/Imagenes/Historia/2000.jpg";
-import img22 from "../../../../../public/Imagenes/Historia/2000a.jpg";
+import img18 from "../../../../Imagenes/Historia/1997.jpg";
+import img19 from "../../../../Imagenes/Historia/1998.jpg";
+import img20 from "../../../../Imagenes/Historia/1998a.jpg";
+import img21 from "../../../../Imagenes/Historia/2000.jpg";
+import img22 from "../../../../Imagenes/Historia/2000a.jpg";
 
-import img23 from "../../../../../public/Imagenes/Historia/2000b.jpg";
-import img24 from "../../../../../public/Imagenes/Historia/2000c.jpg";
-import img25 from "../../../../../public/Imagenes/Historia/2004.jpg";
-import img26 from "../../../../../public/Imagenes/Historia/2006.jpg";
-import img27 from "../../../../../public/Imagenes/Historia/2008.jpg";
+import img23 from "../../../../Imagenes/Historia/2000b.jpg";
+import img24 from "../../../../Imagenes/Historia/2000c.jpg";
+import img25 from "../../../../Imagenes/Historia/2004.jpg";
+import img26 from "../../../../Imagenes/Historia/2006.jpg";
+import img27 from "../../../../Imagenes/Historia/2008.jpg";
 
-import img28 from "../../../../../public/Imagenes/Historia/2009.jpg";
-import img29 from "../../../../../public/Imagenes/Historia/2014.jpg";
-import img30 from "../../../../../public/Imagenes/Historia/2015.jpg";
-import img31 from "../../../../../public/Imagenes/Historia/2021.jpg";
-import img32 from "../../../../../public/Imagenes/Historia/2026.jpg";
+import img28 from "../../../../Imagenes/Historia/2009.jpg";
+import img29 from "../../../../Imagenes/Historia/2014.jpg";
+import img30 from "../../../../Imagenes/Historia/2015.jpg";
+import img31 from "../../../../Imagenes/Historia/2021.jpg";
+import img32 from "../../../../Imagenes/Historia/2026.jpg";
 
 type Slide = {
   year: string;

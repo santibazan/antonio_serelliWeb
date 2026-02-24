@@ -1,16 +1,16 @@
-import img1 from "../../../../../../public/Imagenes/AutoretratosSiembra/0270-a.jpeg"
-import img2 from "../../../../../../public/Imagenes/AutoretratosSiembra/0270-b.jpeg"
-import img3 from "../../../../../../public/Imagenes/AutoretratosSiembra/0270-c.jpeg"
-import img4 from "../../../../../../public/Imagenes/AutoretratosSiembra/0270-d.jpeg"
+import img1 from "../../../../../Imagenes/AutoretratosSiembra/0270-a.jpeg"
+import img2 from "../../../../../Imagenes/AutoretratosSiembra/0270-b.jpeg"
+import img3 from "../../../../../Imagenes/AutoretratosSiembra/0270-c.jpeg"
+import img4 from "../../../../../Imagenes/AutoretratosSiembra/0270-d.jpeg"
 
-import img5 from "../../../../../../public/Imagenes/AutoretratosSiembra/0270-e.jpeg"
-import img6 from "../../../../../../public/Imagenes/AutoretratosSiembra/0270.jpeg"
-import img7 from "../../../../../../public/Imagenes/AutoretratosSiembra/0305.jpeg"
-import img8 from "../../../../../../public/Imagenes/AutoretratosSiembra/0305a.jpeg"
+import img5 from "../../../../../Imagenes/AutoretratosSiembra/0270-e.jpeg"
+import img6 from "../../../../../Imagenes/AutoretratosSiembra/0270.jpeg"
+import img7 from "../../../../../Imagenes/AutoretratosSiembra/0305.jpeg"
+import img8 from "../../../../../Imagenes/AutoretratosSiembra/0305a.jpeg"
 
-import img9 from "../../../../../../public/Imagenes/AutoretratosSiembra/0305b.jpeg"
-import img10 from "../../../../../../public/Imagenes/AutoretratosSiembra/0305c.jpeg"
-import img11 from "../../../../../../public/Imagenes/AutoretratosSiembra/0569.jpeg"
+import img9 from "../../../../../Imagenes/AutoretratosSiembra/0305b.jpeg"
+import img10 from "../../../../../Imagenes/AutoretratosSiembra/0305c.jpeg"
+import img11 from "../../../../../Imagenes/AutoretratosSiembra/0569.jpeg"
 
 
 
