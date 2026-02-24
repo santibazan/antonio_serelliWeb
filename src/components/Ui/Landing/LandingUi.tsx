@@ -1,10 +1,5 @@
 import styles from "./LandingUi.module.css";
 
-import imgProposito from "../../../Imagenes/Taller/TallerDesdeAbajo.jpg";
-import imgMision from "../../../Imagenes/Taller/TallerSur.jpg";
-import imgValores from "../../../Imagenes/Taller/puertaNorte.jpg";
-
-
 import { useEffect } from "react";
 
 import ImageGridTaller from "../Antonio/ImageGrid/ImageGridTaller";
@@ -81,7 +76,7 @@ export const LandingUi = () => {
               </p>
             </div>
           </div>
-          <img className={styles.imgMision} src={imgProposito} />
+          <img className={styles.imgMision} src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951855/TallerDesdeAbajo_zd4uhe.jpg" />
         </div>
 
         {/*2. Proposito */}
@@ -109,7 +104,7 @@ export const LandingUi = () => {
               </div>
             </div>
           </div>
-          <img className={styles.imgMisionn} src={imgMision} />
+          <img className={styles.imgMisionn} src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951854/TallerSur_ifn7uu.jpg" />
         </div>
 
         {/*3. Valores */}
@@ -132,7 +127,7 @@ export const LandingUi = () => {
               </div>
             </div>
           </div>
-          <img className={styles.imgMision} src={imgValores} />
+          <img className={styles.imgMision} src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951858/puertaNorte_hon0of.jpg" />
         </div>
 
         <h4>Algunas imagenes de nuestro taller</h4>

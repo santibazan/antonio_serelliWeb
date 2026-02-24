@@ -1,8 +1,5 @@
 import styles from "./AntonioUi.module.css";
 import { Link } from "react-router-dom";
-import imagenSiembra from "../../../Imagenes/LaSiembra.jpeg";
-import imagenFruto from "../../../Imagenes/LosFrutos.jpeg";
-import imagenCosecha from "../../../Imagenes/LaCosecha.jpeg";
 import { Timeline } from "../Historia/Timeline/Timeline";
 import ScrollToTop from "../Scroll/ScrollToTop";
 
@@ -40,7 +37,7 @@ export const AntonioUi = () => {
         <section className={styles["img-container"]}>
           <div>
             <img
-              src={imagenSiembra}
+              src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951898/LaSiembra_pqikvj.png"
               alt="Imagen Siembra"
               style={{ width: "auto" }}
             />
@@ -52,7 +49,7 @@ export const AntonioUi = () => {
         </section>
         <section className={styles["img-containerr"]}>
           <div>
-            <img src={imagenFruto} alt="Imagen Fruto" />
+            <img src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951900/LosFrutos_bpffqx.png" alt="Imagen Fruto" />
             <Link to="/AntonioSarelli/LosFrutos">
               <h4 className={styles.titlee}>Los Frutos</h4>
             </Link>
@@ -61,7 +58,7 @@ export const AntonioUi = () => {
         <section className={styles["img-container"]}>
           <div>
             <img
-              src={imagenCosecha}
+              src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951902/LaCosecha_akmpk9.png"
               alt="Imagen Cosecha"
               style={{ width: "auto" }}
             />
