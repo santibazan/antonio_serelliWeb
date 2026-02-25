@@ -1,25 +1,30 @@
-.contenedorGlobal{
-  background-color: rgba(0, 0, 0, 0.724);
-  padding-top: 1px;
-  
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
 }
 
-.contenedorGlobal h1{
-  font-size: 3rem;
+.contentPrincipal {
+  position: relative;
   color: rgb(201, 201, 201);
+  z-index: 100;
   margin: 20px 70px;
+  text-align: center;
 }
-.contenedorGlobal p{
-  color: white;
-  padding: 20px 70px;
-  text-align: justify;
 
+.contentPrincipal h1{
+  font-size: 3rem;
 }
+.contentPrincipal p{
+  color: white;
+  text-align: justify;
+}
+
 
 .imagen p{
   color: white;
-  padding: 50px 100px;
   padding-top: 80px;
+
 }
 
 .imagen {
@@ -29,12 +34,11 @@
   overflow: hidden;
 
 
-  background-image: url("../../../Imagenes/Taller/RebeTrabajando.jpg");
+  background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951832/7ArteMendodino_j1pevm.jpg");
 
   /* ajustá la ruta */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
 
 }

@@ -4,10 +4,15 @@
   min-height: 100vh;
   overflow: hidden;
   
-  background-image: url("../../../Imagenes//fondoContacto.jpeg"); /* ajustá la ruta */
+  background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951829/5_dyrmtj.jpg"); /* ajustá la ruta */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.60);
 }
 
 .background {
@@ -40,6 +45,9 @@
     display: grid;
     justify-content: start;
     align-items: center;
+    color: white;
+    z-index: 100;
+    font-size: 1.4rem;
 
 }
 
@@ -49,14 +57,19 @@
 }
 
 .mail{
-    color: #E94B42;
-    text-decoration: none
-}
+    /* color: #E94B42; */
+    color: white;
 
+}
+.mail:hover{
+    color: #C49946;
+}
 /* Mapa */
 .mapContainer {
-    width: 100%;
-    height: 350px;
+    width: 400px;
+    height: 400px;
+    z-index: 100;
+
 }
 
 .mapContainer iframe {

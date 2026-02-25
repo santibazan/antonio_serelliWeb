@@ -6,6 +6,7 @@ export const ContactoUi = () => {
       <section
         className={styles.imagen}
       >
+        <div className={styles.overlay} />
         <div className={styles.contacto}>
           <div className={styles.datos}>
             <h2>Taller Sarelli</h2>

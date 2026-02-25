@@ -5,7 +5,7 @@ import ScrollToTop from "../Scroll/ScrollToTop";
 
 export const AntonioUi = () => {
   return (
-    <div className={styles.contenedorGlobal}>
+    <div>
       <section className={styles.imagen}>
         <div className={styles.overlay} />
 
@@ -16,7 +16,7 @@ export const AntonioUi = () => {
             del mundo, porque lo real también consistía en lo que podría haber
             ocurrido y no sucedió"
             <br />
-            <p className={styles.paulHoster}>Paul Auster</p>
+            <p className={styles.paulHoster}>Paul Auster.</p>
           </p>
           <p>
             Hasta encontrarse con sus primeros maestros, Antonio Sarelli fue un
@@ -27,7 +27,7 @@ export const AntonioUi = () => {
             se divide en tres partes, denominados con elementos vinculados a la
             agricultura; la siembra, que presenta una biografía del artista, los
             frutos, un catálogo de obras y la cosecha, una selección de críticas
-            y artículos periodísticos
+            y artículos periodísticos.
           </p>
         </div>
       </section>

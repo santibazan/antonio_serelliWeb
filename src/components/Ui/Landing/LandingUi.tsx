@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import ImageGridTaller from "../Antonio/ImageGrid/ImageGridTaller";
 import ScrollToTop from "../Scroll/ScrollToTop";
 
-
 export const LandingUi = () => {
   useEffect(() => {
     const elements = document.querySelectorAll(`.${styles.animacion}`);
@@ -76,7 +75,10 @@ export const LandingUi = () => {
               </p>
             </div>
           </div>
-          <img className={styles.imgMision} src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951855/TallerDesdeAbajo_zd4uhe.jpg" />
+          <img
+            className={styles.imgMision}
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951855/TallerDesdeAbajo_zd4uhe.jpg"
+          />
         </div>
 
         {/*2. Proposito */}
@@ -104,7 +106,10 @@ export const LandingUi = () => {
               </div>
             </div>
           </div>
-          <img className={styles.imgMisionn} src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951854/TallerSur_ifn7uu.jpg" />
+          <img
+            className={styles.imgMisionn}
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951854/TallerSur_ifn7uu.jpg"
+          />
         </div>
 
         {/*3. Valores */}
@@ -120,14 +125,16 @@ export const LandingUi = () => {
                   <li>Paz como forma de presencia.</li>
                   <li>Serenidad como actitud frente al tiempo.</li>
                   <li>
-                    Contemplacion como modo de habitarnos y habitar el
-                    mundo.
+                    Contemplacion como modo de habitarnos y habitar el mundo.
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <img className={styles.imgMision} src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951858/puertaNorte_hon0of.jpg" />
+          <img
+            className={styles.imgMision}
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951858/puertaNorte_hon0of.jpg"
+          />
         </div>
 
         <h4>Algunas imagenes de nuestro taller</h4>
