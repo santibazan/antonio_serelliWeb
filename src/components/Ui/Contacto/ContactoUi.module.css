@@ -1,18 +1,20 @@
 .imagen {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
-  
-  background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951829/5_dyrmtj.jpg"); /* ajustá la ruta */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+
+    background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951829/5_dyrmtj.jpg");
+    /* ajustá la ruta */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.60);
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.60);
 }
 
 .background {
@@ -23,10 +25,10 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    
-    padding-top: 100px;
 
-} 
+    padding-top: 100px;
+    
+}
 
 /* Contenido */
 .contacto {
@@ -37,11 +39,15 @@
     padding: 40px;
     border-radius: 12px;
 
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr 1fr;
     gap: 30vw;
+    align-items: center;
 }
-.datos{
+
+
+.datos {
     display: grid;
     justify-content: start;
     align-items: center;
@@ -56,19 +62,21 @@
     margin-bottom: 50px;
 }
 
-.mail{
+.mail {
     /* color: #E94B42; */
     color: white;
 
 }
-.mail:hover{
+
+.mail:hover {
     color: #C49946;
 }
+
 /* Mapa */
 .mapContainer {
-    width: 400px;
-    height: 400px;
-    z-index: 100;
+    width: 80vw;
+    height: 30vh;
+    z-index: 0;
 
 }
 
@@ -77,4 +85,30 @@
     height: 100%;
     border: 0;
     border-radius: 8px;
+}
+
+/* RESPONSIVE */
+@media (min-width:768px) {
+    .contacto {
+        display: grid;
+    }
+
+    .mapContainer {
+        width: 300px;
+        height: 300px;
+        z-index: 0;
+
+    }
+}
+@media (min-width:992px) {
+    .contacto {
+        display: grid;
+    }
+
+    .mapContainer {
+        width: 400px;
+        height: 400px;
+        z-index: 0;
+
+    }
 }

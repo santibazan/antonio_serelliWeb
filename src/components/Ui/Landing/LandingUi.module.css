@@ -1,195 +1,180 @@
+/* HERO */
 .imagen {
   position: relative;
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
+    background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951849/622389798_122105173323221414_3278525121540072140_n_kj7mfi.jpg");
 
-  background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951849/622389798_122105173323221414_3278525121540072140_n_kj7mfi.jpg");
-  /* ajustá la ruta */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-
 }
-
 .overlay {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
 }
 
+
 .contentTallerSarelli {
   position: relative;
-  max-width: 500px;
-  padding: 300px 50px;
+  max-width: 100%;
+  padding: 120px 20px 60px;
   color: rgb(201, 201, 201);
   z-index: 2;
-  text-align: justify;
+  text-align: left;
 }
 
-.contentTallerSarelli h1{
-  font-size: 3rem;
+.contentTallerSarelli h1 {
+  font-size: 2.1rem;
+  margin-bottom: 16px;
 }
 
-.contentTallerSarelli h4{
-  font-size: 1.1rem;
+.contentTallerSarelli h4 {
+  font-size: 1rem;
+  line-height: 1.6;
 }
-
-
 
 .contentVisiones {
   background-color: rgba(0, 0, 0, 0.724);
   display: flex;
   flex-direction: column;
-  gap: 100px;
-  padding: 100px 50px;
+  gap: 70px;
+  padding: 60px 20px;
 
   overflow-x: hidden;
 }
 
 .contentVisiones h4 {
-  margin-top: 100px;
+  margin-top: 60px;
   color: rgb(207, 207, 207);
-  font-size: 2rem;
+  font-size: 1.6rem;
+  text-align: center;
 }
+
+
 
 .contenedorEtiqueta {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 
-  /* justify-content: space-between; */
-
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  column-gap: 50px;
-
-
 }
 
-.contenedorEtiqueta h4 {
-  color: white;
-  text-align: justify;
-}
-
-
-/* invertido: imagen izquierda, texto derecha */
 .reverse {
-  direction: rtl;
-}
-
-.reverse>* {
   direction: ltr;
 }
 
-
-
 .textoWrapper {
-  max-width: 500px;
-  justify-self: start;
+  max-width: 100%;
   color: white;
-
 }
 
-/* entra desde la izquierda */
-.fromLeft {
-  transform: translateX(-200px);
-}
-
-/* entra desde la derecha */
-.fromRight {
-  transform: translateX(200px);
-}
-
-
-
-.imgMisionn {
-  padding-left: 0;
-}
-
+/* IMÁGENES */
 .imgMision,
 .imgMisionn {
-  height: 400px;
-  width: auto;
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: cover;
 }
 
-
-.animacion {
-  opacity: 0;
-  transition: opacity 0.8s ease, transform 0.8s ease;
-  /* Aca regulamos la anchura del texto de las viñetas */
-  width: auto;
-}
-
-
-/* estado visible */
-.animacion.visible {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-
-
+/* TEXTO */
 .tituloFinal {
-  font-size: 2.2rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: rgb(207, 207, 207);
+  font-size: 1.8rem;
+  margin-bottom: 16px;
 }
 
 .textoFinal {
-  font-size: 1rem;
-  max-width: 600px;
-  margin-bottom: 24px;
+  font-size: 0.95rem;
   line-height: 1.6;
-
   text-align: justify;
-  max-width: 600px;
 }
 
-.textoFinal ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+/* RESPONSIVE */
 
-
-
-.listaFinal li {
-  margin-bottom: 12px;
-}
-
-.listaFinal h3 {
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 1.6;
-}
-
-
-
-/* =======================RESPONSIVE======================= */
-/* @media (max-width: 1024px) {
-  .animacion {
-    width: 45vw;
+@media (min-width: 768px) {
+  .contentTallerSarelli {
+    padding: 180px 40px 80px;
+    max-width: 600px;
   }
-}
 
-@media (max-width: 768px) {
+  .contentTallerSarelli h1 {
+    font-size: 2.6rem;
+  }
+
+  .contentTallerSarelli h4 {
+    font-size: 1.05rem;
+  }
+
   .contentVisiones {
-    padding: 80px 24px;
-    gap: 80px;
+    padding: 80px 40px;
+    gap: 90px;
   }
 
-  .animacion {
-    width: 100%;
-    font-size: medium;
+  .contenedorEtiqueta {
+    gap: 40px;
   }
 
-  .animacion:nth-of-type(odd),
-  .animacion:nth-of-type(even) {
-    transform: translateX(200px);
-    margin-left: 0;
-    margin-right: 0;
+  .imgMision,
+  .imgMisionn {
+    max-height: 380px;
+  }
+
+  .tituloFinal {
+    font-size: 2rem;
   }
 }
- */
+
+@media (min-width: 992px) {
+  .contentTallerSarelli {
+    padding: 280px 50px;
+    max-width: 500px;
+  }
+
+  .contentTallerSarelli h1 {
+    font-size: 3rem;
+  }
+
+  .contentTallerSarelli h4 {
+    font-size: 1.1rem;
+  }
+
+  .contentVisiones {
+    padding: 100px 50px;
+    gap: 100px;
+  }
+
+  .contenedorEtiqueta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    align-items: center;
+    max-width: 1200px;
+  }
+
+  .reverse {
+    direction: rtl;
+  }
+
+  .reverse > * {
+    direction: ltr;
+  }
+
+  .imgMision,
+  .imgMisionn {
+    height: 400px;
+    width: auto;
+  }
+
+  .tituloFinal {
+    font-size: 2.2rem;
+  }
+
+  .textoFinal {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+}

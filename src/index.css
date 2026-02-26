@@ -1,46 +1,73 @@
-
-* {
+/* =========================
+   Reset base (seguro)
+========================= */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
-
+/* =========================
+   Variables globales
+========================= */
 :root {
   --color-text: #1a1a1a;
   --color-background: #ffffff;
   --color-accent: #646cff;
 
   font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16px; /* 👈 CLAVE */
   line-height: 1.6;
   font-weight: 400;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --bs-body-font-family: 'Alegreya Sans', sans-serif;
 }
 
+/* =========================
+   Base
+========================= */
 html,
 body {
+  margin: 0;
   min-height: 100%;
   background-color: var(--color-background);
   color: var(--color-text);
+
 }
 
-h1, h2 {
+
+/* =========================
+   Tipografía base
+========================= */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   font-weight: 700;
-  letter-spacing: 0.5px;
 }
 
-h3, h4 {
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
   font-weight: 500;
 }
 
 p {
+  margin-bottom: 1rem;
   font-weight: 400;
 }
 
-
+/* =========================
+   Links
+========================= */
 a {
   font-weight: 500;
   color: var(--color-accent);
@@ -52,22 +79,34 @@ a:hover {
   color: #535bf2;
 }
 
-
+/* =========================
+   Botones
+========================= */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 500;
-  font-family: inherit;
   background-color: #1a1a1a;
   color: white;
   cursor: pointer;
   transition: all 0.25s ease;
 }
 
+button:hover {
+  border-color: var(--color-accent);
+}
 
 button:focus,
 button:focus-visible {
+  outline: 3px solid var(--color-accent);
   outline-offset: 2px;
+}
+
+/* =========================
+   Root (sin romper layout)
+========================= */
+#root {
+  min-height: 100vh;
 }

@@ -5,24 +5,26 @@ import ImageGrid60 from "../ImageGrid/ImageGrid60";
 import ImageGrid70 from "../ImageGrid/ImageGrid70";
 import ImageGrid80 from "../ImageGrid/ImageGrid80.tsx";
 import ImageGrid90 from "../ImageGrid/ImageGrid90.tsx";
-import styles from "./Frutos.module.css"
+import styles from "./Frutos.module.css";
 
 export const DecadasUi = () => {
   return (
     <div className={styles.contenedorGlobalLanding}>
-    <HeaderUi/>
-    <h1>Decada de los 60</h1>
-    <ImageGrid60/> 
-    <h1>Decada de los 70</h1>
-    <ImageGrid70/>
-    <h1>Decada de los 80</h1>
-    <ImageGrid80/>
-    <h1>Decada de los 90</h1>
-    <ImageGrid90/>
-    <h1>Decada de los 2000</h1>
-    <ImageGrid2000/>
-    <h1>Decada de los 2010</h1>
-    <ImageGrid2010/>
+      <HeaderUi />
+      <div className={styles.contenedorDecadas}>
+        <h1>Decada de los 60</h1>
+        <ImageGrid60 />
+        <h1>Decada de los 70</h1>
+        <ImageGrid70 />
+        <h1>Decada de los 80</h1>
+        <ImageGrid80 />
+        <h1>Decada de los 90</h1>
+        <ImageGrid90 />
+        <h1>Decada de los 2000</h1>
+        <ImageGrid2000 />
+        <h1>Decada de los 2010</h1>
+        <ImageGrid2010 />
+      </div>
     </div>
-  )
-}
+  );
+};

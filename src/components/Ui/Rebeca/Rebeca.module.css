@@ -1,40 +1,60 @@
-.contenedorGlobal{
-  background-color: rgba(0, 0, 0, 0.724);
-  padding-top: 1px;
-  
-}
-
-.contenedorGlobal h1{
-  font-size: 3rem;
-  color: rgb(201, 201, 201);
-  margin: 20px 70px;
-}
-.contenedorGlobal p{
-  color: white;
-  padding: 20px 70px;
-  text-align: justify;
-
-}
-
-.imagen p{
-  color: white;
-  padding: 50px 100px;
-  padding-top: 80px;
-}
-
 .imagen {
   position: relative;
-  min-height: 100vh;
+  min-height: 93vh;
   width: 100vw;
   overflow: hidden;
 
 
-  background-image: url("../../../Imagenes/Taller/RebeTrabajando.jpg");
-
-  /* ajustá la ruta */
+  background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951850/RebeTrabajando_utukeo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
+}
+.contenedorGlobal{
+  background-color: rgba(0, 0, 0, 0.724);
 
+}
+
+.contenedorGlobal > p{
+  padding: 60px 40px 60px;
+}
+
+.contentTallerSarelli {
+  position: relative;
+  max-width: 100%;
+  padding: 60px 40px 60px;
+  /* color: rgb(201, 201, 201); */
+  color: white;
+  z-index: 2;
+  text-align: center;
+}
+
+
+.contentTallerSarelli h1 {
+  font-size: 2.1rem;
+  margin-bottom: 16px;
+}
+
+.contentTallerSarelli p {
+  font-size: 1rem;
+  line-height: 1.6;
+
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+  .contentTallerSarelli{
+    padding: 20px 50px;
+  }
+  .contentTallerSarelli h1{
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px){
+  .contentTallerSarelli {
+  padding: 25px 50px;
+  text-align: justify;
+}
 }

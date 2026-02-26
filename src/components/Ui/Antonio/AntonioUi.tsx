@@ -31,7 +31,6 @@ export const AntonioUi = () => {
           </p>
         </div>
       </section>
-      <img src="" alt="" />
 
       <div className={styles.containerPrincipal}>
         <section className={styles["img-container"]}>

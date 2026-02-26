@@ -1,68 +1,121 @@
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+
+// export const HeaderUi = () => {
+//   return (
+//     <Navbar expand="lg" className="bg-body-tertiary">
+//       <Container>
+//         <Navbar.Brand href="/">Taller de Arte Sarelli</Navbar.Brand>
+//         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+//         <Navbar.Collapse id="basic-navbar-nav">
+//           <Nav className="me-auto">
+//             <Nav.Link href="/Antonio Sarelli">Antonio Sarelli</Nav.Link>
+//             <Nav.Link href="/Rebeca Sarelli">Rebeca Sarelli</Nav.Link>
+//             <Nav.Link href="/Rebeca Sarelli">Arte Mendocino</Nav.Link>
+//             <Nav.Link href="/Rebeca Sarelli">Contacto</Nav.Link>
+//           </Nav>
+//         </Navbar.Collapse>
+//       </Container>
+//     </Navbar>
+//   );
+// }
+
+// export default HeaderUi;
+
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+
 import styles from "./HeaderUi.module.css";
 
-import { Link } from "react-router-dom";
-
 export const HeaderUi = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
 
   return (
-    <>
-      <div className={styles.contenedorPrincipalHeader}>
-        <a className={styles.botonn} href="/">
-          <span>Taller de arte Antonio Sarelli</span>
-        </a>
+    <Navbar expand="lg" className={styles.contenedorPrincipalHeader}>
+      <Container fluid>
+        {/* BRAND */}
+        <Navbar.Brand as={Link} to="/" className={styles.botonn}>
+          Taller de arte Antonio Sarelli
+        </Navbar.Brand>
 
-        <nav className={styles.nav}>
-          <div
-            className={styles.dropdown}
-            onMouseEnter={() => setIsOpen(true)}
-            onMouseLeave={() => setIsOpen(false)}
-          >
-            <span className={styles.botonn}>
-              <Link to="/AntonioSarelli" className={styles.botonn}>
+        {/* BOTÓN HAMBURGUESA */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className={`ms-auto ${styles.nav}`}>
+            {/* DROPDOWN PERSONALIZADO */}
+            <div
+              className={styles.dropdown}
+              onMouseEnter={() => setIsSubmenuOpen(true)}
+              onMouseLeave={() => setIsSubmenuOpen(false)}
+            >
+              <Nav.Link
+                as={Link}
+                to="/AntonioSarelli"
+                className={styles.botonn}
+              >
                 Antonio Sarelli
-              </Link>
-            </span>
+              </Nav.Link>
 
-            <div className={`${styles.submenu} ${isOpen ? styles.show : ""}`}>
-              <ul>
-                <li>
-                  <Link to="/AntonioSarelli/LaSiembra" className={styles.submenuLink}>
-                    La siembra
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/AntonioSarelli/LosFrutos" className={styles.submenuLink}>
-                    Los frutos
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/AntonioSarelli/LaCosecha" className={styles.submenuLink}>
-                    La cosecha
-                  </Link>
-                </li>
-              </ul>
+              <div
+                className={`${styles.submenu} ${
+                  isSubmenuOpen ? styles.show : ""
+                }`}
+              >
+                <ul>
+                  <li>
+                    <Link
+                      to="/AntonioSarelli/LaSiembra"
+                      className={styles.submenuLink}
+                    >
+                      La siembra
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/AntonioSarelli/LosFrutos"
+                      className={styles.submenuLink}
+                    >
+                      Los frutos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/AntonioSarelli/LaCosecha"
+                      className={styles.submenuLink}
+                    >
+                      La cosecha
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
 
-          <Link to="/RebecaSarelli" className={styles.botonn} >
-            Rebeca Sarelli
-          </Link>
-          {/* <Link to="/RebecaSarelli">Rebeca</Link> */}
+            {/* LINKS NORMALES */}
+            <div>
+              <Nav.Link as={Link} to="/RebecaSarelli" className={styles.botonn}>
+                Rebeca Sarelli
+              </Nav.Link>
+            </div>
+            <div>
+              <Nav.Link as={Link} to="/ArteMendocino" className={styles.botonn}>
+                Arte Mendocino
+              </Nav.Link>
+            </div>
 
-          <Link to="/ArteMendocino" className={styles.botonn} >
-            Arte Mendocino
-          </Link>
-          {/* <Link to="/ArteMendocino">Rebeca</Link> */}
-
-          <Link to="/Contacto" className={styles.botonn}>
-            Contacto
-          </Link>
-          {/* <Link to="/Contacto">Rebeca</Link> */}
-        </nav>
-      </div>
-    </>
+            <div>
+              <Nav.Link as={Link} to="/Contacto" className={styles.botonn}>
+                Contacto
+              </Nav.Link>
+            </div>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 

@@ -1,7 +1,7 @@
 .button {
   position: fixed;
-  bottom: 36px;
-  right: 36px;
+  bottom: 20px;
+  right: 20px;
 
   width: 48px;
   height: 48px;
@@ -34,22 +34,16 @@
   pointer-events: auto;
 }
 
-/* 🔁 ACA PASA LA MAGIA */
+
 .icon {
   display: flex;
   animation: sway 2.8s ease-in-out infinite;
 }
 
-
-
-/* @keyframes sway {
-  0% {
-    transform: rotate(10deg);
+/* RESPONSIVE */
+@media (min-width: 768px) {
+  .button {
+    bottom: 36px;
+    right: 36px;
   }
-  50% {
-    transform: rotate(-10deg);
-  }
-  100% {
-    transform: rotate(10deg);
-  }
-} */
+}

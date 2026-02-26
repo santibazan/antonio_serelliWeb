@@ -141,9 +141,7 @@ export const LandingUi = () => {
         <ImageGridTaller />
       </section>
       <ScrollToTop />
-      <br />
-      <br />
-      <br />
+
     </>
   );
 };

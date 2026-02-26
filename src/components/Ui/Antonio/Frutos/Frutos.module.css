@@ -1,19 +1,78 @@
-.contenedorGlobalLanding{
-    /* position: fixed;
+/* Este estilo es para la seccion de la parte de las decadas */
+.contenedorGlobalLanding {
+  /* position: fixed;
     top: 0; */
-    width: 100vw;
-    box-sizing: border-box;
+  width: 100vw;
+  box-sizing: border-box;
 }
-.contenedorGlobal{
-  background-color: rgba(0, 0, 0, 0.724);
-  padding-top: 1px;
-}
-.contenedorGlobal h1{
-  color: rgb(201, 201, 201);
+.contenedorDecadas{
+  padding: 60px 40px 60px;
 }
 
-.contenedorGlobal p{
-  color: white;
-  padding: 10px 100px;
-  padding-bottom: 80px;
+.contentTallerSarelli {
+  position: relative;
+  max-width: 100%;
+  padding: 60px 40px 60px;
+  color: rgb(201, 201, 201);
+  z-index: 2;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.724);
+}
+
+
+.contentTallerSarelli h1 {
+  font-size: 2.1rem;
+  margin-bottom: 16px;
+}
+
+.contentTallerSarelli p {
+  font-size: 1rem;
+  line-height: 1.6;
+
+}
+
+
+
+/* RESPONSIVE */
+
+@media (min-width: 768px) {
+  .contentTallerSarelli {
+    position: relative;
+    max-width: 100%;
+    padding: 100px 50px 60px;
+    color: rgb(201, 201, 201);
+    z-index: 2;
+    text-align: center;
+  }
+
+  .contentTallerSarelli h1 {
+    font-size: 2.6rem;
+  }
+
+  .contentTallerSarelli p {
+    font-size: 1.05rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .contentTallerSarelli {
+    position: relative;
+    max-width: 100%;
+    padding: 100px 50px 60px;
+    color: rgb(201, 201, 201);
+    z-index: 2;
+    text-align: center;
+
+  }
+
+  .contentTallerSarelli h1 {
+    font-size: 3rem;
+  }
+
+  .contentTallerSarelli p {
+    font-size: 1.1rem;
+  }
+
+
 }
