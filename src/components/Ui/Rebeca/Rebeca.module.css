@@ -17,7 +17,11 @@
 }
 
 .contenedorGlobal > p{
-  padding: 60px 40px 60px;
+  padding: 60px;
+}
+
+.grilla{
+  padding: 10px 50px;
 }
 
 .contentTallerSarelli {

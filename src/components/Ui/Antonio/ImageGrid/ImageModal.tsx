@@ -11,13 +11,13 @@ interface Props {
 
 export default function ImageModal({ image, onClose }: Props) {
   useEffect(() => {
-  const handleEsc = (e: KeyboardEvent) => {
-    if (e.key === "Escape") onClose();
-  };
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
 
-  window.addEventListener("keydown", handleEsc);
-  return () => window.removeEventListener("keydown", handleEsc);
-}, [onClose]);
+    window.addEventListener("keydown", handleEsc);
+    return () => window.removeEventListener("keydown", handleEsc);
+  }, [onClose]);
   return (
     <AnimatePresence>
       <motion.div
@@ -39,18 +39,18 @@ export default function ImageModal({ image, onClose }: Props) {
             ✕
           </button>
 
-          <div className={styles.imageWrapper}>
-            <img src={image.src} alt={image.title} />
-          </div>
+          <div className={styles.content}>
+            <div className={styles.imageWrapper}>
+              <img src={image.src} alt={image.title} />
+            </div>
 
-          <div className={styles.text}>
-            <h2>{image.title}</h2>
-            <p>{image.description}</p>
+            <div className={styles.text}>
+              <h2>{image.title}</h2>
+              <p>{image.description}</p>
+            </div>
           </div>
         </motion.div>
       </motion.div>
     </AnimatePresence>
   );
 }
-
-

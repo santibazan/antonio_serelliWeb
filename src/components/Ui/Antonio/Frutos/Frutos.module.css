@@ -6,7 +6,10 @@
   box-sizing: border-box;
 }
 .contenedorDecadas{
-  padding: 60px 40px 60px;
+  padding: 50px;
+}
+.contenedorDecadas h1{
+  padding-top: 50px;
 }
 
 .contentTallerSarelli {

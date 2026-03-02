@@ -1,4 +1,5 @@
-import ImageGridSiembra from "../Antonio/ImageGrid/ImageGridSiembra";
+import ImageGridRebeca from "../Antonio/ImageGrid/ImageGridRebeca";
+
 import ScrollToTop from "../Scroll/ScrollToTop";
 import styles from "./Rebeca.module.css";
 
@@ -64,9 +65,11 @@ export const RebecaUi = () => {
         lugares de reflexión y calma. Esta colección reúne piezas que hablan sin
         palabras, que observan tanto como son observadas, y que nos recuerdan
         que el arte también puede ser un refugio.
-      <ImageGridSiembra />
-      <ScrollToTop />
       </p>
+      <div className={styles.grilla}>
+        <ImageGridRebeca />
+      </div>
+      <ScrollToTop />
     </div>
   );
 };
