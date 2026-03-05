@@ -39,7 +39,7 @@ export const HeaderUi = () => {
       <Container fluid>
         {/* BRAND */}
         <Navbar.Brand as={Link} to="/" className={styles.botonn}>
-          Taller de arte Antonio Sarelli
+          Taller de Arte Sarelli
         </Navbar.Brand>
 
         {/* BOTÓN HAMBURGUESA */}

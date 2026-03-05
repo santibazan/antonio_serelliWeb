@@ -54,13 +54,13 @@ export const LandingUi = () => {
               <h2 className={styles.tituloFinal}>Historia de origen.</h2>
 
               <p className={styles.textoFinal}>
-                En un rincón sereno de Mendoza, entre montañas, viñedos y
+                En un rincón sereno de Mendoza, entre montañas y
                 memorias, un atelier resiste al olvido. No es solo un taller, es
-                un santuario de contemplacion, un espacio donde el arte ha sido,
+                un santuario de contemplación, un espacio donde el arte ha sido,
                 durante décadas, un acto de resistencia, de paz, y de profundo
                 amor humano. Antonio Sarelli, con más de siete decadas de
                 entrega silenciosa a la pintura, ha sostenido una misión
-                constante: preservar la esencial del ser hbumano. Sus trazos son
+                constante: preservar lo esencial del ser humano. Sus trazos son
                 susurros firmes que hablan de respeto, unión, serenidad,
                 contemplación y paz. Su obra no grita, abraza. No exige, invita.
                 Cada pieza es una ofrenda a los valores que el mundo parece
@@ -85,14 +85,14 @@ export const LandingUi = () => {
         <div className={`${styles.contenedorEtiqueta} ${styles.reverse}`}>
           <div className={styles.textoWrapper}>
             <div className={`${styles.animacion} ${styles.fromRight}`}>
-              <h2 className={styles.tituloFinal}>Nuestro proposito</h2>
+              <h2 className={styles.tituloFinal}>Nuestro propósito</h2>
 
               <div className={styles.textoFinal}>
-                Tenemos un doble proposito:
                 <ul>
+                Tenemos un doble propósito:
                   <br />
                   <li>
-                    Preservar y proyectar el legado artistico y humano de
+                    Preservar y proyectar el legado artístico y humano de
                     Antonio y Rebeca Sarelli.
                   </li>
                   <br />
@@ -125,7 +125,7 @@ export const LandingUi = () => {
                   <li>Paz como forma de presencia.</li>
                   <li>Serenidad como actitud frente al tiempo.</li>
                   <li>
-                    Contemplacion como modo de habitarnos y habitar el mundo.
+                    Contemplación como modo de habitarnos y habitar el mundo.
                   </li>
                 </ul>
               </div>
