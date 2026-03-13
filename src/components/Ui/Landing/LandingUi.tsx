@@ -44,6 +44,8 @@ export const LandingUi = () => {
         </div>
       </section>
 
+      
+
       {/* Parte de las viñetas */}
 
       <section className={styles.contentVisiones}>
@@ -77,7 +79,8 @@ export const LandingUi = () => {
           </div>
           <img
             className={styles.imgMision}
-            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951855/TallerDesdeAbajo_zd4uhe.jpg"
+            // src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951855/TallerDesdeAbajo_zd4uhe.jpg"
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951829/5_dyrmtj.jpg"
           />
         </div>
 
@@ -108,7 +111,8 @@ export const LandingUi = () => {
           </div>
           <img
             className={styles.imgMisionn}
-            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951854/TallerSur_ifn7uu.jpg"
+            // src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951854/TallerSur_ifn7uu.jpg"
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951823/2imgResiliencia_lnfhtq.jpg"
           />
         </div>
 
@@ -133,7 +137,8 @@ export const LandingUi = () => {
           </div>
           <img
             className={styles.imgMision}
-            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951858/puertaNorte_hon0of.jpg"
+            // src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951858/puertaNorte_hon0of.jpg"
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951821/1entradaTaller_wrlc3i.jpg"
           />
         </div>
 

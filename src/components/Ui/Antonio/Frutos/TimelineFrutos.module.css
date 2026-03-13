@@ -81,10 +81,11 @@
   line-height: 1.2;
   position: relative;
   display: inline-block;
+  color: #C49946;
 }
 
 .img-container h3 a {
-  color: rgb(238, 221, 177);
+
   text-decoration: none;
 }
 
@@ -211,10 +212,11 @@
   line-height: 1.2;
   position: relative;
   display: inline-block;
+  padding-top: 50px;
 }
 
 .img-container h3 a {
-  color: rgb(238, 221, 177);
+  color: #C49946;
   text-decoration: none;
 }
 

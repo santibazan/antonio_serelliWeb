@@ -1,29 +1,31 @@
 import ScrollToTop from "../../Scroll/ScrollToTop";
 import ImageGridSiembra from "../ImageGrid/ImageGridSiembra";
-import styles from "./Siembra.module.css"
-
-
+import styles from "./Siembra.module.css";
 
 export const SiembraUi = () => {
   return (
     <div className={styles.contenedorGlobal}>
       <h1>La siembra</h1>
       <p>
-        Todo artista nace dos veces: una el día en que llega al mundo y otra
-        cuando descubre su vocación. La siembra recorre los primeros pasos de
-        Antonio Sarelli, desde su nacimiento y su entorno inicial hasta el
-        momento en que el arte comienza a manifestarse como una necesidad vital.
-        En estas páginas se revelan sus primeras inquietudes, los paisajes
-        humanos y culturales que lo rodearon, y el impulso interior que lo llevó
-        a adentrarse en el camino de la creación. La siembra no habla solo de
-        fechas o lugares, sino de la formación del espíritu artístico: el
-        aprendizaje, la observación atenta del mundo, las primeras herramientas,
-        los ensayos y errores que moldearon su mirada. Es el tiempo en que la
-        pasión germina lentamente, echando raíces profundas que sostendrán toda
-        su obra futura.
+        Antonio Sarelli creció en un entorno de niñez Campesina , donde lo
+        cotidiano tenía un peso verdadero: la sencillez, la humildad y una
+        armonía familiar que lo marcó para siempre. En esos primeros años se
+        forma una sensibilidad hecha de silencios, afectos y contemplación; una
+        memoria íntima que, lejos de quedar atrás, vuelve una y otra vez como
+        semilla de su mirada y como sostén emocional de su pintura.
       </p>
-      <ImageGridSiembra/>
-      <ScrollToTop/>
+      <p>
+        Pero el punto de giro llega temprano, con un gesto que parece escrito
+        para un a biografía: su maestro de la escuela primaria, Fausto Julián
+        Gutiérrez, reconoce en él una vocación real, habla con sus padres y lo
+        impulsa a dar el paso decisivo: ingresar a la Academia Provincial de
+        Bellas Artes. No es solo una recomendación: es la mano de un maestro que
+        “ sale a buscarlo ” para abrirle una puerta. Y desde ahí, desde esa
+        infancia sencilla y ese llamado oportuno, comienza el camino de una vida
+        dedicada al arte.
+      </p>
+      <ImageGridSiembra />
+      <ScrollToTop />
     </div>
   );
 };

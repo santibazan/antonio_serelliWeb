@@ -27,7 +27,7 @@
     background-size: cover;
 
     padding-top: 100px;
-    
+
 }
 
 /* Contenido */
@@ -55,6 +55,16 @@
     z-index: 100;
     font-size: 1.4rem;
 
+}
+.redes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.redes svg {
+    font-size: 22px;
+    color: #C49946;
 }
 
 /* Datos */
@@ -100,6 +110,7 @@
 
     }
 }
+
 @media (min-width:992px) {
     .contacto {
         display: grid;

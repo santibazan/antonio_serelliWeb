@@ -1,11 +1,10 @@
-import styles from "./ContactoUi.module.css"
+import styles from "./ContactoUi.module.css";
+import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 export const ContactoUi = () => {
   return (
     <>
-      <section
-        className={styles.imagen}
-      >
+      <section className={styles.imagen}>
         <div className={styles.overlay} />
         <div className={styles.contacto}>
           <div className={styles.datos}>
@@ -14,11 +13,25 @@ export const ContactoUi = () => {
             <h5>Godoy Cruz, Mendoza</h5>
             <h5>Teléfono: +5491132973461</h5>
             <a
-              href="mailto:santiago.n.bazan@outlook.com"
+              href="mailto:sarellialdo@gmail.com"
               className={styles.mail}
             >
               aldosarelli@gmail.com
             </a>
+            <div>
+             
+              <div className={styles.redes}>
+                <a href="https://www.instagram.com/tallerdeartesarelli/">
+                  <FaInstagram />
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61586642446595&locale=es_LA">
+                  <FaFacebook />
+                </a>
+                <a href="https://wa.me/5491132973461">
+                  <FaWhatsapp />
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className={styles.mapContainer}>

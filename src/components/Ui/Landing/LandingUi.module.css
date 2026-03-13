@@ -176,14 +176,17 @@
   .contentVisiones {
     padding: 100px 50px;
     gap: 100px;
+    
   }
 
   .contenedorEtiqueta {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
+    column-gap: 100px;
     align-items: center;
     max-width: 1200px;
+    /* background-color: red; */
+
   }
 
   /* entra desde la izquierda */

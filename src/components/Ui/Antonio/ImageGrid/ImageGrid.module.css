@@ -1,8 +1,7 @@
-
-
 .gallery {
   display: grid;
-  grid-template-columns: 1fr;   /* 👈 1 columna */
+  grid-template-columns: 1fr;
+  /* 👈 1 columna */
   grid-auto-rows: 220px;
   gap: 16px;
   width: 100%;
@@ -40,7 +39,7 @@
 }
 
 .modal {
-   width: 100%;
+  width: 100%;
   max-height: 90vh;
   position: relative;
 }
@@ -52,8 +51,8 @@
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  align-items: flex-end;
   gap: 16px;
 }
 
@@ -71,6 +70,7 @@
 .text {
   color: white;
   text-align: left;
+
 }
 
 .text h2 {
@@ -96,6 +96,28 @@
   cursor: pointer;
 }
 
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  background: rgba(0,0,0,0.4);
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 16px;
+  border-radius: 6px;
+  z-index: 10;
+}
+.prev {
+  left: -70px;
+}
+
+.next {
+  right: -70px;
+}
+
 /* Responsive */
 
 @media (min-width: 900px) {
@@ -104,11 +126,12 @@
     max-width: 1100px;
   }
 
-  .content{
+  .content {
     flex-direction: row;
-    align-items: center; 
+    align-items: end;
     gap: 40px;
   }
+
   .imageWrapper {
     flex: 2;
   }
@@ -121,6 +144,28 @@
   .imageWrapper img {
     max-height: 80vh;
   }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .prev {
+    left: -60px;
+  }
+
+  .next {
+    right: -60px;
+  }
+
 }
 
 @media (hover: hover) {

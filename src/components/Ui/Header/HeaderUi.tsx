@@ -1,27 +1,4 @@
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
 
-// export const HeaderUi = () => {
-//   return (
-//     <Navbar expand="lg" className="bg-body-tertiary">
-//       <Container>
-//         <Navbar.Brand href="/">Taller de Arte Sarelli</Navbar.Brand>
-//         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-//         <Navbar.Collapse id="basic-navbar-nav">
-//           <Nav className="me-auto">
-//             <Nav.Link href="/Antonio Sarelli">Antonio Sarelli</Nav.Link>
-//             <Nav.Link href="/Rebeca Sarelli">Rebeca Sarelli</Nav.Link>
-//             <Nav.Link href="/Rebeca Sarelli">Arte Mendocino</Nav.Link>
-//             <Nav.Link href="/Rebeca Sarelli">Contacto</Nav.Link>
-//           </Nav>
-//         </Navbar.Collapse>
-//       </Container>
-//     </Navbar>
-//   );
-// }
-
-// export default HeaderUi;
 
 import { useState } from "react";
 import { Link } from "react-router-dom";

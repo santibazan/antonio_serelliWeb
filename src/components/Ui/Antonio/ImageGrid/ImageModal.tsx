@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import type { ImageItem } from "./data/images60";
+import type { ImageItem } from "./data/imagesRebeca";
 import { motion, AnimatePresence } from "framer-motion";
 
 import styles from "./ImageGrid.module.css";
@@ -7,17 +7,22 @@ import styles from "./ImageGrid.module.css";
 interface Props {
   image: ImageItem;
   onClose: () => void;
+  onNext: () => void;
+  onPrev: () => void;
 }
 
-export default function ImageModal({ image, onClose }: Props) {
+export default function ImageModal({ image, onClose, onNext, onPrev }: Props) {
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
+      if (e.key === "ArrowRight") onNext();
+      if (e.key === "ArrowLeft") onPrev();
     };
 
     window.addEventListener("keydown", handleEsc);
     return () => window.removeEventListener("keydown", handleEsc);
-  }, [onClose]);
+  }, [onClose, onNext, onPrev]);
+
   return (
     <AnimatePresence>
       <motion.div
@@ -35,8 +40,14 @@ export default function ImageModal({ image, onClose }: Props) {
           exit={{ scale: 0.95, opacity: 0, y: 10 }}
           transition={{ duration: 0.3, ease: "easeOut" }}
         >
-          <button className={styles.close} onClick={onClose}>
-            ✕
+         
+
+          <button className={styles.prev} onClick={onPrev}>
+            ‹
+          </button>
+
+          <button className={styles.next} onClick={onNext}>
+            ›
           </button>
 
           <div className={styles.content}>

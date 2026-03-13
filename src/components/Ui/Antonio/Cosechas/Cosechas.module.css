@@ -11,20 +11,27 @@
 
 .contenedorGlobal p {
   color: white;
-  padding-bottom: 80px;
+  text-indent: 2em;
 }
+
+.paulHoster{
+    display: flex;
+  justify-content: end;
+  }
 
 /* RESPONSIVE */
 @media (min-width: 768px) {
-  .contenedorGlobal{
+  .contenedorGlobal {
     padding: 20px 50px;
   }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .contenedorGlobal {
-  background-color: rgba(0, 0, 0, 0.724);
-  padding: 25px 50px;
-  text-align: justify;
-}
+    background-color: rgba(0, 0, 0, 0.724);
+    padding: 25px 50px;
+    text-align: justify;
+  }
+
+  
 }

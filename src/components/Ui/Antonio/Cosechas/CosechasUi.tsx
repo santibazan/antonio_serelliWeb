@@ -1,27 +1,35 @@
 import ScrollToTop from "../../Scroll/ScrollToTop";
 import ImageGridCosecha from "../ImageGrid/ImageGridCosecha";
-import styles from "./Cosechas.module.css"
-
+import styles from "./Cosechas.module.css";
 
 export const CosechasUi = () => {
   return (
     <div className={styles.contenedorGlobal}>
-       <h1>La cosecha</h1>
+      <h1>La cosecha</h1>
       <p>
-        Toda siembra y todo esfuerzo sostenido encuentran, tarde o temprano, su
-        recompensa. La cosecha da cuenta de los premios, reconocimientos y
-        logros que marcaron la consagración de Antonio Sarelli. Es el tiempo del
-        reconocimiento público, de las exposiciones destacadas y de la llegada
-        de sus cuadros a espacios de enorme relevancia cultural y simbólica,
-        como el Vaticano y otros lugares de prestigio internacional. Esta etapa
-        no representa un final, sino la confirmación de un camino recorrido con
-        coherencia y entrega. La cosecha celebra el impacto de su obra, el
-        respeto ganado en el ámbito artístico y la huella que sus creaciones
-        dejan en quienes las contemplan. Es el momento en que el arte trasciende
-        al artista y se vuelve parte del patrimonio cultural.
+        No podría ser completamente objetivo si intentara escribir una crítica
+        sobre mi papá como artista. Su obra está atravesada por el sacrificio
+        con el que sostuvo a su familia y, al mismo tiempo, la constancia con la
+        que defendió su pasión.
       </p>
-      <ImageGridCosecha/>
-      <ScrollToTop/>
+      <p>
+        Él lo resume en dos frases que lo definen: “La musa viene, pero te tiene
+        que encontrar trabajando” y “Una buena obra tiene 90% de transpiración y
+        10% de inspiración”.
+      </p>
+      <p>
+        Cuando uno entra a su estudio, lo encuentra a él. Se respira amor,
+        ternura, silencio y reflexión . Y lo más conmovedor es la coherencia :
+        la misma templanza que sostiene su vida es la que aparece en sus
+        pinturas. Al mirar su obra en conjunto se percibe algo inconfundible: el
+        esfuerzo y la pasión de una vida entregada al arte durante más de se t
+        en ta años , un recorrido que muy pocos logran sostener con esa
+        intensidad.
+      </p>
+      <p className={styles.paulHoster}>Aldo Sarelli.</p>
+
+      <ImageGridCosecha />
+      <ScrollToTop />
     </div>
   );
 };
