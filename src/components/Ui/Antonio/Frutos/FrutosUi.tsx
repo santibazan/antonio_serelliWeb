@@ -23,7 +23,7 @@ export const FrutosUi = () => {
           para proyectarse hacia el mundo.
         </p>
       </div>
-
+      
 
       <TimelineFrutos />
       <ScrollToTop />

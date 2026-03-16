@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { animate, scroll } from "motion";
 import styles from "./Timeline.module.css";
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 type Slide = {
   year: string;
@@ -238,7 +240,7 @@ export const Timeline = () => {
               onClick={() => goToSlide(current - 1)}
               aria-label="Slide anterior"
             >
-              ◀
+              <ArrowBackIosIcon/>
             </button>
 
             <button
@@ -246,7 +248,7 @@ export const Timeline = () => {
               onClick={() => goToSlide(current + 1)}
               aria-label="Slide siguiente"
             >
-              ▶
+              <ArrowForwardIosIcon/>
             </button>
 
             <ul className={styles["img-group"]}>

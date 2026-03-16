@@ -53,7 +53,7 @@
 .content {
   display: grid;
   align-items: flex-end;
-  gap: 16px;
+  gap: 40px;
 }
 
 
@@ -84,32 +84,11 @@
 }
 
 
-
-.close {
-  position: absolute;
-  top: -50px;
-  right: 0;
-  background: none;
-  border: none;
-  color: #6f6;
-  font-size: 22px;
-  cursor: pointer;
-}
-
 .prev,
 .next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 40px;
-  background: rgba(0,0,0,0.4);
-  border: none;
-  color: white;
-  cursor: pointer;
-  padding: 10px 16px;
-  border-radius: 6px;
-  z-index: 10;
+  display: none;
 }
+
 .prev {
   left: -70px;
 }
@@ -127,9 +106,9 @@
   }
 
   .content {
-    flex-direction: row;
+    display: flex;
     align-items: end;
-    gap: 40px;
+    gap: 4px;
   }
 
   .imageWrapper {
@@ -147,6 +126,7 @@
 
   .prev,
   .next {
+    display: block;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

@@ -81,14 +81,13 @@
   line-height: 1.2;
   position: relative;
   display: inline-block;
-  color: #C49946;
+
 }
 
 .img-container h3 a {
-
+  color: #C49946;
   text-decoration: none;
 }
-
 
 
 .img-container img {
@@ -101,6 +100,7 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
+
   background: none;
   border: none;
   font-size: 32px;
@@ -108,22 +108,15 @@
   cursor: pointer;
 }
 
-
 .left {
-  left: -40px;
+  left: -25px;
 }
+
 .right {
-  right: -25px;
+  right: -30px;
 }
 
-.arrow:focus:not(:focus-visible) {
-  outline: none;
-}
 
-.arrow:focus-visible {
-  box-shadow: 0 0 0 3px rgba(196, 153, 70, 0.6);
-  border-radius: 50%;
-}
 
 /* RESPONSIVE */
 
@@ -193,7 +186,7 @@
   color: #888;
 }
 
-/* Nose que es */
+
 #gallery header h2 {
   font-size: 56px;
   font-weight: 700;
@@ -213,6 +206,8 @@
   position: relative;
   display: inline-block;
   padding-top: 50px;
+  
+
 }
 
 .img-container h3 a {
@@ -228,6 +223,7 @@
 }
 
 .arrow {
+  display: block;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);

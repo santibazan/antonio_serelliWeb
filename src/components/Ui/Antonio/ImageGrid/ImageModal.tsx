@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import type { ImageItem } from "./data/imagesRebeca";
 import { motion, AnimatePresence } from "framer-motion";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import styles from "./ImageGrid.module.css";
 
@@ -39,21 +41,41 @@ export default function ImageModal({ image, onClose, onNext, onPrev }: Props) {
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.95, opacity: 0, y: 10 }}
           transition={{ duration: 0.3, ease: "easeOut" }}
+          drag="x"
+          dragConstraints={{ left: 0, right: 0 }}
+          onDragEnd={(_, info) => {
+            if (info.offset.x < -100) {
+              onNext(); // swipe izquierda → siguiente
+            }
+            if (info.offset.x > 100) {
+              onPrev(); // swipe derecha → anterior
+            }
+          }}
         >
-         
-
           <button className={styles.prev} onClick={onPrev}>
-            ‹
+            <ArrowBackIosIcon />
           </button>
 
           <button className={styles.next} onClick={onNext}>
-            ›
+            <ArrowForwardIosIcon />
           </button>
 
           <div className={styles.content}>
-            <div className={styles.imageWrapper}>
+            <motion.div
+              className={styles.imageWrapper}
+              drag="x"
+              dragConstraints={{ left: 0, right: 0 }}
+              onDragEnd={(_, info) => {
+                if (info.offset.x < -100) {
+                  onNext();
+                }
+                if (info.offset.x > 100) {
+                  onPrev();
+                }
+              }}
+            >
               <img src={image.src} alt={image.title} />
-            </div>
+            </motion.div>
 
             <div className={styles.text}>
               <h2>{image.title}</h2>
