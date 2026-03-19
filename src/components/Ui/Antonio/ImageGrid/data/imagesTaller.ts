@@ -12,13 +12,13 @@ export interface ImageItem {
 }
 
 export const images: ImageItem[] = [
-  { id: 1, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772734946/01_Vista_General_Ingreso_Estudio_1_vtiqlo.jpg", title: "1 ", description: "", size: "small" },
-  { id: 2, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951821/1entradaTaller_wrlc3i.jpg", title: "1 ", description: "", size: "small" },
+  { id: 1, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772734946/01_Vista_General_Ingreso_Estudio_1_vtiqlo.jpg", title: "Donde el arte se vive", description: "El ingreso al Taller de Arte Sarelli, con esculturas de Rebeca Sarelli.", size: "small" },
+  { id: 2, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951821/1entradaTaller_wrlc3i.jpg", title: "Sean bienvenidos al taller.", description: "Donde dos obras de Rebeca Sarelli marcan el inicio de un diálogo artístico entre generaciones. Una sensibilidad compartida que se transforma y florece en el corazón de una familia de artistas.", size: "small" },
   { id: 3, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772734941/21_1_Escultura_piedra_Reb_u147i3.jpg", title: "9 ", description: "", size: "small" },
   { id: 4, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772734940/20_2_Vista_general_Sur_pouktz.jpg", title: "15 ", description: "", size: "small" },
   { id: 5, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772734940/20_1_Vista_general_Jardin_ecshdi.jpg", title: "1 ", description: "", size: "small" },
   { id: 6, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951841/10jardin_jlqki6.jpg", title: "1 ", description: "", size: "small" },
-  { id: 7, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951823/2imgResiliencia_lnfhtq.jpg", title: "1 ", description: "", size: "small" },
+  { id: 7, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951823/2imgResiliencia_lnfhtq.jpg", title: "Diciembre, Enero y Febrero (2002)", description: "Técnica mixta sobre tela, 120 x 300 cm. Tres gestos, tres meses, tres silencios. Esta obra de la colección particular de Sarelli condensa el dolor colectivo de la crisis argentina de 2001. Rostros cubiertos, miradas detenidas, manos que intentan decir lo que no se puede pronunciar. Un testimonio visual de lo que no debe repetirse.", size: "small" },
   { id: 8, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772734946/04_1_Vista_Mesa_y_obras_flvpsz.jpg", title: "1 ", description: "", size: "small" },
   { id: 9, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772734940/12_1_Vista_general_pintura_mendocina_n8pqan.jpg", title: "22 ", description: "", size: "small" },
   { id: 10, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772734941/12_2_Pequen%CC%83os_formatos_y_Pint_mendocina_cndl0t.jpg", title: "222 ", description: "", size: "small" },

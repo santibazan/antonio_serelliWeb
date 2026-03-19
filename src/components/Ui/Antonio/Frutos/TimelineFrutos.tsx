@@ -2,9 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { animate, scroll } from "motion";
 import styles from "./TimelineFrutos.module.css";
 import { Link } from "react-router-dom";
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const slides = [
   {
@@ -72,7 +71,6 @@ export const TimelineFrutos = () => {
   return (
     <article id="gallery">
       <div className={styles.contenedorGlobal}>
-
         <header className={styles.tituloPrincipal}>
           <h1>Décadas</h1>
         </header>
@@ -84,7 +82,7 @@ export const TimelineFrutos = () => {
               onClick={() => goToSlide(current - 1)}
               aria-label="Década anterior"
             >
-              <ArrowBackIosIcon/>
+              <ArrowBackIosIcon />
             </button>
 
             <button
@@ -92,7 +90,7 @@ export const TimelineFrutos = () => {
               onClick={() => goToSlide(current + 1)}
               aria-label="Década siguiente"
             >
-              <ArrowForwardIosIcon/>
+              <ArrowForwardIosIcon />
             </button>
 
             <ul className={styles["img-group"]}>
@@ -102,11 +100,11 @@ export const TimelineFrutos = () => {
                   <h3>
                     <Link
                       to="/AntonioSarelli/Decadas"
+                      state={{ decade: slide.label }}
                     >
                       {slide.label}
                     </Link>
                   </h3>
-
                 </li>
               ))}
             </ul>

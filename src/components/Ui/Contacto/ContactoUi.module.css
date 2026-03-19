@@ -56,16 +56,6 @@
     font-size: 1.4rem;
 
 }
-.redes {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-
-.redes svg {
-    font-size: 22px;
-    color: #C49946;
-}
 
 /* Datos */
 .datos h2 {
@@ -73,14 +63,36 @@
 }
 
 .mail {
-    /* color: #E94B42; */
     color: white;
-
 }
 
 .mail:hover {
     color: #C49946;
 }
+.redes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.redes svg {
+    font-size: 22px;
+    color: #C49946;
+}
+
+.botonCita{
+    color: #C49946;
+    background-color: transparent;
+    border: none;
+}
+
+.botonCita:hover{
+    background-color: black;
+    border: none;
+    transition: 0.9s;
+}
+
 
 /* Mapa */
 .mapContainer {

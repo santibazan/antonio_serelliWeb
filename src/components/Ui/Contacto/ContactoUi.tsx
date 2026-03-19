@@ -12,14 +12,10 @@ export const ContactoUi = () => {
             <h5>Marcos Sastre 1510</h5>
             <h5>Godoy Cruz, Mendoza</h5>
             <h5>Teléfono: +5491132973461</h5>
-            <a
-              href="mailto:sarellialdo@gmail.com"
-              className={styles.mail}
-            >
+            <a href="mailto:sarellialdo@gmail.com" className={styles.mail}>
               aldosarelli@gmail.com
             </a>
             <div>
-             
               <div className={styles.redes}>
                 <a href="https://www.instagram.com/tallerdeartesarelli/">
                   <FaInstagram />
@@ -31,6 +27,16 @@ export const ContactoUi = () => {
                   <FaWhatsapp />
                 </a>
               </div>
+              <button className={styles.botonCita}
+                onClick={() =>
+                  window.open(
+                    "https://calendar.app.google/MienJrunb9MwnQmH6",
+                    "_blank",
+                  )
+                }
+              >
+                Reservar cita
+              </button>
             </div>
           </div>
 
