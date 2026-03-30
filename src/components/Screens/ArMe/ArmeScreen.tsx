@@ -1,4 +1,5 @@
 import { ArteMendocinoUi } from "../../Ui/ArteMendocino/ArteMendocinoUi";
+import { FooterUi } from "../../Ui/Footer/FooterUi";
 import { HeaderUi } from "../../Ui/Header/HeaderUi";
 import styles from "./ArmeScreen.module.css"
 export const ArmeScreen = () => {
@@ -6,6 +7,7 @@ export const ArmeScreen = () => {
     <div className={styles.contenedorGlobalLanding}>
       <HeaderUi />
       <ArteMendocinoUi/>
+      <FooterUi/>
     </div>
   );
 };

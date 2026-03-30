@@ -11,9 +11,13 @@ export const ContactoUi = () => {
             <h2>Taller Sarelli</h2>
             <h5>Marcos Sastre 1510</h5>
             <h5>Godoy Cruz, Mendoza</h5>
-            <h5>Teléfono: +5491132973461</h5>
-            <a href="mailto:sarellialdo@gmail.com" className={styles.mail}>
-              aldosarelli@gmail.com
+            <h5>Teléfonos: +5491132973461(Aldo)<br/>+5492615368431(Rebeca)</h5>
+            
+            <a href="mailto:tallersarelli@gmail.com" className={styles.mail}>
+              tallersarelli@gmail.com
+            </a>
+            <a href="mailto:rebecasarelli@gmail.com" className={styles.mail}>
+              rebecasarelli@gmail.com
             </a>
             <div>
               <div className={styles.redes}>
@@ -23,7 +27,7 @@ export const ContactoUi = () => {
                 <a href="https://www.facebook.com/profile.php?id=61586642446595&locale=es_LA">
                   <FaFacebook />
                 </a>
-                <a href="https://wa.me/5491132973461">
+                <a href="https://wa.me/5492615368431">
                   <FaWhatsapp />
                 </a>
               </div>

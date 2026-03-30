@@ -1,4 +1,5 @@
 
+import { FooterUi } from "../../Ui/Footer/FooterUi";
 import HeaderUi from "../../Ui/Header/HeaderUi";
 import { LandingUi } from "../../Ui/Landing/LandingUi";
 import styles from "./LandingScreen.module.css"
@@ -9,6 +10,7 @@ export const LandingScreen = () => {
     <div className={styles.contenedorGlobalLanding}>
       <HeaderUi />
       <LandingUi />
+      <FooterUi/>
     </div>
     </>
   );

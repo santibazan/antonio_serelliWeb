@@ -8,6 +8,7 @@ import ImageGrid90 from "../ImageGrid/ImageGrid90.tsx";
 import styles from "./Frutos.module.css";
 import { useLocation } from "react-router-dom";
 import { useEffect, useRef } from "react";
+import ImageGrid2020 from "../ImageGrid/ImageGrid2020.tsx";
 
 type Decade =
   | "Década 60"
@@ -15,7 +16,8 @@ type Decade =
   | "Década 80"
   | "Década 90"
   | "Década 2000"
-  | "Década 2010";
+  | "Década 2010"
+  | "Década 2020";
 
 export const DecadasUi = () => {
   const location = useLocation();
@@ -27,6 +29,7 @@ export const DecadasUi = () => {
   const ref90 = useRef<HTMLHeadingElement>(null);
   const ref2000 = useRef<HTMLHeadingElement>(null);
   const ref2010 = useRef<HTMLHeadingElement>(null);
+  const ref2020 = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
     if (!decade) return;
@@ -38,6 +41,7 @@ export const DecadasUi = () => {
       "Década 90": ref90,
       "Década 2000": ref2000,
       "Década 2010": ref2010,
+      "Década 2020": ref2020,
     };
 
     const targetRef = map[decade];
@@ -72,8 +76,11 @@ export const DecadasUi = () => {
         <h1 ref={ref2000}>Decada de los 2000</h1>
         <ImageGrid2000 />
 
-        <h1 ref={ref2010}>Decada de los 2010</h1>
+        <h1 ref={ref2010}>Decada del 2010</h1>
         <ImageGrid2010 />
+
+        <h1 ref={ref2020}>Decada del 2020</h1>
+        <ImageGrid2020 />
       </div>
     </div>
   );

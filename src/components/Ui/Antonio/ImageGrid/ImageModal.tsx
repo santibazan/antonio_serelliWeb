@@ -45,10 +45,10 @@ export default function ImageModal({ image, onClose, onNext, onPrev }: Props) {
           dragConstraints={{ left: 0, right: 0 }}
           onDragEnd={(_, info) => {
             if (info.offset.x < -100) {
-              onNext(); // swipe izquierda → siguiente
+              onNext();
             }
             if (info.offset.x > 100) {
-              onPrev(); // swipe derecha → anterior
+              onPrev(); 
             }
           }}
         >
@@ -80,6 +80,8 @@ export default function ImageModal({ image, onClose, onNext, onPrev }: Props) {
             <div className={styles.text}>
               <h2>{image.title}</h2>
               <p>{image.description}</p>
+              <p>{image.medida}</p>
+              <p>{image.anio}</p>
             </div>
           </div>
         </motion.div>

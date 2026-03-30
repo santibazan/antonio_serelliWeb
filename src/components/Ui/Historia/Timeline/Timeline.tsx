@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { animate, scroll } from "motion";
 import styles from "./Timeline.module.css";
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 type Slide = {
   year: string;
@@ -240,7 +240,7 @@ export const Timeline = () => {
               onClick={() => goToSlide(current - 1)}
               aria-label="Slide anterior"
             >
-              <ArrowBackIosIcon/>
+              <ArrowBackIosIcon />
             </button>
 
             <button
@@ -248,17 +248,21 @@ export const Timeline = () => {
               onClick={() => goToSlide(current + 1)}
               aria-label="Slide siguiente"
             >
-              <ArrowForwardIosIcon/>
+              <ArrowForwardIosIcon />
             </button>
 
             <ul className={styles["img-group"]}>
               {slides.map((slide, i) => (
                 <li key={i} className={styles["img-container"]}>
-                  <div className={styles.imageWrapper}>
-                    <img src={slide.img ?? ""} alt="" />
+                  <div className={styles.contenedorVin}>
+                    <div className={styles.imageWrapper}>
+                      <img src={slide.img ?? ""} alt="" />
+                    </div>
+                    <div className={styles.texto}>
+                      <h3>{slide.year}</h3>
+                      <h5>{slide.text}</h5>
+                    </div>
                   </div>
-                  <h3>{slide.year}</h3>
-                  <h4>{slide.text}</h4>
                 </li>
               ))}
             </ul>

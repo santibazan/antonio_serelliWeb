@@ -10,6 +10,9 @@ import { FrutosScreen } from "../components/Screens/Antonio/frutos/FrutosScreen"
 import { CosechasScreen } from "../components/Screens/Antonio/cosechas/CosechaScreen"
 import { DecadasScreen } from "../components/Screens/Decadas/DecadasScreen"
 import ScrollToTop from "../ScrollToTop"
+import { ReconocimientosScreen } from "../components/Screens/Antonio/cosechas/Reconocimientos/ReconocimientosScreen"
+import { PremiosScreen } from "../components/Screens/Antonio/cosechas/Premios/PremiosScreen"
+import { CriticasScreen } from "../components/Screens/Antonio/cosechas/Criticas/CriticasScreen"
 
 
 
@@ -26,6 +29,9 @@ export const AppRouter = () => {
         <Route path="/AntonioSarelli/LaSiembra" element={<SiembraScreen/>}/>
         <Route path="/AntonioSarelli/LosFrutos" element={<FrutosScreen/>}/>
         <Route path="/AntonioSarelli/LaCosecha" element={<CosechasScreen/>}/>
+        <Route path="/AntonioSarelli/Reconocimientos" element={<ReconocimientosScreen/>}/>
+        <Route path="/AntonioSarelli/Premios" element={<PremiosScreen/>}/>
+        <Route path="/AntonioSarelli/Criticas" element={<CriticasScreen/>}/>
         <Route path="/AntonioSarelli/Decadas" element={<DecadasScreen/>}/>
       </Routes>
     </>

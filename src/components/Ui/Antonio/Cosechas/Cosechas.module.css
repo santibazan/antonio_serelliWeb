@@ -85,6 +85,60 @@
   position: relative;
 }
 
+.containerPrincipal {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  gap: 50px;
+}
+
+.title {
+  color: rgb(238, 221, 177);
+
+  font-size: 25px;
+  font-weight: 700;
+
+  line-height: 1.2;
+  margin-top: 33px;
+  text-align: center;
+  padding-right: 25px;
+  font-size: 2rem;
+}
+
+
+.linkLibro {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 18px;
+  color: #e8d9b5; /* tono cálido tipo arte */
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.linkLibro::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 1px;
+  background-color: #e8d9b5;
+  transition: width 0.3s ease;
+}
+
+.linkLibro:hover::after {
+  width: 100%;
+}
+
+.linkLibro:hover {
+  opacity: 0.8;
+  color: #C49946;
+}
+
+
 
 
 /* RESPONSIVE */
@@ -100,5 +154,28 @@
     padding: 25px 50px;
     text-align: justify;
   }
+
+  /* ===================================================================================================== */
+   .containerPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 100px;
+  }
+
+ .title {
+    color: rgb(238, 221, 177);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 33px;
+    text-align: center;
+    padding-right: 25px;
+    font-size: 2rem;
+    width: 300px;
+  }
+  /* ===================================================================================================== */
 
 }

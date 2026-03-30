@@ -1,4 +1,4 @@
-.imagen {
+/* .imagen {
   position: relative;
   min-height: 100vh;
   width: 100vw;
@@ -7,32 +7,47 @@
 
   background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951832/7ArteMendodino_j1pevm.jpg");
 
-  /* ajustá la ruta */
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
 }
+*/
 
-.overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+.contentVisiones {
+  background-color: rgba(0, 0, 0, 0.724);
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 60px 20px;
+
+  overflow-x: hidden;
 }
+
+/* .contentVisiones h4 {
+  margin-top: 60px;
+  color: rgb(207, 207, 207);
+  font-size: 1.6rem;
+  text-align: center;
+} */
+
+
 
 .contentPrincipal {
   position: relative;
   max-width: 100%;
-  padding: 60px 40px 60px;
+  /* padding: 60px 40px 60px; */
   color: rgb(201, 201, 201);
   z-index: 2;
   text-align: center;
+
 }
 
 
-.contentPrincipal h1 {
+.contentVisiones h1 {
   font-size: 2.1rem;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .contentPrincipal p {
@@ -41,26 +56,88 @@
 
 }
 
-.imagen p{
-  color: white;
-  padding-top: 20px;
 
+.contenedorEtiqueta {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.textoWrapper {
+  max-width: 100%;
+  color: black
+}
+
+.imgMision,
+.imgMisionn {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: cover;
 }
 
 
 /* RESPONSIVE */
 @media (min-width: 768px) {
-  .contentTallerSarelli{
+  .contentTallerSarelli {
     padding: 20px 50px;
   }
-  .contentTallerSarelli h1{
+  .contentPrincipal{
+    margin-top: 16px;
+  }
+
+  .contentTallerSarelli h1 {
     text-align: center;
   }
+
+  .contentVisiones {
+    padding: 80px 40px;
+    gap: 90px;
+  }
+
+  .contenedorEtiqueta {
+    gap: 40px;
+  }
+
+  .imgMision,
+  .imgMisionn {
+    max-height: 380px;
+  }
+
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .contentTallerSarelli {
-  padding: 25px 50px;
-  text-align: justify;
-}
+    padding: 25px 50px;
+    text-align: justify;
+  }
+
+  .contentVisiones {
+    padding-top: 50px;
+    gap: 50px;
+    color: rgb(201, 201, 201);
+  }
+
+  .contentVisiones h1 {
+    font-size: 2.1rem;
+    /* margin-bottom: 16px; */
+    color: rgb(201, 201, 201);
+  }
+
+  .contenedorEtiqueta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    align-items: center;
+    max-width: 1200px;
+  }
+
+
+  .imgMision,
+  .imgMisionn {
+    height: 400px;
+    width: auto;
+  }
 }

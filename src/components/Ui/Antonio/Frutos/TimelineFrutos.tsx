@@ -30,6 +30,10 @@ const slides = [
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951554/0178-Historias_secretas_collage_sobre_tela_150_x_300_cm_2013_vaowpx.jpg",
     label: "Década 2010",
   },
+  {
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869643/Hora_de_la_tarde_y6wcxn.jpg",
+    label: "Década 2020",
+  },
 ];
 
 export const TimelineFrutos = () => {

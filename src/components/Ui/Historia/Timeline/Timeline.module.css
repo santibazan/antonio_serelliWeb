@@ -58,18 +58,6 @@
 
 
 
-.img-container {
-  width: 100vw;
-  height: 100vh;
-  flex: 0 0 auto;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.3rem;
-}
-
 
 
 .imageWrapper {
@@ -92,8 +80,20 @@
   object-fit: contain;
 }
 
+.contenedorVin {
+  width: 100vw;
+  height: 100vh;
+  flex: 0 0 auto;
 
-.img-container h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+
+}
+
+.contenedorVin h3 {
 
   margin-bottom: 10px;
   font-size: 30px;
@@ -105,7 +105,7 @@
   color: rgb(201, 201, 201);
 }
 
-.img-container h4 {
+.contenedorVin h5 {
   width: 90vw;
   margin-top: 20px;
   text-align: center;
@@ -205,61 +205,56 @@
 
   /* SLIDE */
 
-  .img-container {
-    width: 100vw;
-    height: 110vh;
-    flex: 0 0 auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.3rem;
-  }
-
-
-
   .imageWrapper {
-    width: 60vw;
-    max-width: 900px;
-    height: 55vh;
-
     display: flex;
+    /* justify-content: flex-start; */
     align-items: center;
-    justify-content: center;
-
-    overflow: hidden;
-
+    width: auto;
   }
-
 
   .imageWrapper img {
     max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+    height: auto;
   }
 
 
+  .contenedorVin {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
 
-  .img-container h3 {
-    margin-top: 50px;
-    margin-bottom: -10px;
+
+  }
+
+  .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40vw;
+    height: auto;
+    justify-content: flex-end;
+    height: 55vh;
+  }
+
+  .contenedorVin h3 {
+    margin: 0;
     font-size: 30px;
     font-weight: 700;
-    letter-spacing: -3px;
-    line-height: 1.2;
-    position: relative;
-    display: inline-block;
     color: rgb(201, 201, 201);
   }
 
-  .img-container h4 {
-    width: 40vw;
-    margin-top: 20px;
+  .contenedorVin h5 {
+    margin-top: 10px;
+    text-align: left;
+    width: auto;
+    color: rgb(201, 201, 201);
+  }
+
+
+  .texto h3 {
     text-align: center;
-    color: rgb(201, 201, 201);
   }
-
 
 
   .arrow {
@@ -293,4 +288,3 @@
   }
 
 }
-

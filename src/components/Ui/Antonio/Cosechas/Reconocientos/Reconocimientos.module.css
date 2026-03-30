@@ -1,0 +1,12 @@
+.contenedorGlobal{
+    padding: 2rem 50px;
+    background-color: rgba(0, 0, 0, 0.724);
+}
+.contenedorGlobal h3{
+    margin: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 3px;
+    color: rgb(201, 201, 201);
+    text-align: center;
+}

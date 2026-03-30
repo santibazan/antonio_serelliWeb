@@ -24,7 +24,6 @@ export const FrutosUi = () => {
         </p>
       </div>
       
-
       <TimelineFrutos />
       <ScrollToTop />
     </div>
