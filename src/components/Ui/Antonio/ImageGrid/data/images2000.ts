@@ -2,7 +2,7 @@ export interface ImageItem {
   id: number
   src: string
   title: string
-  description: string
+  description?: string
   medida?: string
   anio?: number
   size: "small" | "medium" | "large"

@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { images } from "./data/ImagePremios";
+import { images } from "./data/imagesPremios";
 
 import ImageModal from "./ImageModal";
 import styles from "./ImageGrid.module.css";
 
 export default function ImageGridPremios() {
-const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   return (
     <>
@@ -22,21 +22,21 @@ const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
       </div>
 
       {selectedIndex !== null && (
-              <ImageModal
-                image={images[selectedIndex]}
-                onClose={() => setSelectedIndex(null)}
-                onNext={() =>
-                  setSelectedIndex((prev) =>
-                    prev !== null ? (prev + 1) % images.length : 0,
-                  )
-                }
-                onPrev={() =>
-                  setSelectedIndex((prev) =>
-                    prev !== null ? (prev - 1 + images.length) % images.length : 0,
-                  )
-                }
-              />
-            )}
+        <ImageModal
+          image={images[selectedIndex]}
+          onClose={() => setSelectedIndex(null)}
+          onNext={() =>
+            setSelectedIndex((prev) =>
+              prev !== null ? (prev + 1) % images.length : 0
+            )
+          }
+          onPrev={() =>
+            setSelectedIndex((prev) =>
+              prev !== null ? (prev - 1 + images.length) % images.length : 0
+            )
+          }
+        />
+      )}
     </>
   );
 }
