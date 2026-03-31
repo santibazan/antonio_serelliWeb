@@ -31,7 +31,7 @@ const slides = [
     label: "Década 2010",
   },
   {
-    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869643/Hora_de_la_tarde_y6wcxn.jpg",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869639/Recuerdo_a_Magritte_II_bxuuul.jpg",
     label: "Década 2020",
   },
 ];

@@ -26,25 +26,17 @@ export const CosechasUi = () => {
         intensidad.
       </p>
       <p className={styles.aldo}>Aldo Sarelli.</p>
-      <a
-        href="https://drive.google.com/file/d/1DVXd3-FIxUqICRfbHsYFTbKYvi91Ado8/view?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.linkLibro}
-      >
-        Libro Antonio Sarelli
-      </a>
       <div className={styles.containerPrincipal}>
         <Link to="/AntonioSarelli/Premios">
-          <h4 className={styles.title}>Premios y obras en museos.</h4>
+          <h3 className={styles.title}>Premios y obras en museos</h3>
         </Link>
 
         <Link to="/AntonioSarelli/Reconocimientos">
-          <h4 className={styles.title}>Reconocimientos.</h4>
+          <h3 className={styles.title}>Reconocimientos</h3>
         </Link>
 
         <Link to="/AntonioSarelli/Criticas">
-          <h4 className={styles.title}>Críticas.</h4>
+          <h3 className={styles.title}>Críticas</h3>
         </Link>
       </div>
     </div>

@@ -1,6 +1,5 @@
 import styles from "./AntonioUi.module.css";
 import { Link } from "react-router-dom";
-import { Timeline } from "../Historia/Timeline/Timeline";
 import ScrollToTop from "../Scroll/ScrollToTop";
 
 export const AntonioUi = () => {
@@ -48,7 +47,10 @@ export const AntonioUi = () => {
         </section>
         <section className={styles["img-containerr"]}>
           <div>
-            <img src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951900/LosFrutos_bpffqx.png" alt="Imagen Fruto" />
+            <img
+              src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951900/LosFrutos_bpffqx.png"
+              alt="Imagen Fruto"
+            />
             <Link to="/AntonioSarelli/LosFrutos">
               <h4 className={styles.titlee}>Los Frutos</h4>
             </Link>
@@ -67,7 +69,21 @@ export const AntonioUi = () => {
           </div>
         </section>
       </div>
-      <Timeline />
+      {/* <Timeline /> */}
+      <div className={styles.libro}>
+        <a
+          href="https://drive.google.com/file/d/1DVXd3-FIxUqICRfbHsYFTbKYvi91Ado8/view"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1774869643/Hora_de_la_tarde_y6wcxn.jpg"
+            className={styles.imgLibro}
+            alt="Portada libro"
+          />
+          <h1 className={styles.titulo}>Libro digital de Antonio Sarelli</h1>
+        </a>
+      </div>
       <ScrollToTop />
     </div>
   );

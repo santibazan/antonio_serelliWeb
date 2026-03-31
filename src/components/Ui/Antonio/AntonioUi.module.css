@@ -1,4 +1,3 @@
-
 .imagen {
   position: relative;
   min-height: 93vh;
@@ -125,6 +124,28 @@
   display: inline-block;
   top: calc(50% - 25px);
   left: calc(50% + 120px);
+}
+
+.libro {
+  background-color: rgba(0, 0, 0, 0.724);
+  padding-bottom: 100px;
+
+}
+
+.imgLibro {
+  width: 20vw;
+  padding: 70px 0px;
+  color: white;
+}
+
+.titulo {
+  color: rgb(201, 201, 201);
+  transition: color 0.5s ease;
+}
+
+.titulo:hover {
+  color: #C49946;
+
 }
 
 /* RESPONSIVE */

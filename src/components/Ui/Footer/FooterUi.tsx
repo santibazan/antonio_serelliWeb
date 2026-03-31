@@ -36,10 +36,10 @@ export const FooterUi = () => {
               <a href="#AntonioSarelli/LaSiembra">Siembra</a>
             </li>
             <li>
-              <a href="#AntonioSarelli/LaCosecha">Cosecha</a>
+              <a href="#AntonioSarelli/LosFrutos">Frutos</a>
             </li>
             <li>
-              <a href="#AntonioSarelli/LosFrutos">Frutos</a>
+              <a href="#AntonioSarelli/LaCosecha">Cosecha</a>
             </li>
           </ul>
         </div>

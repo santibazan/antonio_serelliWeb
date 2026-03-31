@@ -3,7 +3,7 @@ import styles from "./Criticas.module.css"
 export const CriticasUi = () => {
   return (
     <div className={styles.criticas}>
-      <h1 className={styles.tituloCriticas}>Críticas</h1>
+      <h3 className={styles.tituloCriticas}>Críticas</h3>
 
 
       <div className={styles.gridCriticas}>

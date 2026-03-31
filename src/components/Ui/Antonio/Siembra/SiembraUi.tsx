@@ -1,5 +1,6 @@
+import { Timeline } from "../../Historia/Timeline/Timeline";
 import ScrollToTop from "../../Scroll/ScrollToTop";
-import ImageGridSiembra from "../ImageGrid/ImageGridSiembra";
+
 import styles from "./Siembra.module.css";
 
 export const SiembraUi = () => {
@@ -24,7 +25,7 @@ export const SiembraUi = () => {
         infancia sencilla y ese llamado oportuno, comienza el camino de una vida
         dedicada al arte.
       </p>
-      <ImageGridSiembra />
+      <Timeline />
       <ScrollToTop />
     </div>
   );

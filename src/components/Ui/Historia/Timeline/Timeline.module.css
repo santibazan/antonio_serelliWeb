@@ -22,10 +22,6 @@
 }
 
 
-.contenedorGlobal {
-  background-color: rgba(0, 0, 0, 0.724);
-}
-
 .tituloPrincipal {
   padding-top: 10px;
   color: rgb(201, 201, 201);
@@ -168,10 +164,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .contenedorGlobal {
-    background-color: rgba(0, 0, 0, 0.724);
   }
 
   .tituloPrincipal {

@@ -12,19 +12,95 @@ type Slide = {
 
 const slides: Slide[] = [
   {
+    img: "",
+    year: "",
+    text: "",
+  },
+  {
+    img: "",
+    year: "1936",
+    text: "Nace el 26 de agosto en Russell Maipú Mendoza",
+  },
+  {
+    img: "",
+    year: "1942",
+    text: "Gutierres “Escuela Moyano“",
+  },
+  {
+    img: "",
+    year: "1947",
+    text: "Carrodilla “Escuela Nacional Nº 61”",
+  },
+  {
+    img: "",
+    year: "1951",
+    text: "Ingresa a la Academia Provincial de Bellas Artes",
+  },
+  {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951737/1954_ygw45m.jpg",
     year: "1954",
     text: "Su primer óleo, “Homenaje a Zurbarán” (1954), marca el inicio de su camino artístico.",
+  },
+  {
+    img: "",
+    year: "1960",
+    text: "Se recibe como profesor de Dibujo",
+  },
+  {
+    img: "",
+    year: "1961",
+    text: "Comienza a trabajar en Irrigación y es trasladado por 9 meses a Valle Hermoso para realizar trabajos de Hidronivometereología.",
+  },
+  {
+    img: "",
+    year: "1962",
+    text: "Participa del II Salón Bienal de Artes Plásticas de Mendoza",
+  },
+  {
+    img: "",
+    year: "1963",
+    text: "Fundación Grupo Numen",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951740/1964_rerxfl.jpg",
     year: "1964",
     text: "“Diálogo con Duendes” (1964) — Premio Bienal de Arte y Premio Estímulo. Una obra temprana que anticipa la fuerza expresiva de Sarelli.",
   },
+   {
+    img: "",
+    year: "1965",
+    text: "Salón Primavera de San Rafael, premio estímulo “Brigadas Líricas” por su obra “Figura” (1965-03-28 – Diploma)",
+  },
+  {
+    img: "",
+    year: "1966",
+    text: "Iº Salón Colectivo de Artes Plásticas de Mendoza F.O.E.C.Y.T: Primer Premio: Antonio Sarelli con “Nocturno”",
+  },
+  {
+    img: "",
+    year: "1967",
+    text: "1º premio IV Salón Nacional Feria del Libro de Mendoza compartido junto a Rafael Montemayor.",
+  },
+  
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951741/1968_hjq07u.jpg",
     year: "1968",
     text: "“La hora de sueño” (1968) — Primer Premio UCEIDM otorgado a Antonio Sarelli, reconocimiento a su originalidad y profundidad expresiva.",
+  },
+  {
+    img: "",
+    year: "1969",
+    text: "XVII Salón de Primavera de San Rafael, Gran Premio de Honor “Cristeta González de Viñuela” Antonio Sarelli con la obra “Después de la tormenta”.",
+  },
+  {
+    img: "",
+    year: "1970",
+    text: "1º Premio Salón Vendimia de Pintura 1970 con la obra “Detente escucha”",
+  },
+  {
+    img: "",
+    year: "1971",
+    text: "El 3 de febrero se casa con Silvia Spera, profesora de arte y concertista de piano dedicada a la docencia infantil.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951743/1972_kixtij.jpg",
@@ -32,15 +108,44 @@ const slides: Slide[] = [
     text: "Medioevo (1972) – Obra premiada con el segundo puesto en “Plásticos del Interior” y adquirida por el Museo Eduardo Sívori. Exhibida en la sala de reuniones de la Quinta de Olivos.",
   },
   {
+    img: "",
+    year: "1973",
+    text: "Nacimiento de su primer hijo Aldo Gabriel el 3 de junio. Comienza la Serie del Huevo, vemos en Sarelli un cambio en la paleta y mayor simbolismo.",
+  },
+  {
+    img: "",
+    year: "1974",
+    text: "Muestra Grupo A3 en Galería Witcomb. Ángel Gil, Alfredo Ceverino y Antonio Sarelli",
+  },
+  {
+    img: "",
+    year: "1975",
+    text: "Muestra en Galería Witcomb",
+  },
+  {
+    img: "",
+    year: "1976",
+    text: "Nace su hija Rebeca el 17 de septiembre. En su pintura vemos ya un desarrollo hacia la figura humana como centro de la obra y su paleta va desarrollando mayores cromatismos.",
+  },
+  {
+    img: "",
+    year: "1977",
+    text: "Apertura de la Galería Zulema Zoireff como director de la misma.",
+  },
+  {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951792/1979_osxbzy.jpg",
     year: "1979",
     text: "Salón de Artes Plásticas – Vendimia 1979: Primer Premio otorgado a Antonio Sarelli por su obra “Domingo en la tarde”.",
   },
-
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951747/1982_qmhugq.jpg",
     year: "1982",
     text: "Salón Nacional de Pintura “Centenario del Diario Los Andes” (1982): Mención Honorífica para Antonio Sarelli por su obra “Dos Imágenes y el Silencio”.",
+  },
+  {
+    img: "",
+    year: "1983",
+    text: "Salón Vendimia '83' de Artes Plásticas MMAMM",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951746/1985_v1uqhd.jpg",
@@ -58,6 +163,11 @@ const slides: Slide[] = [
     text: "Antonio Sarelli realiza su primera exposición en Barcelona en 1988, en la Sala Jaimes. A partir de allí, consolida una intensa presencia en España con muestras en 1991 y 1993 en la misma sala, y en el Museo de Vilassar en 1996. En 1993, su obra protagoniza la tapa de la revista GAL ART (Barcelona), reflejo del reconocimiento a su trabajo en el ámbito internacional.",
   },
   {
+    img: "",
+    year: "1990",
+    text: "Galería de Arte Gran Via, Logroño, La Rioja. Alfredo Ceverino, Ángel Gil, Antonio Sarelli, José Scacco.",
+  },
+  {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951751/1991_lxffua.jpg",
     year: "1991",
     text: "Colección 1991 – “Denominación de Origen”, Bodega Luigi Bosca: 12 vinos con etiquetas de seda ilustradas con obras de Antonio Sarelli. Edición especial de regalos empresariales para celebrar la denominación de origen de su vino.",
@@ -67,7 +177,6 @@ const slides: Slide[] = [
     year: "1993",
     text: "Tapa de la revista GAL ART (Barcelona, 1993), en el marco de sus numerosas exposiciones en España: Sala Jaimes (1988, 1991, 1993) y Museo de Vilassar (1996).",
   },
-
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951755/1995_wwzrdy.jpg",
     year: "1995",
