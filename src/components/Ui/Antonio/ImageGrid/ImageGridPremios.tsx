@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { images } from "./data/imagesPremios";
+
 
 import ImageModal from "./ImageModal";
 import styles from "./ImageGrid.module.css";
+import { images } from "./data/imagesPremios";
 
 export default function ImageGridPremios() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);

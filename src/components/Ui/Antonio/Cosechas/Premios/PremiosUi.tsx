@@ -1,5 +1,6 @@
 import ScrollToTop from "../../../Scroll/ScrollToTop"
 import ImageGridPremios from "../../ImageGrid/ImageGridPremios"
+
 import styles from "./Premios.module.css"
 
 export const PremiosUi = () => {
