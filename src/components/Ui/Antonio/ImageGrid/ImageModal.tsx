@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import type { ImageItem } from "./data/imagesRebeca";
+import type { ImageItem } from "./data/imagesEscultura";
 import { motion, AnimatePresence } from "framer-motion";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -48,7 +48,7 @@ export default function ImageModal({ image, onClose, onNext, onPrev }: Props) {
               onNext();
             }
             if (info.offset.x > 100) {
-              onPrev(); 
+              onPrev();
             }
           }}
         >

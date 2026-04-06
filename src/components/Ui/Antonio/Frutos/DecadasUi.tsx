@@ -9,6 +9,7 @@ import styles from "./Frutos.module.css";
 import { useLocation } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import ImageGrid2020 from "../ImageGrid/ImageGrid2020.tsx";
+import ScrollToTop from "../../Scroll/ScrollToTop.tsx";
 
 type Decade =
   | "Década 60"
@@ -34,7 +35,6 @@ export const DecadasUi = () => {
   useEffect(() => {
     if (!decade) return;
     const map: Record<Decade, React.RefObject<HTMLHeadingElement | null>> = {
-
       "Década 60": ref60,
       "Década 70": ref70,
       "Década 80": ref80,
@@ -82,6 +82,7 @@ export const DecadasUi = () => {
         <h1 ref={ref2020}>Decada del 2020</h1>
         <ImageGrid2020 />
       </div>
+      <ScrollToTop />
     </div>
   );
 };

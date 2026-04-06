@@ -16,8 +16,8 @@ export const ContactoUi = () => {
             <a href="mailto:tallersarelli@gmail.com" className={styles.mail}>
               tallersarelli@gmail.com
             </a>
-            <a href="mailto:rebecasarelli@gmail.com" className={styles.mail}>
-              rebecasarelli@gmail.com
+            <a href="mailto:rebsarelli@gmail.com" className={styles.mail}>
+              rebsarelli@gmail.com
             </a>
             <div>
               <div className={styles.redes}>

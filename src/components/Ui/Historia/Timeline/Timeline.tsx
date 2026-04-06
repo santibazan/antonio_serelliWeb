@@ -13,18 +13,13 @@ type Slide = {
 const slides: Slide[] = [
   {
     img: "",
-    year: "",
-    text: "",
-  },
-  {
-    img: "",
     year: "1936",
     text: "Nace el 26 de agosto en Russell Maipú Mendoza",
   },
   {
     img: "",
     year: "1942",
-    text: "Gutierres “Escuela Moyano“",
+    text: "Gutierrez “Escuela Moyano“",
   },
   {
     img: "",

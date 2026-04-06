@@ -1,5 +1,4 @@
-import ImageGridRebeca from "../Antonio/ImageGrid/ImageGridRebeca";
-
+import { Link } from "react-router-dom";
 import ScrollToTop from "../Scroll/ScrollToTop";
 import styles from "./Rebeca.module.css";
 
@@ -66,8 +65,36 @@ export const RebecaUi = () => {
         palabras, que observan tanto como son observadas, y que nos recuerdan
         que el arte también puede ser un refugio.
       </p>
-      <div className={styles.grilla}>
-        <ImageGridRebeca />
+
+      <div className={styles.containerPrincipal}>
+        <div className={styles.imagen2}>
+          <img
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1775320648/01-Grabado_brjkyd.jpg"
+            alt=""
+          />
+          <Link to="/RebecaSarelli/Grabado">
+            <h3 className={styles.title}>Grabado</h3>
+          </Link>
+        </div>
+
+        <div className={styles.imagen2}>
+          <img
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1775320648/02-Pintura_mpuajf.jpg"
+            alt=""
+          />
+          <Link to="/RebecaSarelli/Pintura">
+            <h3 className={styles.title}>Pintura</h3>
+          </Link>
+        </div>
+        <div className={styles.imagen2}>
+          <img
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1772463353/Fausto-talla_en_piedra-2018_nlryjk.jpg"
+            alt=""
+          />
+          <Link to="/RebecaSarelli/Escultura">
+            <h3 className={styles.title}>Escultura</h3>
+          </Link>
+        </div>
       </div>
       <ScrollToTop />
     </div>

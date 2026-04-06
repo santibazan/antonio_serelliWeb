@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { images } from "./data/imagesRebeca";
+import { images } from "./data/imagesGrabado";
 
 import ImageModal from "./ImageModal";
 import styles from "./ImageGrid.module.css";
 
-export default function ImageGridRebeca() {
+export default function ImageGridRebecaGrabado() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   return (
@@ -27,12 +27,12 @@ export default function ImageGridRebeca() {
           onClose={() => setSelectedIndex(null)}
           onNext={() =>
             setSelectedIndex((prev) =>
-              prev !== null ? (prev + 1) % images.length : 0
+              prev !== null ? (prev + 1) % images.length : 0,
             )
           }
           onPrev={() =>
             setSelectedIndex((prev) =>
-              prev !== null ? (prev - 1 + images.length) % images.length : 0
+              prev !== null ? (prev - 1 + images.length) % images.length : 0,
             )
           }
         />

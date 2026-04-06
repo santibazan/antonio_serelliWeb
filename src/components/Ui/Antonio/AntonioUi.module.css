@@ -133,7 +133,7 @@
 }
 
 .imgLibro {
-  width: 20vw;
+  width: 45vw;
   padding: 70px 0px;
   color: white;
 }
@@ -141,11 +141,11 @@
 .titulo {
   color: rgb(201, 201, 201);
   transition: color 0.5s ease;
+  font-size: 1.5rem;
 }
 
 .titulo:hover {
   color: #C49946;
-
 }
 
 /* RESPONSIVE */
@@ -168,6 +168,14 @@
     font-size: 1.05rem;
   }
 
+  .imgLibro{
+    width: 300px;
+    height: auto;
+  }
+  
+  .titulo {
+    font-size: 2.5rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -230,5 +238,12 @@
     display: flex;
     justify-content: center;
     padding-top: 100px;
+  }
+  .imgLibro{
+    width: 300px;
+    height: auto;
+  }
+  .titulo {
+    font-size: 2rem;
   }
 }

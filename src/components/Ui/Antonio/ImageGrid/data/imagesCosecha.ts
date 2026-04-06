@@ -24,7 +24,8 @@ export const images: ImageItem[] = [
   { id: 10, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771967355/WhatsApp_Image_2026-01-02_at_3.05.57_PM_2_grexvh.jpg", title: "10 Cueva del sueño óleo sobre madera", description: "10", size: "large" },
   { id: 11, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771967356/WhatsApp_Image_2026-01-02_at_3.05.57_PM_3_nz4zpa.jpg", title: "Reconocimiento", description: "A su labor artística otorgado por la Cámara de Diputados de Mendoza en 1995.", size: "large" },
   { id: 12, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771967357/WhatsApp_Image_2026-01-02_at_3.05.57_PM_4_jbfkwt.jpg", title: "Reconocimiento", description: "A su labor artística otorgado por la Presidencia de la Nación Argentina en 1996.", size: "medium" },
-  { id: 13, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771967352/WhatsApp_Image_2025-12-23_at_11.10.43_PM_ua61bn.jpg", title: "8 Contraluz óleo sobre tela enchapada", description: "13", size: "small" }
-  
+  { id: 13, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771967352/WhatsApp_Image_2025-12-23_at_11.10.43_PM_ua61bn.jpg", title: "8 Contraluz óleo sobre tela enchapada", description: "13", size: "small" },
+  { id: 14, src: "https://res.cloudinary.com/dovztsxyv/image/upload/q_auto/f_auto/v1775490718/1998_-_Premio_Nihuil_en_rubro_Arte_juv83h.jpg", title: "Premio Nihuil en rubro Arte", description: "1998", size: "small" },
+  { id: 15, src: "https://res.cloudinary.com/dovztsxyv/image/upload/q_auto/f_auto/v1775490718/2016-05_-_Vecino_Honorable_del_Departamento_de_Godoy_Cruz_psths0.jpg", title: "Vecino Honorable del Departamento", description: "2016", size: "small" }
   
 ]

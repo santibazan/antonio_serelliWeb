@@ -27,17 +27,34 @@ export const CosechasUi = () => {
       </p>
       <p className={styles.aldo}>Aldo Sarelli.</p>
       <div className={styles.containerPrincipal}>
-        <Link to="/AntonioSarelli/Premios">
-          <h3 className={styles.title}>Premios y obras en museos</h3>
-        </Link>
+        <div className={styles.imagen2}>
+          <img
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/q_auto/f_auto/v1775507066/Premios_y_Obras_en_Museos_o9mpdf.jpg"
+            alt=""
+          />
+          <Link to="/AntonioSarelli/Premios">
+            <h3 className={styles.title}>Premios y obras en museos</h3>
+          </Link>
+        </div>
 
-        <Link to="/AntonioSarelli/Reconocimientos">
-          <h3 className={styles.title}>Reconocimientos</h3>
-        </Link>
-
-        <Link to="/AntonioSarelli/Criticas">
-          <h3 className={styles.title}>Críticas</h3>
-        </Link>
+        <div className={styles.imagen2}>
+          <img
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/q_auto/f_auto/v1775490718/1998_-_Premio_Nihuil_en_rubro_Arte_juv83h.jpg"
+            alt=""
+          />
+          <Link to="/AntonioSarelli/Reconocimientos">
+            <h3 className={styles.title}>Reconocimientos</h3>
+          </Link>
+        </div>
+        <div className={styles.imagen2}>
+          <img
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/q_auto/f_auto/v1771951753/1993_tiouwm.jpg"
+            alt=""
+          />
+          <Link to="/AntonioSarelli/Criticas">
+            <h3 className={styles.title}>Criticas</h3>
+          </Link>
+        </div>
       </div>
     </div>
   );
