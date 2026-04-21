@@ -20,8 +20,8 @@ export const images: ImageItem[] = [
   { id: 8, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772463364/Capullo-talla_en_madera_E%CC%81bano_-2017_ttlnth.jpg", title: "Capullo.", description: " Talla en madera Ébano.", size: "large" },
 
   { id: 9, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772463364/Hacia_la_luz-vaciado_en_cemento_patinado-46_x_77_x_17_cm-2021_zissrn.jpg", title: "Hacia la luz.", description: "Vaciado en cemento patinado.", size: "small" },
-  { id: 10, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772463361/Kathleen_Battle-vaciaso_en_cemento_patinado-110_x_20_x_20_cm-2022_fs25wb.jpg", title: "Kathleen Battle.", description: " Vaciaso en cemento patinado.", size: "large" },
-  { id: 11, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772463357/Jessye_Norman-vacado_en_cemento_patimado-125_x_28_x_26_cm_2022_jp6fxi.jpg", title: "Jessye Norman.", description: " vacado en cemento patimado.", size: "large" },
+  { id: 10, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772463361/Kathleen_Battle-vaciaso_en_cemento_patinado-110_x_20_x_20_cm-2022_fs25wb.jpg", title: "Kathleen Battle.", description: " Vaciado en cemento patinado.", size: "large" },
+  { id: 11, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772463357/Jessye_Norman-vacado_en_cemento_patimado-125_x_28_x_26_cm_2022_jp6fxi.jpg", title: "Jessye Norman.", description: " Vaciado en cemento patimado.", size: "large" },
   { id: 12, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772463356/Vacios-cera_perdida_fundicio%CC%81n_en_bronce_y_cobre_-2002_kfikbg.jpg", title: "Vacios cera perdida.", description: "Fundición en bronce y cobre.", size: "medium" },
   { id: 13, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1772463353/Fausto-talla_en_piedra-2018_nlryjk.jpg", title: "Fausto.", description: "Talla en piedra.", size: "small" }
 ]

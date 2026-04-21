@@ -48,15 +48,14 @@ export const FooterUi = () => {
           <h3>Contacto</h3>
           <ul>
             <li>Email: tallersarelli@gmail.com</li>
-            <li>Email: rebecasarelli@gmail.com</li>
-            <li>Teléfono: +5491132973461(Aldo)</li>
             <li>Teléfono: +5492615368431(Rebeca)</li>
-            <li>Ubicación: Marcos Sastre 1510, Godoy Cruz, Mendoza, Argentina</li>
+            <li>Ubicación: Godoy Cruz, Mendoza, Argentina</li>
           </ul>
         </div>
         <div className={styles.footerSection}>
           <h3>Seguinos</h3>
           <div className={styles.socialIcons}>
+            <ul>
             <a href="https://www.instagram.com/tallerdeartesarelli/">
               Instagram
             </a>
@@ -66,6 +65,10 @@ export const FooterUi = () => {
             <a href="https://wa.me/5492615368431">
               Whatsapp
             </a>
+            <a href="https://www.youtube.com/@TallerSarelli">
+              Youtube
+            </a>
+          </ul>
           </div>
         </div>
       </div>
