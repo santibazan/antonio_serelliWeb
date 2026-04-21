@@ -69,26 +69,32 @@
 .mail:hover {
     color: #C49946;
 }
+
 .redes {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 40px;
+    gap: 50px;
 }
 
 .redes svg {
-    font-size: 22px;
+    font-size: 30px;
     color: #C49946;
+
 }
 
-.botonCita{
+.botonCita {
     color: #C49946;
     background-color: transparent;
     border: none;
+    width: 200px;
+    font-size: 1rem;
+
 }
 
-.botonCita:hover{
-    background-color: black;
+.botonCita:hover {
+    background-color: rgb(103, 103, 103);
     border: none;
     transition: 0.9s;
 }
@@ -113,6 +119,7 @@
 @media (min-width:768px) {
     .contacto {
         display: grid;
+        gap: 10vw;
     }
 
     .mapContainer {
@@ -120,6 +127,18 @@
         height: 300px;
         z-index: 0;
 
+    }
+
+    .redes svg {
+        font-size: 70px;
+    }
+
+    .botonCita {
+        color: #C49946;
+        background-color: transparent;
+        border: none;
+        width: 300px;
+        font-size: 2rem;
     }
 }
 

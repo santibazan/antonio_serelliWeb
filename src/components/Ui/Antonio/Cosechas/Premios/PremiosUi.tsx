@@ -6,7 +6,7 @@ import styles from "./Premios.module.css"
 export const PremiosUi = () => {
   return (
     <div className={styles.contenedorGlobal}>
-      <h3>Premios de Aldo Sarelliii.</h3>
+      <h3>Premios de Antonio Sarelli.</h3>
      <ImageGridPremios/> 
      <ScrollToTop/>
     </div>

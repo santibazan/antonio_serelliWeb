@@ -1,5 +1,5 @@
 import styles from "./ContactoUi.module.css";
-import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 export const ContactoUi = () => {
   return (
@@ -11,13 +11,10 @@ export const ContactoUi = () => {
             <h2>Taller Sarelli</h2>
             <h5>Marcos Sastre 1510</h5>
             <h5>Godoy Cruz, Mendoza</h5>
-            <h5>Teléfonos: +5491132973461(Aldo)<br/>+5492615368431(Rebeca)</h5>
+            <h5>Teléfonos: +5492615368431(Rebeca)</h5>
             
             <a href="mailto:tallersarelli@gmail.com" className={styles.mail}>
               tallersarelli@gmail.com
-            </a>
-            <a href="mailto:rebsarelli@gmail.com" className={styles.mail}>
-              rebsarelli@gmail.com
             </a>
             <div>
               <div className={styles.redes}>
@@ -29,6 +26,9 @@ export const ContactoUi = () => {
                 </a>
                 <a href="https://wa.me/5492615368431">
                   <FaWhatsapp />
+                </a>
+                <a href="https://www.youtube.com/@TallerSarell">
+                  <FaYoutube />
                 </a>
               </div>
               <button className={styles.botonCita}
