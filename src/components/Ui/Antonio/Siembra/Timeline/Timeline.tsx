@@ -12,22 +12,17 @@ type Slide = {
 
 const slides: Slide[] = [
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776693688/1936_nacimiento.png",
     year: "1936",
     text: "Nace el 26 de agosto en Russell Maipú Mendoza",
   },
   {
-    img: "",
-    year: "1942",
-    text: "Gutierrez “Escuela Moyano“",
-  },
-  {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776695804/1947_escuela_moyano.png",
     year: "1947",
     text: "Carrodilla “Escuela Nacional Nº 61”",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776695932/1951_bellas_artes.png",
     year: "1951",
     text: "Ingresa a la Academia Provincial de Bellas Artes",
   },
@@ -37,22 +32,22 @@ const slides: Slide[] = [
     text: "Su primer óleo, “Homenaje a Zurbarán” (1954), marca el inicio de su camino artístico.",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696038/1960_se_recibe.png",
     year: "1960",
     text: "Se recibe como profesor de Dibujo",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696379/1961_irrigacion.png",
     year: "1961",
     text: "Comienza a trabajar en Irrigación y es trasladado por 9 meses a Valle Hermoso para realizar trabajos de Hidronivometereología.",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696440/1962_salon_bienal.png",
     year: "1962",
     text: "Participa del II Salón Bienal de Artes Plásticas de Mendoza",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696568/1963_grupo_numen.png",
     year: "1963",
     text: "Fundación Grupo Numen",
   },
@@ -62,17 +57,17 @@ const slides: Slide[] = [
     text: "“Diálogo con Duendes” (1964) — Premio Bienal de Arte y Premio Estímulo. Una obra temprana que anticipa la fuerza expresiva de Sarelli.",
   },
    {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696685/1965_salon_primavera.png",
     year: "1965",
     text: "Salón Primavera de San Rafael, premio estímulo “Brigadas Líricas” por su obra “Figura” (1965-03-28 – Diploma)",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776697485/1966_salon_colectivo.png",
     year: "1966",
     text: "Iº Salón Colectivo de Artes Plásticas de Mendoza F.O.E.C.Y.T: Primer Premio: Antonio Sarelli con “Nocturno”",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776697614/1967_premio_iv.png",
     year: "1967",
     text: "1º premio IV Salón Nacional Feria del Libro de Mendoza compartido junto a Rafael Montemayor.",
   },
@@ -83,17 +78,22 @@ const slides: Slide[] = [
     text: "“La hora de sueño” (1968) — Primer Premio UCEIDM otorgado a Antonio Sarelli, reconocimiento a su originalidad y profundidad expresiva.",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776697743/1969_XVII_salon_primavera.png",
     year: "1969",
     text: "XVII Salón de Primavera de San Rafael, Gran Premio de Honor “Cristeta González de Viñuela” Antonio Sarelli con la obra “Después de la tormenta”.",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776697847/1969_galeria_rubinstein.png",
+    year: "1969",
+    text: "Muestra en Galería Rubinstein de Mar del Plata",
+  },
+  {
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776698029/1970_premio_salon_vendimia.png",
     year: "1970",
     text: "1º Premio Salón Vendimia de Pintura 1970 con la obra “Detente escucha”",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776698169/1971_casamiento.png",
     year: "1971",
     text: "El 3 de febrero se casa con Silvia Spera, profesora de arte y concertista de piano dedicada a la docencia infantil.",
   },
@@ -103,27 +103,27 @@ const slides: Slide[] = [
     text: "Medioevo (1972) – Obra premiada con el segundo puesto en “Plásticos del Interior” y adquirida por el Museo Eduardo Sívori. Exhibida en la sala de reuniones de la Quinta de Olivos.",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776699285/1973_nacimiento_aldo.png",
     year: "1973",
     text: "Nacimiento de su primer hijo Aldo Gabriel el 3 de junio. Comienza la Serie del Huevo, vemos en Sarelli un cambio en la paleta y mayor simbolismo.",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776699399/1974_grupoa3_witcomb.png",
     year: "1974",
     text: "Muestra Grupo A3 en Galería Witcomb. Ángel Gil, Alfredo Ceverino y Antonio Sarelli",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776699599/1975_galeria_witcomb.png",
     year: "1975",
     text: "Muestra en Galería Witcomb",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776699679/1976_nacimiento_rebe.png",
     year: "1976",
     text: "Nace su hija Rebeca el 17 de septiembre. En su pintura vemos ya un desarrollo hacia la figura humana como centro de la obra y su paleta va desarrollando mayores cromatismos.",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776699867/1977_apertura_zulema_zoireff.png",
     year: "1977",
     text: "Apertura de la Galería Zulema Zoireff como director de la misma.",
   },
@@ -138,7 +138,7 @@ const slides: Slide[] = [
     text: "Salón Nacional de Pintura “Centenario del Diario Los Andes” (1982): Mención Honorífica para Antonio Sarelli por su obra “Dos Imágenes y el Silencio”.",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776700217/1983_salon_vendimia.png",
     year: "1983",
     text: "Salón Vendimia '83' de Artes Plásticas MMAMM",
   },
@@ -158,7 +158,7 @@ const slides: Slide[] = [
     text: "Antonio Sarelli realiza su primera exposición en Barcelona en 1988, en la Sala Jaimes. A partir de allí, consolida una intensa presencia en España con muestras en 1991 y 1993 en la misma sala, y en el Museo de Vilassar en 1996. En 1993, su obra protagoniza la tapa de la revista GAL ART (Barcelona), reflejo del reconocimiento a su trabajo en el ámbito internacional.",
   },
   {
-    img: "",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776700308/1990_galeria_gran_via.png",
     year: "1990",
     text: "Galería de Arte Gran Via, Logroño, La Rioja. Alfredo Ceverino, Ángel Gil, Antonio Sarelli, José Scacco.",
   },
@@ -243,6 +243,11 @@ const slides: Slide[] = [
     text: "Evocando a los Maestros (2006) – Técnica mixta sobre tela, 152 x 400 cm. Obra adquirida por el Gobierno de Mendoza y emplazada en el 7° piso de Casa de Gobierno, espacio que hoy lleva el nombre de Antonio Sarelli. Reproducciones de su obra acompañan, como homenaje vivo a su legado en la cultura mendocina.",
   },
   {
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776787903/2007_pintura_mednocina.png",
+    year: "2007",
+    text: "100 años de Pintura Mendocina en Espacio Contemporáneo de Arte, Mendoza",
+  },
+  {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951778/2008_e1vvqk.jpg",
     year: "2008",
     text: " En 2008 se inaugura, en su honor, la Escuela N° 4-225 ´Antonio Sarelli´ en Maipú.",
@@ -266,6 +271,11 @@ const slides: Slide[] = [
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951788/2021_jdtlyt.jpg",
     year: "2021",
     text: "Imagen original realizada por Antonio Sarelli para toda la gama de vinos de Bodega Ruca Malen (2021). La obra se convirtió en emblema visual reproducido en sus etiquetas.",
+  },
+  {
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776788097/2025_silencio_compartido.png",
+    year: "2025",
+    text: "Muestra “Silencio Compartido” en Museo Provincial de Bellas Artes Emiliano Guiñazú Casa de Fader",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951784/2026_xyg6qo.jpg",
@@ -357,7 +367,7 @@ export const Timeline = () => {
 
             <ul className={styles["img-group"]}>
               {slides.map((slide, i) => (
-                <li key={i} className={styles["img-container"]}>
+                <li key={i}>
                   <div className={styles.contenedorVin}>
                     <div className={styles.imageWrapper}>
                       <img src={slide.img ?? ""} alt="" />

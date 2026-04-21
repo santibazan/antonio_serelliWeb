@@ -5,7 +5,8 @@ import ImageModal from "./ImageModal";
 import styles from "./ImageGrid.module.css";
 
 export default function ImageGrid60() {
-const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+  
 
   return (
     <>
@@ -16,27 +17,30 @@ const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
               src={img.src}
               alt={img.title}
               onClick={() => setSelectedIndex(index)}
+              loading="lazy"
+              decoding="async"
+              style={{ willChange: "transform" }}
             />
           </div>
         ))}
       </div>
 
       {selectedIndex !== null && (
-              <ImageModal
-                image={images[selectedIndex]}
-                onClose={() => setSelectedIndex(null)}
-                onNext={() =>
-                  setSelectedIndex((prev) =>
-                    prev !== null ? (prev + 1) % images.length : 0,
-                  )
-                }
-                onPrev={() =>
-                  setSelectedIndex((prev) =>
-                    prev !== null ? (prev - 1 + images.length) % images.length : 0,
-                  )
-                }
-              />
-            )}
+        <ImageModal
+          image={images[selectedIndex]}
+          onClose={() => setSelectedIndex(null)}
+          onNext={() =>
+            setSelectedIndex((prev) =>
+              prev !== null ? (prev + 1) % images.length : 0,
+            )
+          }
+          onPrev={() =>
+            setSelectedIndex((prev) =>
+              prev !== null ? (prev - 1 + images.length) % images.length : 0,
+            )
+          }
+        />
+      )}
     </>
   );
 }

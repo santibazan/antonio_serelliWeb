@@ -4,7 +4,6 @@
   width: 100vw;
   overflow: hidden;
 
-
   background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951856/paletaAldo_rgdz7d.jpg");
   background-size: cover;
   background-position: center;
@@ -21,22 +20,24 @@
 .contentTallerSarelli {
   position: relative;
   max-width: 100%;
-  padding: 60px 40px 60px;
+  padding: 60px 10px 60px;
   color: rgb(201, 201, 201);
   z-index: 2;
-  text-align: center;
+  text-align: justify;
 }
 
 
 .contentTallerSarelli h1 {
   font-size: 2.1rem;
   margin-bottom: 16px;
+  color: rgb(201, 201, 201);
+  text-align: center;
 }
 
 .contentTallerSarelli p {
   font-size: 1rem;
   line-height: 1.6;
-
+  text-indent: 2em;
 }
 
 .paulHoster {

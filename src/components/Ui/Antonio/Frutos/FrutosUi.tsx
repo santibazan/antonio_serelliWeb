@@ -1,13 +1,12 @@
 import ScrollToTop from "../../Scroll/ScrollToTop";
 import styles from "./Frutos.module.css";
 
-
 import { TimelineFrutos } from "./TimelineFrutos";
 
 export const FrutosUi = () => {
   return (
-    <div>
-      <div className={styles.contentTallerSarelli}>
+    <div className={styles.contentTallerSarelli}>
+      <div className={styles.contenedorGlobal}>
         <h1>Antonio Sarelli</h1>
         <p>
           Con el paso del tiempo, aquello que fue sembrado comienza a dar forma
@@ -23,7 +22,7 @@ export const FrutosUi = () => {
           para proyectarse hacia el mundo.
         </p>
       </div>
-      
+
       <TimelineFrutos />
       <ScrollToTop />
     </div>

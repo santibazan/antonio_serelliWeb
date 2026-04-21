@@ -20,7 +20,7 @@
 .contentTallerSarelli {
   position: relative;
   max-width: 100%;
-  padding: 120px 20px 60px;
+  padding: 120px 10px 60px;
   color: rgb(201, 201, 201);
   z-index: 2;
   text-align: left;
@@ -42,7 +42,6 @@
   flex-direction: column;
   gap: 70px;
   padding: 60px 20px;
-
   overflow-x: hidden;
 }
 
@@ -59,7 +58,6 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-
   max-width: 100%;
   margin: 0 auto;
 }
@@ -69,10 +67,11 @@
 }
 
 .textoWrapper {
-  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   color: white;
 }
-
 /* IMÁGENES */
 .imgMision,
 .imgMisionn {
@@ -88,13 +87,32 @@
   margin-bottom: 16px;
 }
 
+/* .textoFinal {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 90%;
+} */
 .textoFinal {
   font-size: 0.95rem;
   line-height: 1.6;
-  text-align: justify;
+  max-width: 90%;
+  margin: 0 auto;       /* 🔥 centra el bloque */
+  text-align: center;   /* 🔥 centra el texto */
 }
+
 .textoFinal ul {
   list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.textoFinal li {
+  margin-bottom: 12px;
+}
+
+.animacion {
+  width: 100%;
+  max-width: 500px;   /* 🔥 controla ancho del texto */
 }
 
 /* RESPONSIVE */

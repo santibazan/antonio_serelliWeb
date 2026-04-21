@@ -7,7 +7,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const slides = [
   {
-    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771950611/0036-El_llamado_o%CC%81leo_sobre_tela_enchapada_107_x_147_cm_1969_sjxdeu.jpg",
+    img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771950611/el_llamado_oleo_sobre_tela_enchapada.jpg",
     label: "Década 60",
   },
   {
@@ -78,6 +78,7 @@ export const TimelineFrutos = () => {
         <header className={styles.tituloPrincipal}>
           <h1>Décadas</h1>
         </header>
+
         <section ref={containerRef} className={styles["img-group-container"]}>
           <div>
             {/* Flechas */}

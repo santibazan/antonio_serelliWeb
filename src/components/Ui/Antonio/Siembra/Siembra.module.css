@@ -1,6 +1,9 @@
-.contenedorGlobal {
+.contentTallerSarelli{
   background-color: rgba(0, 0, 0, 0.724);
-  padding: 60px 40px 60px;
+}
+
+.contenedorGlobal {  
+  padding: 60px 20px;
   text-align: justify;
 }
 
@@ -12,25 +15,16 @@
 .contenedorGlobal p {
   color: white;
   padding-bottom: 80px;
-
+  text-indent: 2em;
 }
 
 /* RESPONSIVE */
 @media (min-width: 768px) {
   .contenedorGlobal{
-    padding: 20px 50px;
+    padding: 50px 20px;
   }
-}
-
-@media (min-width: 992px){
-  .contenedorGlobal {
-  background-color: rgba(0, 0, 0, 0.724);
-  padding: 50px 25px;
-  text-align: justify;
+  .contenedorGlobal p {
+  padding-bottom: 40px;
   }
 
-  .parrafo {
-  text-indent: 2em;
-
-}
 }

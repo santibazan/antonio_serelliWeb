@@ -18,10 +18,10 @@ export const FooterUi = () => {
               <a href="#AntonioSarelli">Antonio Sarelli</a>
             </li>
             <li>
-              <a href="#ArteMendocino">Arte Mendocino</a>
+              <a href="#RebecaSarelli">Rebeca Sarelli</a>
             </li>
             <li>
-              <a href="#RebecaSarelli">Rebeca Sarelli</a>
+              <a href="#ArteMendocino">Arte Mendocino</a>
             </li>
             <li>
               <a href="#contacto">Contacto</a>

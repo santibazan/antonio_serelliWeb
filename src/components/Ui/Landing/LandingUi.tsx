@@ -91,14 +91,12 @@ export const LandingUi = () => {
               <h2 className={styles.tituloFinal}>Nuestro propósito</h2>
 
               <div className={styles.textoFinal}>
+                <p> Tenemos un doble propósito: </p>
                 <ul>
-                Tenemos un doble propósito:
-                  <br />
                   <li>
                     Preservar y proyectar el legado artístico y humano de
                     Antonio y Rebeca Sarelli.
                   </li>
-                  <br />
                   <li>
                     Difundir el arte mendocino con la misma naturalidad con la
                     que se sirve un vino: que llegue a cada mesa, a cada hogar,
