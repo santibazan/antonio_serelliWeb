@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
+
 import styles from "./ImageGrid.module.css";
 
 interface Props {

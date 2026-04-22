@@ -27,7 +27,7 @@ export const ContactoUi = () => {
                 <a href="https://wa.me/5492615368431">
                   <FaWhatsapp />
                 </a>
-                <a href="https://www.youtube.com/@TallerSarell">
+                <a href="https://www.youtube.com/@TallerSarelli">
                   <FaYoutube />
                 </a>
               </div>

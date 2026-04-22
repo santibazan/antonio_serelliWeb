@@ -34,8 +34,6 @@
 .contacto {
     max-width: 1100px;
     margin: 0 auto;
-
-    /* background-color: rgba(255, 255, 255, 0.9); */
     padding: 40px;
     border-radius: 12px;
 
@@ -115,22 +113,22 @@
     border-radius: 8px;
 }
 
-/* RESPONSIVE */
-@media (min-width:768px) {
+/*RESPONSIVE */
+ @media (min-width:768px) {
     .contacto {
-        display: grid;
-        gap: 10vw;
+        display: flex;
+        gap: 20vw;
     }
 
     .mapContainer {
-        width: 300px;
-        height: 300px;
+        width: 290px;
+        height: 290px;
         z-index: 0;
 
     }
 
     .redes svg {
-        font-size: 70px;
+        font-size: 50px;
     }
 
     .botonCita {
@@ -138,13 +136,20 @@
         background-color: transparent;
         border: none;
         width: 300px;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
+
 }
 
 @media (min-width:992px) {
     .contacto {
         display: grid;
+    }
+    .redes svg {
+        font-size: 70px;
+    }
+    .botonCita {
+        font-size: 2rem;
     }
 
     .mapContainer {

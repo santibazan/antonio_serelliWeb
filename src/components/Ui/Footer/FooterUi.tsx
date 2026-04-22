@@ -53,22 +53,26 @@ export const FooterUi = () => {
           </ul>
         </div>
         <div className={styles.footerSection}>
-          <h3>Seguinos</h3>
+          <h3>Nuestras redes</h3>
           <div className={styles.socialIcons}>
             <ul>
-            <a href="https://www.instagram.com/tallerdeartesarelli/">
-              Instagram
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=61586642446595&locale=es_LA">
-              Facebook
-            </a>
-            <a href="https://wa.me/5492615368431">
-              Whatsapp
-            </a>
-            <a href="https://www.youtube.com/@TallerSarelli">
-              Youtube
-            </a>
-          </ul>
+              <li>
+                <a href="https://www.instagram.com/tallerdeartesarelli/">
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/profile.php?id=61586642446595&locale=es_LA">
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/5492615368431">Whatsapp</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@TallerSarelli">Youtube</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
