@@ -14,9 +14,8 @@ export const AntonioUi = () => {
             "Porque el mundo tal cual era nunca podría ser más que una fracción
             del mundo, porque lo real también consistía en lo que podría haber
             ocurrido y no sucedió"
-            <br />
-            <p className={styles.paulHoster}>Paul Auster.</p>
           </p>
+          <p className={styles.paulHoster}>Paul Auster.</p>
           <p>
             Hasta encontrarse con sus primeros maestros, Antonio Sarelli fue un
             niño que al terminar la escuela primaria, no tenía otro destino que

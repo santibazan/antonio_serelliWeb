@@ -137,7 +137,6 @@ export const TimelinePremios = () => {
       }
     };
 
-    // solo escucha cuando el modal está abierto
     if (zoomImg) {
       window.addEventListener("keydown", handleKeyDown);
     }

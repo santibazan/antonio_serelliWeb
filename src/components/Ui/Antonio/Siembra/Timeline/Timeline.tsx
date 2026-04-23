@@ -3,7 +3,6 @@ import { animate, scroll } from "motion";
 import styles from "./Timeline.module.css";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-
 type Slide = {
   year: string;
   text: string;
@@ -56,7 +55,7 @@ const slides: Slide[] = [
     year: "1964",
     text: "“Diálogo con Duendes” (1964) — Premio Bienal de Arte y Premio Estímulo. Una obra temprana que anticipa la fuerza expresiva de Sarelli.",
   },
-   {
+  {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696685/1965_salon_primavera.png",
     year: "1965",
     text: "Salón Primavera de San Rafael, premio estímulo “Brigadas Líricas” por su obra “Figura” (1965-03-28 – Diploma)",
@@ -71,7 +70,7 @@ const slides: Slide[] = [
     year: "1967",
     text: "1º premio IV Salón Nacional Feria del Libro de Mendoza compartido junto a Rafael Montemayor.",
   },
-  
+
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951741/1968_hjq07u.jpg",
     year: "1968",
@@ -285,6 +284,7 @@ const slides: Slide[] = [
 ];
 
 export const Timeline = () => {
+  const [zoomImg, setZoomImg] = useState<string | null>(null);
   const containerRef = useRef<HTMLElement | null>(null);
   const [current, setCurrent] = useState(0);
   const slidesCount = slides.length;
@@ -339,6 +339,21 @@ export const Timeline = () => {
       behavior: "smooth",
     });
   };
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setZoomImg(null);
+      }
+    };
+
+    if (zoomImg) {
+      window.addEventListener("keydown", handleKeyDown);
+    }
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [zoomImg]);
 
   return (
     <article id="gallery">
@@ -354,7 +369,7 @@ export const Timeline = () => {
               onClick={() => goToSlide(current - 1)}
               aria-label="Slide anterior"
             >
-              <ChevronLeft size={32}/>
+              <ChevronLeft size={32} />
             </button>
 
             <button
@@ -362,7 +377,7 @@ export const Timeline = () => {
               onClick={() => goToSlide(current + 1)}
               aria-label="Slide siguiente"
             >
-              <ChevronRight size={32}/>
+              <ChevronRight size={32} />
             </button>
 
             <ul className={styles["img-group"]}>
@@ -370,7 +385,12 @@ export const Timeline = () => {
                 <li key={i}>
                   <div className={styles.contenedorVin}>
                     <div className={styles.imageWrapper}>
-                      <img src={slide.img ?? ""} alt="" />
+                      <img
+                        src={slide.img ?? ""}
+                        alt="Articulo/Diploma"
+                        onClick={() => setZoomImg(slide.img ?? null)}
+                        style={{ cursor: "zoom-in" }}
+                      />
                     </div>
                     <div className={styles.texto}>
                       <h3>{slide.year}</h3>
@@ -380,6 +400,15 @@ export const Timeline = () => {
                 </li>
               ))}
             </ul>
+            {zoomImg && (
+              <div className={styles.lightbox} onClick={() => setZoomImg(null)}>
+                <img
+                  src={zoomImg}
+                  alt="Zoom"
+                  onClick={(e) => e.stopPropagation()}
+                />
+              </div>
+            )}
           </div>
         </section>
       </div>
