@@ -85,16 +85,17 @@
 }
 
 .contenedorVin h5 {
-   max-width: 90%;
+  max-width: 90%;
   margin-top: 20px;
   text-align: center;
   color: rgb(201, 201, 201);
 }
+
 .texto {
   display: flex;
   flex-direction: column;
-  align-items: center;      
-  justify-content: center;  
+  align-items: center;
+  justify-content: center;
   text-align: center;
   width: 100%;
 }
@@ -149,7 +150,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .tituloPrincipal {
     padding-top: 100px;
     color: rgb(201, 201, 201);
@@ -185,7 +186,7 @@
     display: flex;
     align-items: center;
     width: auto;
-    
+
   }
 
   .imageWrapper img {
@@ -203,13 +204,13 @@
   }
 
   .texto {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  text-align: center;
-  width: 30vw;
-  height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: center;
+    width: 30vw;
+    height: 55vh;
   }
 
   .contenedorVin h3 {

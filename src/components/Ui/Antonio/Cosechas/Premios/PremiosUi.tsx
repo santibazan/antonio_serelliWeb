@@ -1,14 +1,16 @@
-import ScrollToTop from "../../../Scroll/ScrollToTop"
-import ImageGridPremios from "../../ImageGrid/ImageGridPremios"
+import ScrollToTop from "../../../Scroll/ScrollToTop";
+import styles from "./Premios.module.css";
+import { TimelinePremios } from "./Timeline/TimelinePremios";
 
-import styles from "./Premios.module.css"
 
 export const PremiosUi = () => {
   return (
-    <div className={styles.contenedorGlobal}>
-      <h3>Premios de Antonio Sarelli.</h3>
-     <ImageGridPremios/> 
-     <ScrollToTop/>
+    <div className={styles.contentTallerSarelli}>
+      <div className={styles.contenedorGlobal}>
+        <h1>Premios de Antonio Sarelli</h1>
+      </div>
+      <TimelinePremios/>
+      <ScrollToTop />
     </div>
-  )
-}
+  );
+};
