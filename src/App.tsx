@@ -10,7 +10,7 @@ function App() {
     const timer = setTimeout(() => {
       document.body.classList.remove("preload");
       document.body.classList.add("loaded");
-    }, 50); // pequeño delay para asegurar render
+    }, 50);
 
     return () => clearTimeout(timer);
   }, []);

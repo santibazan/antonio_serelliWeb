@@ -87,17 +87,12 @@
   margin-bottom: 16px;
 }
 
-/* .textoFinal {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  max-width: 90%;
-} */
 .textoFinal {
   font-size: 0.95rem;
   line-height: 1.6;
   max-width: 90%;
-  margin: 0 auto;       /* 🔥 centra el bloque */
-  text-align: center;   /* 🔥 centra el texto */
+  margin: 0 auto;
+  text-align: center;
 }
 
 .textoFinal ul {
@@ -112,7 +107,7 @@
 
 .animacion {
   width: 100%;
-  max-width: 500px;   /* 🔥 controla ancho del texto */
+  max-width: 500px;
 }
 
 /* RESPONSIVE */

@@ -16,7 +16,7 @@ export const images: ImageItem[] = [
   { id: 6, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869643/Hora_de_la_tarde_y6wcxn.jpg", title: "Hora de la tarde", description: "Collage sobre madera", medida:"90 x 60 cm", anio:2021, size: "large" }, 
   { id: 7, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869639/Recuerdo_a_Magritte_II_bxuuul.jpg", title: "Recuerdo a Margritte II", description: "Collage sobre madera", medida:"90 x 60 cm", anio:2021, size: "medium" }, 
   { id: 8, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869639/Luna%CC%81tico_wv1d66.jpg", title: "Lunático", description: "Collage sobre madera", medida:"90 x 60 cm", anio:2021, size: "medium" }, 
-  { id: 10, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869638/Perpetuo_dilmema_II_eb6rk7.jpg", title: "Perpetuo dilmema", description: "Collage sobre madera", medida:"90 x 60 cm", anio:2021, size: "medium" }, 
-  { id: 9, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869638/Ni_tanto_cielo_o_infierno_como_hoy_g424mp.jpg", title: "Ni tanto cielo o infierno como hoy", description: "Collage sobre madera", medida:"90 x 60 cm", anio:2021, size: "small" }, 
-  { id: 10, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869635/Tres_espacios_tmd7vq.jpg", title: "Tres espacios", description: "Collage sobre madera", medida:"90 x 60 cm", anio:2021, size: "small" }, 
+  { id: 9, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869638/Perpetuo_dilmema_II_eb6rk7.jpg", title: "Perpetuo dilmema", description: "Collage sobre madera", medida:"90 x 60 cm", anio:2021, size: "medium" }, 
+  { id: 10, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869638/Ni_tanto_cielo_o_infierno_como_hoy_g424mp.jpg", title: "Ni tanto cielo o infierno como hoy", description: "Collage sobre madera", medida:"90 x 60 cm", anio:2021, size: "small" }, 
+  { id: 11, src: "https://res.cloudinary.com/dovztsxyv/image/upload/v1774869635/Tres_espacios_tmd7vq.jpg", title: "Tres espacios", description: "Collage sobre madera", medida:"90 x 60 cm", anio:2021, size: "small" }, 
 ]

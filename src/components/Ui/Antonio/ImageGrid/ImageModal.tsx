@@ -1,9 +1,7 @@
 import { useEffect } from "react";
 import type { ImageItem } from "./data/imagesEscultura";
 import { motion, AnimatePresence } from "framer-motion";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import styles from "./ImageGrid.module.css";
 
@@ -54,11 +52,11 @@ export default function ImageModal({ image, onClose, onNext, onPrev }: Props) {
           }}
         >
           <button className={styles.prev} onClick={onPrev}>
-            <ArrowBackIosIcon />
+            <ChevronLeft size={32}/>
           </button>
 
           <button className={styles.next} onClick={onNext}>
-            <ArrowForwardIosIcon />
+            <ChevronRight size={32}/>
           </button>
 
           <div className={styles.content}>

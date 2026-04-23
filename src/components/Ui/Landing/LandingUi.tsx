@@ -39,7 +39,7 @@ export const LandingUi = () => {
             contemplación. A través de la pintura, la escultura y la educacion,
             promovemos un arte que no solo se contempla, sino que tambien se
             comparte, se honra y se vive.
-            {/* Nuestra misión es que el arte de Mendoza -como el buen vino- llegue a cada mesa, a cada hogar, a cada alma que necesite detenerse y volver a mirar con el corazón. */}
+
           </h4>
         </div>
       </section>
@@ -79,7 +79,6 @@ export const LandingUi = () => {
           </div>
           <img
             className={styles.imgMision}
-            // src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951855/TallerDesdeAbajo_zd4uhe.jpg"
             src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951829/5_dyrmtj.jpg"
           />
         </div>
@@ -109,7 +108,6 @@ export const LandingUi = () => {
           </div>
           <img
             className={styles.imgMisionn}
-            // src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951854/TallerSur_ifn7uu.jpg"
             src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951823/2imgResiliencia_lnfhtq.jpg"
           />
         </div>
@@ -135,7 +133,6 @@ export const LandingUi = () => {
           </div>
           <img
             className={styles.imgMision}
-            // src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951858/puertaNorte_hon0of.jpg"
             src="https://res.cloudinary.com/dovztsxyv/image/upload/v1771951821/1entradaTaller_wrlc3i.jpg"
           />
         </div>

@@ -3,9 +3,7 @@ import styles from "./Footer.module.css";
 export const FooterUi = () => {
   return (
     <footer
-    // className={styles.ContenedorFoter}
     >
-      {/* <p>Este es el footer de mi pagina</p> */}
 
       <div className={styles.footerContainer}>
         <div className={styles.footerSection}>

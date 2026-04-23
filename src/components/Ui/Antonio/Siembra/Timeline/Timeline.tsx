@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { animate, scroll } from "motion";
 import styles from "./Timeline.module.css";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+
 
 type Slide = {
   year: string;
@@ -354,7 +354,7 @@ export const Timeline = () => {
               onClick={() => goToSlide(current - 1)}
               aria-label="Slide anterior"
             >
-              <ArrowBackIosIcon />
+              <ChevronLeft size={32}/>
             </button>
 
             <button
@@ -362,7 +362,7 @@ export const Timeline = () => {
               onClick={() => goToSlide(current + 1)}
               aria-label="Slide siguiente"
             >
-              <ArrowForwardIosIcon />
+              <ChevronRight size={32}/>
             </button>
 
             <ul className={styles["img-group"]}>
