@@ -29,7 +29,7 @@ export const CosechasUi = () => {
       <div className={styles.containerPrincipal}>
         <div className={styles.imagen2}>
           <img
-            src="https://res.cloudinary.com/dovztsxyv/image/upload/q_auto/f_auto/v1775507066/Premios_y_Obras_en_Museos_o9mpdf.jpg"
+            src="https://res.cloudinary.com/dovztsxyv/image/upload/v1776894449/1997_simbolo_de_ofrenda_syif3y.jpg"
             alt=""
           />
           <Link to="/AntonioSarelli/Premios">

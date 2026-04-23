@@ -1,19 +1,4 @@
-/* .imagen {
-  position: relative;
-  min-height: 100vh;
-  width: 100vw;
-  overflow: hidden;
 
-
-  background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951832/7ArteMendodino_j1pevm.jpg");
-
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-*/
 
 .contentVisiones {
   background-color: rgba(0, 0, 0, 0.724);
@@ -25,19 +10,10 @@
   overflow-x: hidden;
 }
 
-/* .contentVisiones h4 {
-  margin-top: 60px;
-  color: rgb(207, 207, 207);
-  font-size: 1.6rem;
-  text-align: center;
-} */
-
-
 
 .contentPrincipal {
   position: relative;
   max-width: 100%;
-  /* padding: 60px 40px 60px; */
   color: rgb(201, 201, 201);
   z-index: 2;
   text-align: center;
@@ -47,7 +23,7 @@
 
 .contentVisiones h1 {
   font-size: 2.1rem;
-  /* margin-bottom: 16px; */
+  color: rgb(201, 201, 201);
 }
 
 .contentPrincipal p {
@@ -95,6 +71,7 @@
   .contentVisiones {
     padding: 80px 40px;
     gap: 90px;
+    
   }
 
   .contenedorEtiqueta {
