@@ -16,6 +16,7 @@ export const ContactoUi = () => {
             <a href="mailto:tallersarelli@gmail.com" className={styles.mail}>
               tallersarelli@gmail.com
             </a>
+            <a href="https://www.instagram.com/rebeca_sarelli/" className={styles.mail}> Instagram Rebeca</a>
             <div>
               <div className={styles.redes}>
                 <a href="https://www.instagram.com/tallerdeartesarelli/">
