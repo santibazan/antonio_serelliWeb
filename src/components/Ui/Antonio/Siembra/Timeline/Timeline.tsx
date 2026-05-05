@@ -13,17 +13,17 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776693688/1936_nacimiento.png",
     year: "1936",
-    text: "Nace el 26 de agosto en Russell Maipú Mendoza. \n Sus padres: Antonio y Valentina \n Sus hermanos: Elina, Palmina, Dorina, Aldo, Irma, Isidro y Valentina",
+    text: "Nace el 26 de agosto en Russell Maipú Mendoza. \n Sus padres: Antonio y Valentina. \n Sus hermanos: Elina, Palmina, Dorina, Aldo, Irma, Isidro y Valentina.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776695804/1947_escuela_moyano.png",
     year: "1947",
-    text: "Carrodilla “Escuela Nacional Nº 61\n Junto a su maestro Fausto Julián Gutierrez en el centro de la imágen. \n Antonio Sarelli de pie a la derecha de la imágen”",
+    text: "Carrodilla “Escuela Nacional Nº 61.\n Junto a su maestro Fausto Julián Gutierrez en el centro de la imágen. \n Antonio Sarelli de pie a la derecha de la imágen”",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776695932/1951_bellas_artes.png",
     year: "1951",
-    text: "Ingresa a la Academia Provincial de Bellas Artes",
+    text: "Ingresa a la Academia Provincial de Bellas Artes.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951737/1954_ygw45m.jpg",
@@ -33,7 +33,7 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696038/1960_se_recibe.png",
     year: "1960",
-    text: "Se recibe como profesor de Dibujo",
+    text: "Se recibe como profesor de Dibujo.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696379/1961_irrigacion.png",
@@ -43,12 +43,12 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696440/1962_salon_bienal.png",
     year: "1962",
-    text: "Participa del II Salón Bienal de Artes Plásticas de Mendoza",
+    text: "Participa del II Salón Bienal de Artes Plásticas de Mendoza.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696568/1963_grupo_numen.png",
     year: "1963",
-    text: "Fundación Grupo Numen",
+    text: "Fundación Grupo Numen.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951740/1964_rerxfl.jpg",
@@ -58,12 +58,12 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776696685/1965_salon_primavera.png",
     year: "1965",
-    text: "Salón Primavera de San Rafael, premio estímulo “Brigadas Líricas” por su obra “Figura” (1965-03-28 – Diploma)",
+    text: "Salón Primavera de San Rafael, premio estímulo “Brigadas Líricas” por su obra “Figura” (1965-03-28 – Diploma).",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776697485/1966_salon_colectivo.png",
     year: "1966",
-    text: "Iº Salón Colectivo de Artes Plásticas de Mendoza F.O.E.C.Y.T: Primer Premio: Antonio Sarelli con “Nocturno”",
+    text: "Iº Salón Colectivo de Artes Plásticas de Mendoza F.O.E.C.Y.T: Primer Premio: Antonio Sarelli con “Nocturno”.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776697614/1967_premio_iv.png",
@@ -84,17 +84,17 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776697847/1969_galeria_rubinstein.png",
     year: "1969",
-    text: "Muestra en Galería Rubinstein de Mar del Plata",
+    text: "Muestra en Galería Rubinstein de Mar del Plata.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776698029/1970_premio_salon_vendimia.png",
     year: "1970",
-    text: "1º Premio Salón Vendimia de Pintura 1970 con la obra “Detente escucha”",
+    text: "1º Premio Salón Vendimia de Pintura 1970 con la obra “Detente escucha”.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776698169/1971_casamiento.png",
     year: "1971",
-    text: "El 3 de febrero se casa con Silvia Spera, profesora de arte y concertista de piano dedicada a la docencia infantil. \n Podríamos notar como su influencia se ve reflejada en su pintura, ya los personajes comienzan a habitar el interior de la casa donde antes eran espectadores",
+    text: "El 3 de febrero se casa con Silvia Spera, profesora de arte y concertista de piano dedicada a la docencia infantil. \n Podríamos notar como su influencia se ve reflejada en su pintura, ya los personajes comienzan a habitar el interior de la casa donde antes eran espectadores.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951743/1972_kixtij.jpg",
@@ -109,12 +109,12 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776699399/1974_grupoa3_witcomb.png",
     year: "1974",
-    text: "Muestra Grupo A3 en Galería Witcomb. Ángel Gil, Alfredo Ceverino y Antonio Sarelli",
+    text: "Muestra Grupo A3 en Galería Witcomb. Ángel Gil, Alfredo Ceverino y Antonio Sarelli.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776699599/1975_galeria_witcomb.png",
     year: "1975",
-    text: "Muestra en Galería Witcomb",
+    text: "Muestra en Galería Witcomb.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776699679/1976_nacimiento_rebe.png",
@@ -139,7 +139,7 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776700217/1983_salon_vendimia.png",
     year: "1983",
-    text: "Salón Vendimia '83' de Artes Plásticas MMAMM",
+    text: "Salón Vendimia '83' de Artes Plásticas MMAMM.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951746/1985_v1uqhd.jpg",
@@ -244,7 +244,7 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776787903/2007_pintura_mednocina.png",
     year: "2007",
-    text: "100 años de Pintura Mendocina en Espacio Contemporáneo de Arte, Mendoza",
+    text: "100 años de Pintura Mendocina en Espacio Contemporáneo de Arte, Mendoza.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951778/2008_e1vvqk.jpg",
@@ -274,12 +274,12 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776788097/2025_silencio_compartido.png",
     year: "2025",
-    text: "Muestra “Silencio Compartido” en Museo Provincial de Bellas Artes Emiliano Guiñazú Casa de Fader",
+    text: "Muestra “Silencio Compartido” en Museo Provincial de Bellas Artes Emiliano Guiñazú Casa de Fader.",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951784/2026_xyg6qo.jpg",
     year: "2026",
-    text: "Gama completa de Vinos Ruca Malen 2026 con la Imagen de Antonio Sarelli",
+    text: "Gama completa de Vinos Ruca Malen 2026 con la Imagen de Antonio Sarelli.",
   },
 ];
 
