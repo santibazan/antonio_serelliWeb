@@ -13,12 +13,12 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776693688/1936_nacimiento.png",
     year: "1936",
-    text: "Nace el 26 de agosto en Russell Maipú Mendoza",
+    text: "Nace el 26 de agosto en Russell Maipú Mendoza. \n Sus padres: Antonio y Valentina \n Sus hermanos: Elina, Palmina, Dorina, Aldo, Irma, Isidro y Valentina",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776695804/1947_escuela_moyano.png",
     year: "1947",
-    text: "Carrodilla “Escuela Nacional Nº 61”",
+    text: "Carrodilla “Escuela Nacional Nº 61\n Junto a su maestro Fausto Julián Gutierrez en el centro de la imágen. \n Antonio Sarelli de pie a la derecha de la imágen”",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776695932/1951_bellas_artes.png",
@@ -94,7 +94,7 @@ const slides: Slide[] = [
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1776698169/1971_casamiento.png",
     year: "1971",
-    text: "El 3 de febrero se casa con Silvia Spera, profesora de arte y concertista de piano dedicada a la docencia infantil.",
+    text: "El 3 de febrero se casa con Silvia Spera, profesora de arte y concertista de piano dedicada a la docencia infantil. \n Podríamos notar como su influencia se ve reflejada en su pintura, ya los personajes comienzan a habitar el interior de la casa donde antes eran espectadores",
   },
   {
     img: "https://res.cloudinary.com/dovztsxyv/image/upload/v1771951743/1972_kixtij.jpg",
