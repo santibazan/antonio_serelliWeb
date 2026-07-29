@@ -1,15 +1,13 @@
-import HeaderUi from "../../Ui/Header/HeaderUi"
-import { FooterUi } from "../../Ui/Footer/FooterUi"
-import { FrutosUi } from "../../Ui/Antonio/Frutos/FrutosUi"
-import styles from "./AntonioScreen.module.css"
-
+import HeaderUi from "../../Ui/Header/HeaderUi";
+import { FooterUi } from "../../Ui/Footer/FooterUi";
+import { FrutosUi } from "../../Ui/Antonio/Frutos/FrutosUi";
 
 export const FrutosScreen = () => {
   return (
-    <div className={styles.contenedorGlobalLanding}>
-        <HeaderUi/>
-        <FrutosUi/>
-        <FooterUi/>
+    <div>
+      <HeaderUi />
+      <FrutosUi />
+      <FooterUi />
     </div>
-  )
-}
+  );
+};

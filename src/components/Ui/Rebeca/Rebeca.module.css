@@ -1,104 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
+
+.contenedorGlobal {
+  width: 100%;
+  background-color: #0f0f0f;
+  padding-bottom: 60px;
+}
+
+/* ── Hero ── */
+
 .imagen {
   position: relative;
-  min-height: 70vh;
+  min-height: 55vh;
   width: 100%;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951850/RebeTrabajando_utukeo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.contenedorGlobal {
-  background-color: rgba(0, 0, 0, 0.724);
-  text-align: justify;
-  padding-bottom: 40px;
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0.55) 55%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
-
-
-.contenedorGlobal > p {
-  padding: 20px;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
 
 .contentTallerSarelli {
-  padding: 40px 20px;
-  color: white;
+  position: relative;
+  z-index: 2;
   text-align: center;
+  padding: 40px 20px;
+  animation: fadeInUp 0.9s ease both;
 }
 
 .contentTallerSarelli h1 {
-  font-size: 1.8rem;
-  margin-bottom: 12px;
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #f3ead9;
+  margin: 0;
 }
 
-.contentTallerSarelli p {
+.contentTallerSarelli h1::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 16px auto 0;
+  background-color: #c49946;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Biografía ── */
+
+.bioSection {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 50px 20px 20px;
+  text-align: justify;
+}
+
+.bioText {
+  color: rgb(201, 201, 201);
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
 }
 
+.lead {
+  font-style: italic;
+  color: #e7dcc5;
+}
+
+.lead::first-letter {
+  font-family: "Playfair Display", serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #c49946;
+  float: left;
+  line-height: 1;
+  padding-right: 8px;
+  font-style: normal;
+}
+
+/* ── Cards: Grabado / Pintura / Escultura ── */
 
 .containerPrincipal {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
-  padding: 20px;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 40px auto 0;
+  padding: 0 20px;
 }
 
+.card {
+  display: flex;
+  justify-content: center;
+}
 
-.imagen2 {
+.card a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-}
-
-.imagen2 img {
+  text-align: center;
+  text-decoration: none;
   width: 100%;
   max-width: 300px;
-  height: 300px; 
+}
+
+.cardImg {
+  width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
+.card a:hover .cardImg {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.45);
+}
 
-.title {
-  margin-top: auto; 
-  padding-top: 15px;
+.cardTitle {
+  display: inline-block;
+  font-family: "Playfair Display", serif;
   color: rgb(238, 221, 177);
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 18px;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.25s ease;
 }
+
+.cardTitle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #c49946;
+  transition: width 0.25s ease;
+}
+
+.card a:hover .cardTitle {
+  color: #ffffff;
+}
+
+.card a:hover .cardTitle::after {
+  width: 100%;
+}
+
+/* ── Grillas de obra: Grabado / Pintura / Escultura ── */
+
 .grilla {
-  padding: 2rem 50px;
+  padding: 60px 20px;
   text-align: justify;
-  background-color: rgba(0, 0, 0, 0.724);
+  background-color: #0f0f0f;
+  min-height: 60vh;
 }
 
 .grilla h3 {
-  margin: 2rem;
-  font-size: rem;
+  font-family: "Playfair Display", serif;
+  margin: 0 0 2.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
   text-align: center;
   letter-spacing: 3px;
-  color: rgb(201, 201, 201);
-  text-align: center;
+  text-transform: uppercase;
+  color: #f3ead9;
+}
+
+.grilla h3::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 16px auto 0;
+  background-color: #c49946;
 }
 
 /* RESPONSIVE */
+
 @media (min-width: 768px) {
-  .contenedorGlobal > p {
-    padding: 40px;
-    font-size: 1rem;
+  .grilla {
+    padding: 80px 40px;
   }
 
-  .contentTallerSarelli {
-    padding: 60px 40px;
+  .grilla h3 {
+    font-size: 2rem;
   }
 
   .contentTallerSarelli h1 {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
+  }
+
+  .bioSection {
+    padding: 70px 20px 20px;
+  }
+
+  .bioText {
+    font-size: 1rem;
   }
 
   .containerPrincipal {
@@ -107,34 +232,31 @@
   }
 }
 
-
 @media (min-width: 1024px) {
-  .contenedorGlobal > p {
-    padding: 60px 120px;
+  .grilla {
+    padding: 90px 50px;
   }
 
-  .contentTallerSarelli {
-    max-width: 1200px;
-    margin: 0 auto;
+  .grilla h3 {
+    font-size: 2.2rem;
   }
-  .contenedorGlobal > p{
-    max-width: 1200px;
-    margin: 0 auto;
+
+  .contentTallerSarelli h1 {
+    font-size: 3.2rem;
+  }
+
+  .bioSection {
+    max-width: 900px;
+    padding: 90px 20px 20px;
   }
 
   .containerPrincipal {
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
-    padding: 40px 80px;
+    margin-top: 60px;
   }
 
-  .imagen2 img {
-    max-width: 320px;
-  }
-
-  .title {
-    font-size: 2rem;
+  .cardTitle {
+    font-size: 1.6rem;
   }
 }
-
-

@@ -1,4 +1,3 @@
-import HeaderUi from "../../Header/HeaderUi";
 import ImageGrid2000 from "../ImageGrid/ImageGrid2000.tsx";
 import ImageGrid2010 from "../ImageGrid/ImageGrid2010.tsx";
 import ImageGrid60 from "../ImageGrid/ImageGrid60";
@@ -10,7 +9,6 @@ import { useLocation } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import ImageGrid2020 from "../ImageGrid/ImageGrid2020.tsx";
 import ScrollToTop from "../../Scroll/ScrollToTop.tsx";
-import { FooterUi } from "../../Footer/FooterUi.tsx";
 
 type Decade =
   | "Década 60"
@@ -59,8 +57,6 @@ export const DecadasUi = () => {
 
   return (
     <div className={styles.contenedorGlobalLanding}>
-      <HeaderUi />
-
       <div className={styles.contenedorDecadas}>
         <h1 ref={ref60}>Decada de los 60</h1>
         <ImageGrid60 />
@@ -84,8 +80,6 @@ export const DecadasUi = () => {
         <ImageGrid2020 />
       </div>
       <ScrollToTop />
-      <FooterUi/>
-
     </div>
   );
 };

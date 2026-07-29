@@ -1,37 +1,44 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
 
 .contentVisiones {
-  background-color: rgba(0, 0, 0, 0.724);
+  background-color: #0f0f0f;
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 40px;
   padding: 60px 20px;
-
   overflow-x: hidden;
 }
 
-
-.contentPrincipal {
-  position: relative;
-  max-width: 100%;
-  color: rgb(201, 201, 201);
-  z-index: 2;
+.titulo {
+  font-family: "Playfair Display", serif;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #f3ead9;
   text-align: center;
-
+  margin: 0;
 }
 
+.titulo::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 16px auto 0;
+  background-color: #c49946;
+}
 
-.contentVisiones h1 {
-  font-size: 2.1rem;
+.contentPrincipal {
+  max-width: 700px;
+  margin: 0 auto;
   color: rgb(201, 201, 201);
+  text-align: justify;
 }
 
 .contentPrincipal p {
-  font-size: 1rem;
-  line-height: 1.6;
-
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
 }
-
 
 .contenedorEtiqueta {
   display: flex;
@@ -43,64 +50,86 @@
 
 .textoWrapper {
   max-width: 100%;
-  color: black
 }
 
-.imgMision,
-.imgMisionn {
+/* ── Imagen ── */
+.imgFrame {
+  position: relative;
+  overflow: hidden;
   width: 100%;
-  height: auto;
+  max-height: 320px;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.imgMision {
+  width: 100%;
+  height: 100%;
   max-height: 320px;
   object-fit: cover;
+  display: block;
 }
 
+/* Revelado en scroll */
+.animacion.fromLeft {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animacion.fromLeft.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.imgFrame {
+  opacity: 0;
+  transform: scale(1.04);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.imgFrame.visible {
+  opacity: 1;
+  transform: scale(1);
+}
 
 /* RESPONSIVE */
 @media (min-width: 768px) {
-  .contentTallerSarelli {
-    padding: 20px 50px;
-  }
-  .contentPrincipal{
-    margin-top: 16px;
-  }
-
-  .contentTallerSarelli h1 {
-    text-align: center;
+  .titulo {
+    font-size: 2.6rem;
   }
 
   .contentVisiones {
     padding: 80px 40px;
-    gap: 90px;
-    
+    gap: 60px;
   }
 
   .contenedorEtiqueta {
     gap: 40px;
   }
 
-  .imgMision,
-  .imgMisionn {
+  .imgFrame,
+  .imgMision {
     max-height: 380px;
   }
 
+  .animacion.fromLeft {
+    transform: translateX(-200px);
+  }
+
+  .animacion.fromLeft.visible {
+    transform: translateX(0);
+  }
 }
 
 @media (min-width: 992px) {
-  .contentTallerSarelli {
-    padding: 25px 50px;
-    text-align: justify;
+  .titulo {
+    font-size: 3rem;
   }
 
   .contentVisiones {
-    padding-top: 50px;
+    padding: 90px 50px;
     gap: 50px;
-    color: rgb(201, 201, 201);
-  }
-
-  .contentVisiones h1 {
-    font-size: 2.1rem;
-    /* margin-bottom: 16px; */
-    color: rgb(201, 201, 201);
   }
 
   .contenedorEtiqueta {
@@ -111,10 +140,34 @@
     max-width: 1200px;
   }
 
+  .contentPrincipal p {
+    font-size: 1rem;
+  }
 
-  .imgMision,
-  .imgMisionn {
+  .imgFrame {
     height: 400px;
+    max-height: none;
     width: auto;
+  }
+
+  .imgMision {
+    height: 100%;
+    width: auto;
+    max-height: none;
+  }
+}
+
+/* Accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  .animacion.fromLeft,
+  .imgFrame {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .animacion.fromLeft.visible,
+  .imgFrame.visible {
+    opacity: 1;
+    transform: none;
   }
 }

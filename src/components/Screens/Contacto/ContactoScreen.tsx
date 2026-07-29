@@ -1,14 +1,13 @@
-import { ContactoUi } from "../../Ui/Contacto/ContactoUi"
-import { FooterUi } from "../../Ui/Footer/FooterUi"
-import { HeaderUi } from "../../Ui/Header/HeaderUi"
-import styles from "./ContactoScreen.module.css"
+import { ContactoUi } from "../../Ui/Contacto/ContactoUi";
+import { FooterUi } from "../../Ui/Footer/FooterUi";
+import { HeaderUi } from "../../Ui/Header/HeaderUi";
 
 export const ContactoScreen = () => {
   return (
-    <div className={styles.contenedorGlobalLanding}>
+    <div>
       <HeaderUi />
-      <ContactoUi/>
-      <FooterUi/>
+      <ContactoUi />
+      <FooterUi />
     </div>
-  )
-}
+  );
+};

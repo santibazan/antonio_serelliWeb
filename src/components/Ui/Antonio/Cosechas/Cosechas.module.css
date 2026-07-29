@@ -1,75 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
+
 .contenedorGlobal {
-  background-color: rgba(0, 0, 0, 0.724);
-  padding: 60px 40px 60px;
+  width: 100%;
+  background-color: #0f0f0f;
+  padding: 60px 20px;
+}
+
+.contenedorGlobal h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #f3ead9;
+  text-align: center;
+  margin: 0;
+}
+
+.contenedorGlobal h1::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 16px auto 32px;
+  background-color: #c49946;
+}
+
+.textoWrapper {
+  max-width: 800px;
+  margin: 0 auto;
   text-align: justify;
 }
 
-
-.contenedorGlobal h1 {
-  font-size: 2.1rem;
-  margin-bottom: 16px;
+.textoWrapper p {
   color: rgb(201, 201, 201);
-  text-align: center;
-}
-
-.contenedorGlobal p {
-  color: white;
+  font-size: 0.95rem;
+  line-height: 1.7;
   text-indent: 2em;
+  margin-bottom: 1.2rem;
 }
 
 .aldo {
-  display: flex;
-  justify-content: end;
+  text-align: right;
+  text-indent: 0;
+  font-weight: 600;
+  color: #c49946;
+  font-size: 0.9rem;
 }
+
+/* ── Cards: Premios / Reconocimientos / Críticas ── */
 
 .containerPrincipal {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
-  padding: 20px;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 50px auto 0;
 }
 
-.imagen2 {
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.card a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-}
-
-.imagen2 img {
+  text-align: center;
+  text-decoration: none;
   width: 100%;
   max-width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
 }
 
-.title {
-  margin-top: auto;
-  padding-top: 15px;
+.cardImg {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card a:hover .cardImg {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.45);
+}
+
+.cardTitle {
+  display: inline-block;
+  font-family: "Playfair Display", serif;
   color: rgb(238, 221, 177);
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.25s ease;
 }
 
+.cardTitle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #c49946;
+  transition: width 0.25s ease;
+}
 
+.card a:hover .cardTitle {
+  color: #ffffff;
+}
 
+.card a:hover .cardTitle::after {
+  width: 100%;
+}
+
+/* RESPONSIVE */
 @media (min-width: 768px) {
   .contenedorGlobal {
-    padding: 20px 50px;
+    padding: 90px 40px 60px;
   }
 
-  .contenedorGlobal>p {
-    padding: 40px;
+  .contenedorGlobal h1 {
+    font-size: 2.6rem;
+  }
+
+  .textoWrapper p {
     font-size: 1rem;
-  }
-
-  .contentTallerSarelli {
-    padding: 60px 40px;
-  }
-
-  .contentTallerSarelli h1 {
-    font-size: 2.2rem;
   }
 
   .containerPrincipal {
@@ -79,26 +139,25 @@
 }
 
 @media (min-width: 1024px) {
-  .contenedorGlobal>p {
-    padding: 10px 50px;
+  .contenedorGlobal {
+    padding: 110px 20px 70px;
   }
 
-  .contentTallerSarelli {
+  .contenedorGlobal h1 {
+    font-size: 3rem;
+  }
+
+  .textoWrapper {
     max-width: 900px;
-    margin: 0 auto;
   }
 
   .containerPrincipal {
     grid-template-columns: repeat(3, 1fr);
     gap: 60px;
-    padding: 40px 80px;
+    margin-top: 70px;
   }
 
-  .imagen2 img {
-    max-width: 320px;
-  }
-
-  .title {
-    font-size: 2rem;
+  .cardTitle {
+    font-size: 1.6rem;
   }
 }

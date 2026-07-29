@@ -1,13 +1,27 @@
-.contenedorGlobal{
-    padding: 2rem 50px;
-    background-color: rgba(0, 0, 0, 0.724);
+
+.contenedorGlobal {
+  padding: 60px 20px;
+  text-align: justify;
+  background-color: #0f0f0f;
+  min-height: 60vh;
 }
-.contenedorGlobal h3{
-    margin-top: 2rem;
-    padding-bottom: 20px;
-    font-size: 1.5rem;
-    text-align: center;
-    letter-spacing: 3px;
-    color: rgb(201, 201, 201);
-    text-align: center;
+
+.contenedorGlobal h3 {
+  font-family: "Playfair Display", serif;
+  margin: 0 0 2.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #f3ead9;
+}
+
+.contenedorGlobal h3::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 16px auto 0;
+  background-color: #c49946;
 }

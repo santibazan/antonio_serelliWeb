@@ -1,42 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
 
 .contenedorGlobalLanding {
-  width: 100vw;
   box-sizing: border-box;
-}
-.contenedorDecadas{
-  padding: 0px 50px 100px 50px;
-}
-.contenedorDecadas h1{
-  padding-top: 50px;
+  width: 100%;
+  background-color: #0f0f0f;
 }
 
-.contentTallerSarelli{
-  background-color: rgba(0, 0, 0, 0.724);
+.contenedorDecadas {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 100px;
 }
 
-.contenedorGlobal {  
-  padding: 60px 20px;
+.contenedorDecadas h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #f3ead9;
+  text-align: center;
+  padding-top: 60px;
+  margin: 0 0 8px;
+  scroll-margin-top: 20px;
+}
+
+.contenedorDecadas h1::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 2px;
+  margin: 16px auto 0;
+  background-color: #c49946;
+}
+
+.contenedorDecadas h1:first-child {
+  padding-top: 40px;
+}
+
+.contentTallerSarelli {
+  width: 100%;
+  background-color: #0f0f0f;
+}
+
+.contenedorGlobal {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px 20px;
   text-align: justify;
 }
 
 .contenedorGlobal h1 {
-  color: rgb(201, 201, 201);
+  font-family: "Playfair Display", serif;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #f3ead9;
   text-align: center;
+  margin: 0;
+}
+
+.contenedorGlobal h1::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 16px auto 32px;
+  background-color: #c49946;
 }
 
 .contenedorGlobal p {
-  color: white;
-  padding-bottom: 80px;
+  color: rgb(201, 201, 201);
+  font-size: 0.95rem;
+  line-height: 1.7;
   text-indent: 2em;
+  margin-bottom: 1.5rem;
 }
 
-
 @media (min-width: 768px) {
-  .contenedorGlobal{
-    padding: 50px 20px;
-  }
-  .contenedorGlobal p {
-  padding-bottom: 40px;
+  .contenedorGlobal {
+    padding: 90px 20px 20px;
   }
 
-} 
+  .contenedorGlobal h1 {
+    font-size: 2.6rem;
+  }
+
+  .contenedorGlobal p {
+    font-size: 1rem;
+  }
+
+  .contenedorDecadas {
+    padding: 0 40px 120px;
+  }
+
+  .contenedorDecadas h1 {
+    font-size: 2.2rem;
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contenedorGlobal {
+    max-width: 900px;
+    padding: 110px 20px 30px;
+  }
+
+  .contenedorGlobal h1 {
+    font-size: 3rem;
+  }
+
+  .contenedorDecadas {
+    padding: 0 60px 140px;
+  }
+
+  .contenedorDecadas h1 {
+    font-size: 2.5rem;
+  }
+}

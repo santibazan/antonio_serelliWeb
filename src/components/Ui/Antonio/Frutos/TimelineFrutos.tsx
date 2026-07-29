@@ -73,7 +73,7 @@ export const TimelineFrutos = () => {
 
   return (
     <article id="gallery">
-      <div className={styles.contenedorGlobal}>
+      <div>
         <header className={styles.tituloPrincipal}>
           <h1>Décadas</h1>
         </header>

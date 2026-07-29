@@ -1,9 +1,7 @@
 .imagen {
     position: relative;
-    width: 100%;
     min-height: 100vh;
     overflow: hidden;
-
     background-image: url("https://res.cloudinary.com/dovztsxyv/image/upload/v1771951829/5_dyrmtj.jpg");
     /* ajustá la ruta */
     background-size: cover;
@@ -22,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 100vw;
+
     height: 100vh;
     background-size: cover;
 
