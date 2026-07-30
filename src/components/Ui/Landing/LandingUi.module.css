@@ -61,50 +61,6 @@
   90% { transform: translate(-3%, 2%); }
 }
 
-/* ── Cursor custom (solo pointer fino) ── */
-.cursorDot {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 26px;
-  height: 26px;
-  margin-top: -13px;
-  margin-left: -13px;
-  border: 1px solid #c49946;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9999;
-  mix-blend-mode: difference;
-  transition: width 0.25s ease, height 0.25s ease, margin 0.25s ease,
-    background-color 0.25s ease;
-  will-change: transform;
-}
-
-.cursorHover {
-  width: 52px;
-  height: 52px;
-  margin-top: -26px;
-  margin-left: -26px;
-  background-color: rgba(196, 153, 70, 0.25);
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .cursorDot {
-    display: block;
-  }
-
-  .contenedorGlobalLanding {
-    cursor: none;
-  }
-
-  .contenedorGlobalLanding a,
-  .contenedorGlobalLanding button,
-  .contenedorGlobalLanding img {
-    cursor: none;
-  }
-}
-
 /* HERO */
 .imagen {
   position: relative;
@@ -400,8 +356,7 @@
   .scrollCue span,
   .animacion.fromLeft,
   .animacion.fromRight,
-  .imgFrame,
-  .cursorDot {
+  .imgFrame {
     animation: none !important;
     transition: none !important;
   }

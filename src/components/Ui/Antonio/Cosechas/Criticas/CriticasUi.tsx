@@ -10,7 +10,6 @@ type Critica = {
 const CRITICAS: Critica[] = [
   { href: "https://drive.google.com/file/d/1IyUMnotnyqih75xl15LhlPnEwDzshYWt/view?usp=sharing", autor: "Hernan Abal", anio: "1964" },
   { href: "https://drive.google.com/file/d/1AK29U9t_MPsvk4mCsWQ1qTIqyJlgdXKC/view?usp=sharing", autor: "Diario Tiempo de Cuyo", anio: "1965" },
-  // Ojo: este link tenía un "|" colgando al final que lo rompía. Lo saqué.
   { href: "https://drive.google.com/file/d/1LeAOVeKClyBrssCW4BJoYeILidtYNfQG/view?usp=sharing", autor: "Alberto Cirigliano", anio: "1965" },
   { href: "https://drive.google.com/file/d/1yNcSG2arhmQd6dSzm8eFE2xIHxYz1N7f/view?usp=sharing", autor: "Ubaldo S. Badiali", anio: "1967" },
   { href: "https://drive.google.com/file/d/1GcJW0exHG7MpSTskflekxhfD3d37J6i_/view?usp=sharing", autor: "Guillermo Petra Sierralta", anio: "1972" },
@@ -37,8 +36,6 @@ const CRITICAS: Critica[] = [
   { href: "https://drive.google.com/file/d/1qlWzprBf1lVarcKOzxcTovp66bouxVoi/view?usp=sharing", autor: "Andrés Cáceres", anio: "2005" },
   { href: "https://drive.google.com/file/d/1eUFYzRWWp-th7APPLIVLHd6Delwzaj2J/view?usp=sharing", autor: "Carlos Levy", anio: "2009" },
   { href: "https://drive.google.com/file/d/1FZ3X55G7ULOVb8v2iQvp0eWCntJ744pi/view?usp=sharing", autor: "Ramis Váquer", anio: "2011" },
-  // Ojo: este link es IDÉNTICO al de "Ramis Váquer" (arriba). Probablemente
-  // uno de los dos apunte al archivo equivocado — revisalo.
   { href: "https://drive.google.com/file/d/1Q7158lIB_l9AhxQchEzX0cGw0HLecuSS/view?usp=sharing", autor: "Antonio Sarelli por Fernando Rosas", anio: "2013" },
   { href: "https://drive.google.com/file/d/1y62C0yZ90nkl4wVGNloUbAJMcBwLw4iC/view?usp=sharing", autor: "Encuentro con Antonio Sarelli - Texto para catálogo", anio: "2013" },
   { href: "https://drive.google.com/file/d/1thtaD35tyYIspCTGIgQ6v0Ac2pC4p0i5/view?usp=sharing", autor: "Texto catálogo Antonio Sarelli - Pablo Chiavazza", anio: "2015" },
